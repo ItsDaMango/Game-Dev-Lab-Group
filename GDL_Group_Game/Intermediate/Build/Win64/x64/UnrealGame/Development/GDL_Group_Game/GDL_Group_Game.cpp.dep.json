@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\game-dev-lab-group\\gdl_group_game\\intermediate\\source\\gdl_group_game.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\game-dev-lab-group\\gdl_group_game\\intermediate\\build\\win64\\x64\\gdl_group_game\\development\\core\\sharedpch.core.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\game-dev-lab-group\\gdl_group_game\\intermediate\\build\\win64\\x64\\unrealgame\\development\\gdl_group_game\\definitions.gdl_group_game.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
