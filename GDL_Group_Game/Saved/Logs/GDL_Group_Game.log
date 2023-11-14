@@ -1991,3 +1991,868 @@ Make sure 'UI_Numpad_C' has been compiled for  Get TextInstruction
 [2023.11.14-04.24.47:065][ 22]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
 [2023.11.14-04.24.47:066][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.11.14-04.24.47:066][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-04.43.21:476][987]LogDerivedDataCache: C:/Users/sagar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.158 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3702 files in 5118 folders with total size 270 MiB.
+[2023.11.14-04.50.02:967][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.BP_Collectable:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:967][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.BP_Collectable_C' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:967][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.BP_Collectable:collect.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:967][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.BP_Collectable:onDestroy.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:967][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.SKEL_BP_Collectable_C:BndEvt__BP_Collectable_InteractCollision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:967][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.SKEL_BP_Collectable_C:UserConstructionScript' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:968][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectable.SKEL_BP_Collectable_C' ref from Metadata '/Game/MyContent/Collectable/BP_Collectable.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon:WeaponToPickup.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.SKEL_BP_COL_Weapon_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon_C:ReceiveBeginPlay' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.SKEL_BP_COL_Weapon_C:ReceiveBeginPlay' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:985][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.SKEL_BP_COL_Weapon_C:BndEvt__BP_COL_Weapon_InteractCollision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:986][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Weapon.SKEL_BP_COL_Weapon_C:UserConstructionScript' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Weapon.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.SKEL_BP_COL_HealthPack_C:ReceiveBeginPlay' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.SKEL_BP_COL_HealthPack_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.SKEL_BP_COL_HealthPack_C:ReceiveTick' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.SKEL_BP_COL_HealthPack_C:UserConstructionScript' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HealthPack.SKEL_BP_COL_HealthPack_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HealthPack.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.SKEL_BP_COL_HackingDevice_C:ReceiveBeginPlay' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.SKEL_BP_COL_HackingDevice_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:998][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.SKEL_BP_COL_HackingDevice_C:ReceiveTick' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.SKEL_BP_COL_HackingDevice_C:UserConstructionScript' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_HackingDevice.SKEL_BP_COL_HackingDevice_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_HackingDevice.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo:collect.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.SKEL_BP_COL_Ammo_C:ReceiveBeginPlay' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.SKEL_BP_COL_Ammo_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.SKEL_BP_COL_Ammo_C:ReceiveTick' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.SKEL_BP_COL_Ammo_C:UserConstructionScript' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogMetaData: Removing '/Game/MyContent/Collectible/BP_COL_Ammo.SKEL_BP_COL_Ammo_C' ref from Metadata '/Game/MyContent/Collectable/BP_COL_Ammo.PackageMetaData'
+[2023.11.14-04.50.02:999][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.50.03:095][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectable" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectable.uasset" SILENT=true
+[2023.11.14-04.50.03:099][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectable
+[2023.11.14-04.50.03:099][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CollectableC874FF3C43BAF27DF206D7B342E0F9E4.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectable.uasset'
+[2023.11.14-04.50.03:113][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectable/BP_Collectable" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectable/BP_Collectable.uasset" SILENT=true
+[2023.11.14-04.50.03:114][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectable/BP_Collectable
+[2023.11.14-04.50.03:114][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_Collectable0EACE1D6446DC1BBC4AB3CA8EE58466B.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectable/BP_Collectable.uasset'
+[2023.11.14-04.50.03:117][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Weapon" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset" SILENT=true
+[2023.11.14-04.50.03:122][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Weapon
+[2023.11.14-04.50.03:122][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_Weapon6D1E5950426BDDD1633D389FE01484C2.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset'
+[2023.11.14-04.50.03:128][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectable/BP_COL_Weapon" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectable/BP_COL_Weapon.uasset" SILENT=true
+[2023.11.14-04.50.03:129][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectable/BP_COL_Weapon
+[2023.11.14-04.50.03:129][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_Weapon5DFBA7824FB1F6CBFEDD598409B38869.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectable/BP_COL_Weapon.uasset'
+[2023.11.14-04.50.03:132][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HealthPack" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset" SILENT=true
+[2023.11.14-04.50.03:135][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HealthPack
+[2023.11.14-04.50.03:135][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HealthPackA97ED61240CD2904314A28B143947B6F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset'
+[2023.11.14-04.50.03:141][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HackingDevice" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset" SILENT=true
+[2023.11.14-04.50.03:144][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HackingDevice
+[2023.11.14-04.50.03:144][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HackingDevice4C73FDAE43F587DAA658829F2566C893.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset'
+[2023.11.14-04.50.03:149][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Ammo" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset" SILENT=true
+[2023.11.14-04.50.03:154][926]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Ammo
+[2023.11.14-04.50.03:154][926]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_Ammo2D6B8741439A021CA051ADB520FE7DC2.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset'
+[2023.11.14-04.50.03:171][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 5.98 sec)
+[2023.11.14-04.50.03:247][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.14-04.50.03:273][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.14-04.50.03:298][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.14-04.50.03:319][926]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectable.BP_Collectable
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_COL_Weapon.BP_COL_Weapon
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_COL_Weapon.Default__BP_COL_Weapon_C
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_COL_Weapon.BP_COL_Weapon_C
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_Collectable.BP_Collectable
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_Collectable.Default__BP_Collectable_C
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_Collectable.BP_Collectable_C
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice
+[2023.11.14-04.50.03:319][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.14-04.50.05:225][ 39]Cmd: TRANSACTION UNDO
+[2023.11.14-04.50.05:226][ 39]LogEditorTransaction: Undo Rename Node
+[2023.11.14-04.50.18:176][790]Cmd: TRANSACTION UNDO
+[2023.11.14-04.50.18:176][790]LogEditorTransaction: Undo Move Node
+[2023.11.14-04.50.20:614][918]Cmd: TRANSACTION UNDO
+[2023.11.14-04.50.20:615][918]LogEditorTransaction: Undo Rename Node
+[2023.11.14-04.50.21:850][992]Cmd: TRANSACTION UNDO
+[2023.11.14-04.50.21:850][992]LogEditorTransaction: Undo Resize Node
+[2023.11.14-04.50.22:277][  3]Cmd: TRANSACTION UNDO
+[2023.11.14-04.50.22:277][  3]LogEditorTransaction: Undo Resize Node
+[2023.11.14-04.50.30:106][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.11.14-04.50.30:109][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.50.30:207][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Numpad" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset" SILENT=true
+[2023.11.14-04.50.30:234][463]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Numpad
+[2023.11.14-04.50.30:234][463]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_NumpadEC21685C4B73CD7469BF76B0AD405183.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset'
+[2023.11.14-04.50.30:245][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 6.12 sec)
+[2023.11.14-04.50.30:253][463]AssetCheck: New page: Asset Save: UI_Numpad
+[2023.11.14-04.50.30:253][463]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Numpad.UI_Numpad
+[2023.11.14-04.50.37:478][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.14-04.50.46:328][890]LogSlate: Window 'Delete Assets' being destroyed
+[2023.11.14-04.50.46:350][891]LogAutomationController: Ignoring very large delta of 8.92 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.14-04.50.48:804][ 37]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.11.14-04.50.48:804][ 37]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.11.14-04.51.23:743][813]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-04.51.23:743][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-04.51.23:751][813]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-04.51.23:751][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-04.51.24:710][865]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-04.51.24:710][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-04.51.25:761][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.14-04.51.25:761][921]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-04.51.25:761][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-04.51.41:332][497]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.11.14-04.51.41:345][497]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.11.14-04.51.41:355][497]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.11.14-04.51.41:373][498]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.11.14-04.51.49:224][969]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_Inventory
+[2023.11.14-04.51.49:236][969]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.11.14-04.51.50:229][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.51.50:321][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-04.51.50:323][ 28]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-04.51.50:323][ 28]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Inventory02947461462C663B6B4B74BD7914CC43.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-04.51.50:339][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 6.23 sec)
+[2023.11.14-04.51.50:345][ 28]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-04.51.50:345][ 28]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-04.51.50:825][ 55]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-04.51.50:826][ 55]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-04.51.50:826][ 55]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-04.51.50:840][ 55]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-04.51.50:840][ 55]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-04.51.53:131][176]LogSlate: Window 'UI_Inventory' being destroyed
+[2023.11.14-04.52.30:890][ 13]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.14-04.52.52:085][772]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-04.52.52:136][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.14-04.53.48:242][641]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.14-04.54.12:135][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.14-04.54.12:139][589]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.54.12:233][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-04.54.12:236][589]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-04.54.12:237][589]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_InventoryAEB44ED840E9E0E3D121A580A4973B69.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-04.54.12:249][589]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 6.34 sec)
+[2023.11.14-04.54.12:255][589]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-04.54.12:255][589]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-04.54.12:876][626]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-04.54.12:926][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.14-04.54.24:099][954]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.11.14-04.54.24:109][954]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.11.14-04.54.24:119][954]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.11.14-04.54.24:121][955]LogAutomationController: Ignoring very large delta of 2.24 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.14-04.54.24:131][955]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.11.14-04.54.34:873][600]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI_CollectibleSingleItem
+[2023.11.14-04.54.34:879][600]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.11.14-04.54.35:610][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.54.35:692][642]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.54.35:692][642]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem8A293FAE4FB484C45B84B2ACA87E3630.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.54.35:706][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 6.44 sec)
+[2023.11.14-04.54.35:713][642]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.54.35:713][642]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.54.36:637][696]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.54.36:637][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-04.54.36:638][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-04.54.36:651][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-04.54.36:651][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-04.56.32:081][857]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-04.56.32:135][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.11.14-04.56.32:387][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.11.14-04.56.32:392][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.56.32:475][860]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.56.32:476][860]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem31F1C9354C3B99F3BDF69393EB20EFEA.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.56.32:486][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 6.53 sec)
+[2023.11.14-04.56.32:493][860]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.56.32:493][860]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.57.02:839][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.14-04.57.02:843][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.57.02:939][155]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.57.02:939][155]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem4024A4D148402D154563EAA7B29E9883.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.57.02:950][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 6.64 sec)
+[2023.11.14-04.57.02:956][155]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.57.02:956][155]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.57.08:789][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.14-04.57.08:794][329]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.57.08:891][329]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.57.08:891][329]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemA471B6BB41C50CA9E92A1A915FF2E07F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.57.08:902][329]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 6.75 sec)
+[2023.11.14-04.57.08:909][329]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.57.08:909][329]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.57.09:764][381]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-04.57.09:813][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.14-04.57.53:509][930]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.14-04.57.58:730][234]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.14-04.58.49:154][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.11.14-04.58.49:158][953]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.58.49:260][953]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.58.49:261][953]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemA70537044E5EEA1F7219B68B4438F645.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.58.49:273][953]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 6.86 sec)
+[2023.11.14-04.58.49:280][953]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.58.49:280][953]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.59.05:297][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.14-04.59.05:302][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.59.05:400][846]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.59.05:400][846]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemC0FAD93747B7DDCB4861199A613AD324.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.59.05:409][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 6.97 sec)
+[2023.11.14-04.59.05:416][846]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.59.05:416][846]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.59.27:834][994]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-04.59.27:884][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.11.14-04.59.28:390][ 15]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-04.59.28:439][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.11.14-04.59.28:715][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.14-04.59.28:920][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.14-04.59.29:054][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.14-04.59.29:140][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.14-04.59.29:308][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.14-04.59.30:355][113]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-04.59.30:391][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.11.14-04.59.30:521][114]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-04.59.30:573][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.14-04.59.31:302][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.14-04.59.56:313][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.14-04.59.56:317][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-04.59.56:401][ 59]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-04.59.56:401][ 59]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemC9D010BA46AB91F09AA6B2A5E419E8DE.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-04.59.56:411][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 7.06 sec)
+[2023.11.14-04.59.56:418][ 59]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-04.59.56:418][ 59]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-04.59.56:755][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.14-04.59.56:957][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.11.14-04.59.57:334][112]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-04.59.57:369][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.11.14-04.59.57:861][130]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-04.59.57:909][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.14-05.00.33:476][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.14-05.00.44:107][944]LogSlate: Window 'Delete Assets' being destroyed
+[2023.11.14-05.00.44:129][945]LogAutomationController: Ignoring very large delta of 10.70 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.14-05.00.47:561][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.11.14-05.00.47:562][ 67]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/lvl_Blocking' took 0.033
+[2023.11.14-05.00.47:563][ 67]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyContent/Characters/UI/UI_CollectibleSingleItem] ([2] browsable assets)...
+[2023.11.14-05.00.47:567][ 67]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem]
+[2023.11.14-05.00.47:567][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Characters/UI/UI_CollectibleSingleItem]
+[2023.11.14-05.00.47:574][ 67]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/Characters/UI/UI_CollectibleSingleItem_Auto5
+[2023.11.14-05.00.47:574][ 67]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem_Auto5734C27544621CF6E414D5D8DE52C1EF1.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/Autosaves/Game/MyContent/Characters/UI/UI_CollectibleSingleItem_Auto5.uasset'
+[2023.11.14-05.00.47:575][ 67]LogFileHelpers: Auto-saving content packages took 0.013
+[2023.11.14-05.01.19:143][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.14-05.01.19:148][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.01.19:252][796]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.01.19:252][796]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemED92BC7649841013AB4E0B9FFD7EFF7F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.01.19:261][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 7.18 sec)
+[2023.11.14-05.01.19:268][796]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.01.19:268][796]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.01.38:129][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.14-05.01.38:133][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.01.38:231][419]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.01.38:231][419]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem9215F71F415071BBDD6946862AA58AD6.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.01.38:243][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 7.29 sec)
+[2023.11.14-05.01.38:249][419]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.01.38:249][419]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.01.38:526][436]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.01.38:576][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.14-05.01.39:002][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.14-05.01.39:171][465]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.14-05.01.44:733][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.14-05.01.44:735][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.01.44:823][795]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.01.44:824][795]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem6553A9364889DD9A918149AF68F8921D.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.01.44:834][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 7.38 sec)
+[2023.11.14-05.01.44:841][795]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.01.44:841][795]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.01.45:154][814]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.01.45:203][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.14-05.01.45:517][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.14-05.01.45:677][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.14-05.01.45:814][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.14-05.01.45:933][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.11.14-05.04.01:704][899]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.04.01:752][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.14-05.04.02:017][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.11.14-05.04.02:021][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.04.02:104][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.04.02:108][907]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.04.02:108][907]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Inventory10F080DD40359FB7EAE5A7A5226E28CA.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.04.02:119][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 7.48 sec)
+[2023.11.14-05.04.02:128][907]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.04.02:128][907]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.04.02:228][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.11.14-05.04.02:362][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.11.14-05.04.02:463][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.11.14-05.04.22:943][138]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.14-05.05.32:882][918]LogEditorTransaction: Undo Move Widget
+[2023.11.14-05.05.52:588][ 63]LogEditorTransaction: Undo Resize Widget
+[2023.11.14-05.06.32:181][399]LogEditorTransaction: Undo Resize Widget
+[2023.11.14-05.06.33:121][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.06.33:202][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.06.33:206][433]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.06.33:207][433]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Inventory155FEEBB4D2C5C39719D64B5B86C016A.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.06.33:218][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 7.58 sec)
+[2023.11.14-05.06.33:226][433]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.06.33:226][433]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.07.11:191][597]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.07.11:249][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.11.14-05.07.11:686][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.14-05.07.11:691][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.07.11:769][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.07.11:774][613]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.07.11:774][613]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_InventoryB52FA2734D0D4788795F61AA0340FD0E.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.07.11:784][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 7.67 sec)
+[2023.11.14-05.07.11:791][613]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.07.11:791][613]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.07.11:924][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.14-05.07.12:110][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.11.14-05.07.12:347][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.14-05.08.06:780][887]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.08.06:832][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.11.14-05.08.07:282][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.14-05.08.07:286][909]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.08.07:365][909]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.08.07:366][909]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem9235C7184C949ED97791F3A4758C4C5B.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.08.07:375][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 7.76 sec)
+[2023.11.14-05.08.07:381][909]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.08.07:382][909]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.08.07:513][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.14-05.08.07:678][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.14-05.11.51:094][934]LogContentBrowser: Attempting asset rename: BP_Collectable -> BP_Collectible
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.BP_Collectible_C' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.SKEL_BP_Collectible_C' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.SKEL_BP_Collectible_C:BndEvt__BP_Collectable_InteractCollision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.SKEL_BP_Collectible_C:UserConstructionScript' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.BP_Collectible:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.BP_Collectible:collect.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:123][934]LogMetaData: Removing '/Game/MyContent/Collectible/BP_Collectible.BP_Collectible:onDestroy.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Collectible/BP_Collectable.PackageMetaData'
+[2023.11.14-05.11.51:124][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.11.51:214][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectable/BP_Collectable" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectable/BP_Collectable.uasset" SILENT=true
+[2023.11.14-05.11.51:215][934]LogSavePackage: Moving output files for package: /Game/MyContent/Collectable/BP_Collectable
+[2023.11.14-05.11.51:215][934]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_Collectable273879FE4E6A0464F3753CB617CC5641.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectable/BP_Collectable.uasset'
+[2023.11.14-05.11.51:216][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Weapon" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset" SILENT=true
+[2023.11.14-05.11.51:223][934]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Weapon
+[2023.11.14-05.11.51:223][934]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_WeaponFC9C32A2428AB2A79E8BB0B3CC85E4F9.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset'
+[2023.11.14-05.11.51:223][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HealthPack" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset" SILENT=true
+[2023.11.14-05.11.51:226][934]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HealthPack
+[2023.11.14-05.11.51:226][934]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HealthPackE5CB7A6A463E3FD3A95F188F1A55D656.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset'
+[2023.11.14-05.11.51:227][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HackingDevice" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset" SILENT=true
+[2023.11.14-05.11.51:229][934]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HackingDevice
+[2023.11.14-05.11.51:229][934]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HackingDevice86FC1369466538F6E65BBBAE2D3F1B2D.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset'
+[2023.11.14-05.11.51:231][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Ammo" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset" SILENT=true
+[2023.11.14-05.11.51:235][934]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Ammo
+[2023.11.14-05.11.51:235][934]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_Ammo75FF36C64FBC166EFA5DF993387F9A85.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset'
+[2023.11.14-05.11.51:236][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.11.51:240][934]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.11.51:240][934]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CollectibleFC65EAA144AC6ED755611D85C1CFEEC4.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.11.51:256][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 7.90 sec)
+[2023.11.14-05.11.51:299][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.14-05.11.51:326][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.14-05.11.51:351][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.14-05.11.51:359][934]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_Collectable.BP_Collectable
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_Collectable.Default__BP_Collectable_C
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Collectable/BP_Collectable.BP_Collectable_C
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice
+[2023.11.14-05.11.51:359][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.14-05.11.52:716][ 14]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.11.52:716][ 14]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.11.52:716][ 14]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.12.03:739][343]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Weapon' in BlueprintGeneratedClass 'BP_COL_Weapon_C' (it may have been removed)
+[2023.11.14-05.12.30:749][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.14-05.12.30:752][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.12.30:852][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.12.30:856][723]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.12.30:856][723]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CollectibleCA3BDF0944EF3CC29A01FBBA06AB5E17.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.12.30:869][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 8.01 sec)
+[2023.11.14-05.12.30:876][723]AssetCheck: New page: Asset Save: BP_Collectible
+[2023.11.14-05.12.30:876][723]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.13.20:487][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.14-05.13.20:491][862]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.13.20:581][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.13.20:586][862]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.13.20:586][862]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CollectibleF37F6A1744B8C79F83DEF7880E4CCB12.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.13.20:595][862]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 8.12 sec)
+[2023.11.14-05.13.20:602][862]AssetCheck: New page: Asset Save: BP_Collectible
+[2023.11.14-05.13.20:602][862]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.13.20:968][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.11.14-05.13.21:187][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.11.14-05.13.21:580][919]BlueprintLog: New page: Compile BP_Collectible
+[2023.11.14-05.13.21:655][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.14-05.13.21:907][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.14-05.13.21:909][928]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.13.21:987][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.14-05.13.22:013][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.11.14-05.13.22:214][928]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.14-05.13.22:215][928]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking28859AEF47B90C9891147D9290345538.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.14-05.13.22:224][928]LogFileHelpers: No new changes to save!
+[2023.11.14-05.13.22:224][928]LogFileHelpers: Saving map 'lvl_Blocking' took 0.238
+[2023.11.14-05.13.22:237][928]LogFileHelpers: InternalPromptForCheckoutAndSave took 326 ms (total: 8.45 sec)
+[2023.11.14-05.13.22:244][928]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.14-05.13.22:244][928]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.14-05.13.28:761][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.14-05.13.28:764][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.13.28:847][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.13.28:852][ 87]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.13.28:852][ 87]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CollectibleDEC953CD48FC51D7EB2D638A38D2F9EE.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.13.28:863][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 8.54 sec)
+[2023.11.14-05.13.28:869][ 87]AssetCheck: New page: Asset Save: BP_Collectible
+[2023.11.14-05.13.28:869][ 87]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.13.29:727][139]BlueprintLog: New page: Compile BP_Collectible
+[2023.11.14-05.13.29:802][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.14-05.13.40:651][325]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon
+[2023.11.14-05.13.40:651][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.13.40:651][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.13.54:445][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.14-05.13.54:448][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.13.54:543][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.14-05.13.54:567][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.14-05.13.54:761][130]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.14-05.13.54:761][130]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking9122946C41CCAC257D77FCAB55003BFB.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.14-05.13.54:768][130]LogFileHelpers: No new changes to save!
+[2023.11.14-05.13.54:768][130]LogFileHelpers: Saving map 'lvl_Blocking' took 0.227
+[2023.11.14-05.13.54:768][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Weapon" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset" SILENT=true
+[2023.11.14-05.13.54:775][130]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Weapon
+[2023.11.14-05.13.54:775][130]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_Weapon410BC22E4695FBF9886263A0BC4E9ABB.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset'
+[2023.11.14-05.13.54:787][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 338 ms (total: 8.88 sec)
+[2023.11.14-05.13.54:794][130]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-05.13.54:794][130]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon
+[2023.11.14-05.13.54:795][130]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.14-05.14.04:325][695]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-05.14.04:325][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.14.06:437][817]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.14-05.14.06:437][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.14.06:437][817]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.14.19:628][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.11.14-05.14.19:631][590]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.14.19:724][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.14-05.14.19:751][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.11.14-05.14.19:947][590]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.14-05.14.19:947][590]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking922FD5224E4642D01AC590BB87D0387D.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.14-05.14.19:955][590]LogFileHelpers: No new changes to save!
+[2023.11.14-05.14.19:955][590]LogFileHelpers: Saving map 'lvl_Blocking' took 0.231
+[2023.11.14-05.14.19:955][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HealthPack" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset" SILENT=true
+[2023.11.14-05.14.19:958][590]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HealthPack
+[2023.11.14-05.14.19:958][590]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HealthPack7FE43E3D4EB4DC69CD1A5A8C9BA6232F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset'
+[2023.11.14-05.14.19:959][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Weapon" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset" SILENT=true
+[2023.11.14-05.14.19:966][590]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Weapon
+[2023.11.14-05.14.19:966][590]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_WeaponB9667BA247FFC0FB1F41D3A807513C04.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset'
+[2023.11.14-05.14.19:979][590]LogFileHelpers: InternalPromptForCheckoutAndSave took 347 ms (total: 9.23 sec)
+[2023.11.14-05.14.19:987][590]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-05.14.19:987][590]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Weapon.BP_COL_Weapon
+[2023.11.14-05.14.19:987][590]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.14-05.14.19:987][590]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.14-05.14.20:722][634]BlueprintLog: New page: Compile BP_COL_HealthPack
+[2023.11.14-05.14.20:781][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.14-05.14.24:379][842]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice
+[2023.11.14-05.14.24:379][842]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.14.24:379][842]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.14.33:291][369]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-05.14.33:291][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.14.33:308][369]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice
+[2023.11.14-05.14.33:309][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.14.33:309][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.14.49:487][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.14-05.14.49:490][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.14.49:578][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HackingDevice" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset" SILENT=true
+[2023.11.14-05.14.49:582][318]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HackingDevice
+[2023.11.14-05.14.49:583][318]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HackingDevice3ECC11AD4E43E7B138509CBE2CF6904E.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset'
+[2023.11.14-05.14.49:593][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 9.33 sec)
+[2023.11.14-05.14.49:599][318]AssetCheck: New page: Asset Save: BP_COL_HackingDevice
+[2023.11.14-05.14.49:599][318]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HackingDevice.BP_COL_HackingDevice
+[2023.11.14-05.14.50:007][343]BlueprintLog: New page: Compile BP_COL_HackingDevice
+[2023.11.14-05.14.50:066][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.14-05.14.50:424][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.14-05.14.50:858][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.14-05.14.51:043][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.14-05.14.51:181][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.14-05.14.53:469][536]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo
+[2023.11.14-05.14.53:469][536]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.14.53:469][536]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.15.27:257][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.11.14-05.15.27:261][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.15.27:350][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_Ammo" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset" SILENT=true
+[2023.11.14-05.15.27:355][539]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_Ammo
+[2023.11.14-05.15.27:356][539]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_AmmoF9AECC65425D2A05DDB9F6A42B7A8439.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset'
+[2023.11.14-05.15.27:366][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 9.44 sec)
+[2023.11.14-05.15.27:373][539]AssetCheck: New page: Asset Save: BP_COL_Ammo
+[2023.11.14-05.15.27:373][539]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo
+[2023.11.14-05.15.28:147][586]BlueprintLog: New page: Compile BP_COL_Ammo
+[2023.11.14-05.15.28:210][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.14-05.15.28:590][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.11.14-05.15.28:844][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.14-05.15.29:794][673]BlueprintLog: New page: Compile BP_COL_HackingDevice
+[2023.11.14-05.15.29:853][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.11.14-05.15.30:857][728]BlueprintLog: New page: Compile BP_COL_HealthPack
+[2023.11.14-05.15.30:916][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.11.14-05.15.32:745][832]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-05.15.32:745][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.15.33:237][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.14-05.15.33:237][859]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-05.15.33:237][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.15.33:701][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.14-05.15.33:701][884]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-05.15.33:701][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.21.57:553][165]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.21.57:596][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.14-05.21.58:167][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.14-05.21.58:171][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.21.58:263][194]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.21.58:263][194]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem84E1DFD2448C870D0D055BAC75646017.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.21.58:274][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 9.54 sec)
+[2023.11.14-05.21.58:281][194]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.21.58:281][194]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.21.58:396][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.11.14-05.21.58:806][225]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.21.58:844][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.11.14-05.21.59:266][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.11.14-05.21.59:435][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.11.14-05.21.59:551][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.14-05.22.31:059][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.14-05.22.31:063][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.22.31:170][228]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.22.31:171][228]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemBC7489A845FE76EC90C0CD96D512B55B.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.22.31:181][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 9.66 sec)
+[2023.11.14-05.22.31:188][228]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.22.31:188][228]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.24.18:002][298]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.24.18:057][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.11.14-05.24.18:437][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.14-05.24.18:442][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.24.18:535][315]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.24.18:535][315]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItem9388CC9E4F0E5577C42CE88BD9514F36.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.24.18:546][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 9.77 sec)
+[2023.11.14-05.24.18:552][315]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.24.18:552][315]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.24.19:129][350]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.24.19:182][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.14-05.24.19:512][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.14-05.24.20:021][395]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.24.20:061][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.14-05.24.20:439][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.11.14-05.24.20:656][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.14-05.24.20:807][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.11.14-05.25.11:197][ 10]BlueprintLog: New page: Compile UI_CollectibleSingleItem
+[2023.11.14-05.25.11:237][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.11.14-05.25.11:572][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.14-05.25.11:576][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.25.11:674][ 24]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_CollectibleSingleItem
+[2023.11.14-05.25.11:674][ 24]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_CollectibleSingleItemB37745BD441EED38FE6D5BA88159766A.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset'
+[2023.11.14-05.25.11:684][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 9.87 sec)
+[2023.11.14-05.25.11:691][ 24]AssetCheck: New page: Asset Save: UI_CollectibleSingleItem
+[2023.11.14-05.25.11:691][ 24]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_CollectibleSingleItem.UI_CollectibleSingleItem
+[2023.11.14-05.26.31:473][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.14-05.26.31:474][688]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/lvl_Blocking' took 0.029
+[2023.11.14-05.26.31:475][688]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/Collectible/BP_Collectible] ([2] browsable assets)...
+[2023.11.14-05.26.31:475][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Collectible/BP_Collectible]
+[2023.11.14-05.26.31:483][688]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/Collectible/BP_Collectible_Auto6
+[2023.11.14-05.26.31:483][688]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_Collectible_Auto6A711CF354FBC88B9EFEAAFBE155A43C4.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/Autosaves/Game/MyContent/Collectible/BP_Collectible_Auto6.uasset'
+[2023.11.14-05.26.31:484][688]LogFileHelpers: Auto-saving content packages took 0.010
+[2023.11.14-05.29.03:064][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.14-05.29.03:068][848]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.29.03:206][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.29.03:259][848]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.29.03:259][848]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_PlayerBB77F9BE471873175F2F779949A7319F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.29.03:260][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.29.03:264][848]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.29.03:265][848]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_Collectible2202BC204BC1724487DAACB96E3FB2E5.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.29.03:275][848]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 10.0 sec)
+[2023.11.14-05.29.03:285][848]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-05.29.03:285][848]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.29.03:285][848]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.29.03:459][859]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.29.03:474][859]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.29.03:573][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.14-05.29.03:988][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.11.14-05.29.04:292][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.14-05.29.04:458][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.14-05.29.18:471][731]LogViewport: Scene viewport resized to 1039x725, mode Windowed.
+[2023.11.14-05.30.09:814][716]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_CTR_Player_C_736 has parent /Game/MyContent/Characters/BP_Character.SKEL_BP_Character_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.14-05.30.09:814][716]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_CTR_Player_C_738 has parent /Game/MyContent/Characters/BP_Character.SKEL_BP_Character_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.14-05.30.58:248][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.11.14-05.30.58:251][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.30.58:383][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.30.58:452][486]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.30.58:453][486]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_Player688E7CAC449518833D8ABBA576BB1F5F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.30.58:464][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 10.2 sec)
+[2023.11.14-05.30.58:469][486]AssetCheck: New page: Asset Save: BP_CTR_Player
+[2023.11.14-05.30.58:469][486]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.31.09:227][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.14-05.31.09:230][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.31.09:359][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.31.09:410][127]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.31.09:410][127]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_PlayerBC1058BC48A10D697029CBBA29E23654.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.31.09:421][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 10.4 sec)
+[2023.11.14-05.31.09:427][127]AssetCheck: New page: Asset Save: BP_CTR_Player
+[2023.11.14-05.31.09:427][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.31.10:633][200]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.31.10:645][200]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.31.10:743][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.14-05.31.13:716][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.14-05.31.13:720][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.31.13:863][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.31.13:913][367]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.31.13:913][367]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_Player007300D34D8472F61E17F68909FD01D9.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.31.13:923][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 10.6 sec)
+[2023.11.14-05.31.13:930][367]AssetCheck: New page: Asset Save: BP_CTR_Player
+[2023.11.14-05.31.13:930][367]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.31.14:112][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.14-05.31.14:312][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.11.14-05.31.14:886][423]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.31.14:898][423]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.31.14:996][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.14-05.31.15:371][439]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.31.15:382][439]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.31.15:482][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.14-05.31.15:768][451]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.31.15:779][451]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.31.15:881][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.11.14-05.32.30:292][877]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.32.30:304][877]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.32.30:405][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.14-05.32.30:781][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:782][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:782][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:782][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:783][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:783][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:785][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.30:786][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.31:515][919]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.14-05.32.31:532][919]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.14-05.32.31:536][919]LogPlayLevel: [PlayLevel] Compiling BP_Collectible before play...
+[2023.11.14-05.32.31:536][919]LogPlayLevel: [PlayLevel]   Compiling BP_COL_Ammo as a dependent...
+[2023.11.14-05.32.31:536][919]LogPlayLevel: [PlayLevel]   Compiling BP_COL_HackingDevice as a dependent...
+[2023.11.14-05.32.31:536][919]LogPlayLevel: [PlayLevel]   Compiling BP_COL_HealthPack as a dependent...
+[2023.11.14-05.32.31:536][919]LogPlayLevel: [PlayLevel]   Compiling BP_COL_Weapon as a dependent...
+[2023.11.14-05.32.31:595][919]LogPlayLevel: [PlayLevel] Compiling UI_Numpad before play...
+[2023.11.14-05.32.31:665][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.14-05.32.31:669][919]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (6 blueprints)
+[2023.11.14-05.32.31:670][919]PIE: New page: PIE session: lvl_Blocking (Nov 13, 2023, 5:32:31 PM)
+[2023.11.14-05.32.31:678][919]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.11.14-05.32.31:678][919]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.11.14-05.32.31:679][919]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.14-05.32.31:749][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071056s)
+[2023.11.14-05.32.31:749][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.071121s)
+[2023.11.14-05.32.31:752][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-05.32.31:752][919]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-05.32.31:753][919]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.14-05.32.31:755][919]LogPlayLevel: PIE: World Init took: (0.004553s)
+[2023.11.14-05.32.31:781][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.14-05.32.31:783][919]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.14-05.32.31:783][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.14-05.32.31:783][919]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.14-05.32.31:784][919]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.14-05.32.31:784][919]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.14-05.32.31:784][919]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.14-05.32.31:786][919]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.14-05.32.31:819][919]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.14-05.32.31:819][919]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.14-05.32.31:819][919]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.14-05.32.31:821][919]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.14-05.32.31:821][919]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.11.14-05.32.31:822][919]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.11.14-05.32.31:824][919]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.11.14-05.32.31:824][919]LogInit: FAudioDevice initialized with ID 2.
+[2023.11.14-05.32.31:824][919]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.11.14-05.32.31:824][919]LogAudio: Display: Audio Device (ID: 2) registered with world 'lvl_Blocking'.
+[2023.11.14-05.32.31:824][919]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.11.14-05.32.31:885][919]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.14-05.32.31:936][919]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.13-23.32.31
+[2023.11.14-05.32.31:938][919]LogWorld: Bringing up level for play took: 0.052591
+[2023.11.14-05.32.31:943][919]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.11.14-05.32.31:983][919]PIE: Server logged in
+[2023.11.14-05.32.31:984][919]PIE: Play in editor total start time 0.456 seconds.
+[2023.11.14-05.32.32:043][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:044][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:044][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:044][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:045][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:045][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:046][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:046][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.32:252][920]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095530 > MaxSimulationTimeStep (0.050) for 'BP_CTR_Player_C_0', movement 'Walking'
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: ================================================
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Tracking 15 distinct input hashes that result in 11 distinct outputs (73.33%)
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: RAM used: 343.38 KiB of 819.20 MiB budget. Usage: 0.04%
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Job execution time: average 1.46 s, max 1.46 s
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Job life time (pending + execution): average 1.53 s, max 1.53
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.53 s
+[2023.11.14-05.32.35:975][127]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Average processing rate: 0.65 jobs/sec
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Total thread time: 0.753 s
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Total thread preprocess time: 0.06 s
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Percentage time preprocessing: 7.95%
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Effective parallelization: 0.49 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 100.00% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2023.11.14-05.32.35:976][127]LogShaderCompilers: Display: ================================================
+[2023.11.14-05.32.36:205][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.14-05.32.36:205][137]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.14-05.32.36:207][137]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-05.32.36:214][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.32.36:221][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.14-05.32.36:228][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-05.32.36:262][137]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.14-05.32.36:262][137]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.11.14-05.32.36:262][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.14-05.32.36:264][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.11.14-05.32.36:268][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.14-05.32.36:279][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.11.14-05.32.36:316][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:317][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:317][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:317][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:318][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:318][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:319][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:319][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.14-05.32.36:339][138]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.11.14-05.36.03:776][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.14-05.36.03:780][385]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.36.03:860][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.14-05.36.03:886][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.14-05.36.04:093][385]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.14-05.36.04:093][385]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking671A00CD4D626F236FF52DADBF927D7E.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.14-05.36.04:102][385]LogFileHelpers: No new changes to save!
+[2023.11.14-05.36.04:102][385]LogFileHelpers: Saving map 'lvl_Blocking' took 0.243
+[2023.11.14-05.36.04:153][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.36.04:203][385]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.36.04:204][385]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_PlayerF41880224CA7B5E8E90E68952C024E75.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.36.04:205][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.36.04:210][385]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.36.04:211][385]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_Collectible1D9FFD4B413E3CB04EC7049B2006CC23.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.36.04:219][385]LogFileHelpers: InternalPromptForCheckoutAndSave took 437 ms (total: 11.1 sec)
+[2023.11.14-05.36.04:225][385]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-05.36.04:225][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.36.04:225][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.36.04:225][385]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.14-05.36.04:599][408]BlueprintLog: New page: Compile BP_Collectible
+[2023.11.14-05.36.04:676][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.14-05.36.05:166][432]BlueprintLog: New page: Compile BP_Collectible
+[2023.11.14-05.36.05:245][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.11.14-05.36.05:381][435]BlueprintLog: New page: Compile BP_Collectible
+[2023.11.14-05.36.05:457][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.14-05.36.05:691][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.14-05.36.05:694][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.36.05:774][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.14-05.36.05:801][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.11.14-05.36.06:000][442]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.14-05.36.06:001][442]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking230EBD3648E95C28BC2E6D9176E0C4ED.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.14-05.36.06:009][442]LogFileHelpers: No new changes to save!
+[2023.11.14-05.36.06:009][442]LogFileHelpers: Saving map 'lvl_Blocking' took 0.235
+[2023.11.14-05.36.06:020][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 325 ms (total: 11.4 sec)
+[2023.11.14-05.36.06:027][442]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.14-05.36.06:027][442]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.14-05.36.20:242][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.11.14-05.36.20:245][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.36.20:341][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.36.20:346][274]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.36.20:346][274]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Inventory777104C3441E68041ED3CE8AE6DDB24E.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.36.20:358][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 11.5 sec)
+[2023.11.14-05.36.20:363][274]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.36.20:363][274]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.36.21:373][335]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.36.21:446][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.11.14-05.36.21:804][346]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.36.21:875][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.14-05.36.22:230][357]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.36.22:299][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.14-05.36.37:607][ 71]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.36.37:680][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.11.14-05.36.37:936][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.14-05.36.37:940][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.36.38:023][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.36.38:027][ 74]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.36.38:027][ 74]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_InventoryE3177E084D6236A6246ECEA3A09B132B.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.36.38:039][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 11.6 sec)
+[2023.11.14-05.36.38:045][ 74]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.36.38:045][ 74]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.38.15:046][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.11.14-05.38.15:049][794]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.38.15:224][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.38.15:274][794]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.38.15:274][794]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_PlayerF8CAC8134A7BAB402A0DFFAFB30C8BB7.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.38.15:285][794]LogFileHelpers: InternalPromptForCheckoutAndSave took 236 ms (total: 11.9 sec)
+[2023.11.14-05.38.15:292][794]AssetCheck: New page: Asset Save: BP_CTR_Player
+[2023.11.14-05.38.15:292][794]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.39.23:238][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.11.14-05.39.23:242][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.39.23:383][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.39.23:433][112]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.39.23:433][112]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_Player658C701B4B5B630CE01026BEE9933601.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.39.23:446][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 12.1 sec)
+[2023.11.14-05.39.23:454][112]AssetCheck: New page: Asset Save: BP_CTR_Player
+[2023.11.14-05.39.23:454][112]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
+[2023.11.14-05.39.23:827][135]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.39.23:843][135]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.39.23:947][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.11.14-05.39.24:337][150]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.39.24:350][150]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.39.24:453][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.14-05.39.24:498][150]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.39.24:511][150]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.39.24:613][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.14-05.39.24:748][151]BlueprintLog: New page: Compile BP_CTR_Player
+[2023.11.14-05.39.24:762][151]LogBlueprint: Warning: [AssetLog] D:\Game-Dev-Lab-Group\GDL_Group_Game\Content\MyContent\Characters\ABP_PlayerCharacter.uasset: [Compiler] Falling to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.11.14-05.39.24:868][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.11.14-05.39.25:056][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.11.14-05.39.25:106][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.14-05.39.25:244][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.14-05.39.25:382][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.14-05.39.25:500][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.14-05.40.27:769][240]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.40.27:836][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.14-05.40.28:418][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.14-05.40.28:423][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.40.28:509][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.40.28:513][267]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.40.28:513][267]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_InventoryA82EFFB14CEEBBF582FCE2A5AF702BBD.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.40.28:525][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 12.2 sec)
+[2023.11.14-05.40.28:532][267]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.40.28:532][267]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.40.36:165][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.14-05.40.36:168][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.40.36:249][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.14-05.40.36:253][720]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.14-05.40.36:254][720]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Inventory6AB4A14D49C427CEDCD170939BED3FC9.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.14-05.40.36:265][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 12.3 sec)
+[2023.11.14-05.40.36:271][720]AssetCheck: New page: Asset Save: UI_Inventory
+[2023.11.14-05.40.36:271][720]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.14-05.40.36:843][755]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.40.36:906][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.14-05.40.37:388][779]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.14-05.40.37:453][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.11.14-05.40.37:983][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.11.14-05.40.38:217][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.14-05.40.38:385][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.11.14-05.43.20:536][855]LogDerivedDataCache: C:/Users/sagar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.217 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3705 files in 5122 folders with total size 270 MiB.
+[2023.11.14-05.43.26:737][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.14-05.43.26:742][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-05.43.26:893][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/BP_CTR_Player" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset" SILENT=true
+[2023.11.14-05.43.26:955][225]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/BP_CTR_Player
+[2023.11.14-05.43.26:955][225]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_CTR_Player748156214A82673095808EA7BF7B17B9.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset'
+[2023.11.14-05.43.26:956][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_Collectible" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset" SILENT=true
+[2023.11.14-05.43.26:962][225]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_Collectible
+[2023.11.14-05.43.26:963][225]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_Collectible88C852AC4E141F8CA29C5EB1DF14A97B.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset'
+[2023.11.14-05.43.26:975][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 12.5 sec)
+[2023.11.14-05.43.26:982][225]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.14-05.43.26:982][225]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_Collectible.BP_Collectible
+[2023.11.14-05.43.26:982][225]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Characters/BP_CTR_Player.BP_CTR_Player
