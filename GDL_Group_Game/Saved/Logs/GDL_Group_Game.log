@@ -5054,3 +5054,520 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.15-06.10.24:434][655]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.11.15-06.10.24:435][655]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.11.15-06.10.24:443][656]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.11.15-06.11.28:852][186]BlueprintLog: New page: Compile UI_Inventory
+[2023.11.15-06.11.28:906][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.15-06.11.29:237][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.11.15-06.11.29:240][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.15-06.11.29:330][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.15-06.11.29:357][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.15-06.11.29:564][189]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.15-06.11.29:564][189]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking0F88FAD640401E34C7A4A7A56A00C169.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.15-06.11.29:573][189]LogFileHelpers: No new changes to save!
+[2023.11.15-06.11.29:573][189]LogFileHelpers: Saving map 'lvl_Blocking' took 0.244
+[2023.11.15-06.11.29:577][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Inventory" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset" SILENT=true
+[2023.11.15-06.11.29:597][189]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Inventory
+[2023.11.15-06.11.29:597][189]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Inventory71F777A44AF7728A1D3A6F8698F22B40.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset'
+[2023.11.15-06.11.29:614][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 372 ms (total: 15.2 sec)
+[2023.11.15-06.11.29:621][189]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.15-06.11.29:621][189]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Inventory.UI_Inventory
+[2023.11.15-06.11.29:621][189]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.15-06.11.29:703][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.15-06.11.31:345][278]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.15-06.11.31:353][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.15-06.11.31:353][278]PIE: New page: PIE session: lvl_Blocking (Nov 14, 2023, 6:11:31 PM)
+[2023.11.15-06.11.31:384][278]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.11.31:452][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067481s)
+[2023.11.15-06.11.31:452][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.067525s)
+[2023.11.15-06.11.31:452][278]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.11.31:452][278]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.15-06.11.31:452][278]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.15-06.11.31:452][278]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2023.11.15-06.11.31:480][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.15-06.11.31:482][278]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.15-06.11.31:482][278]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.15-06.11.31:482][278]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.15-06.11.31:483][278]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.15-06.11.31:483][278]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.15-06.11.31:483][278]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.15-06.11.31:485][278]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.15-06.11.31:521][278]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.15-06.11.31:521][278]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.15-06.11.31:521][278]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.15-06.11.31:521][278]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.15-06.11.31:522][278]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.11.15-06.11.31:522][278]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.11.15-06.11.31:524][278]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.11.15-06.11.31:524][278]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.11.15-06.11.31:524][278]LogInit: FAudioDevice initialized with ID 39.
+[2023.11.15-06.11.31:524][278]LogAudio: Display: Audio Device (ID: 39) registered with world 'lvl_Blocking'.
+[2023.11.15-06.11.31:524][278]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2023.11.15-06.11.31:527][278]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.15-06.11.31:576][278]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.15-00.11.31
+[2023.11.15-06.11.31:577][278]LogWorld: Bringing up level for play took: 0.049811
+[2023.11.15-06.11.31:579][278]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.11.15-06.11.31:584][278]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.15-06.11.31:584][278]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.15-06.11.31:584][278]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.15-06.11.31:584][278]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.15-06.11.31:584][278]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.15-06.11.31:584][278]PIE: Server logged in
+[2023.11.15-06.11.31:585][278]PIE: Play in editor total start time 0.231 seconds.
+[2023.11.15-06.11.31:618][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:619][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:619][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:620][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:620][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:621][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:622][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.31:623][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.34:081][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.35:082][481]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:704][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.11.44:704][ 57]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.11.44:705][ 57]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.15-06.11.44:710][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.11.44:715][ 57]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.15-06.11.44:722][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.11.44:751][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.11.44:755][ 57]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2023.11.15-06.11.44:755][ 57]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.11.15-06.11.44:756][ 57]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.11.15-06.11.44:771][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.15-06.11.44:803][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:804][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:804][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:805][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:805][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:806][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:807][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:807][ 57]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.44:816][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.11.15-06.11.49:664][263]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack_C
+[2023.11.15-06.11.49:665][263]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack_C
+[2023.11.15-06.11.49:668][263]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack as actor: BP_COL_HealthPack_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_HealthPack_C_0
+[2023.11.15-06.11.49:669][263]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack as actor: BP_COL_HealthPack_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_HealthPack_C_0
+[2023.11.15-06.11.49:683][264]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.15-06.11.50:149][289]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack_C
+[2023.11.15-06.11.50:149][289]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack_C
+[2023.11.15-06.11.50:153][289]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack as actor: BP_COL_HealthPack_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_HealthPack_C_1
+[2023.11.15-06.11.50:154][289]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack as actor: BP_COL_HealthPack_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_HealthPack_C_1
+[2023.11.15-06.11.50:178][289]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.50:179][289]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:223][465]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.15-06.11.53:232][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.15-06.11.53:232][465]PIE: New page: PIE session: lvl_Blocking (Nov 14, 2023, 6:11:53 PM)
+[2023.11.15-06.11.53:232][465]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.11.53:309][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077129s)
+[2023.11.15-06.11.53:309][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.077171s)
+[2023.11.15-06.11.53:309][465]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.11.53:309][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.15-06.11.53:310][465]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.15-06.11.53:310][465]LogPlayLevel: PIE: World Init took: (0.001333s)
+[2023.11.15-06.11.53:341][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.15-06.11.53:343][465]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.15-06.11.53:343][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.15-06.11.53:343][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.15-06.11.53:344][465]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.15-06.11.53:344][465]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.15-06.11.53:344][465]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.15-06.11.53:346][465]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.15-06.11.53:378][465]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.15-06.11.53:378][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.15-06.11.53:378][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.15-06.11.53:378][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.15-06.11.53:379][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.11.15-06.11.53:379][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.11.15-06.11.53:380][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.11.15-06.11.53:380][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.11.15-06.11.53:380][465]LogInit: FAudioDevice initialized with ID 40.
+[2023.11.15-06.11.53:380][465]LogAudio: Display: Audio Device (ID: 40) registered with world 'lvl_Blocking'.
+[2023.11.15-06.11.53:380][465]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2023.11.15-06.11.53:384][465]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.15-06.11.53:432][465]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.15-00.11.53
+[2023.11.15-06.11.53:434][465]LogWorld: Bringing up level for play took: 0.049207
+[2023.11.15-06.11.53:436][465]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.11.15-06.11.53:440][465]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.15-06.11.53:440][465]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.15-06.11.53:440][465]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.15-06.11.53:440][465]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.15-06.11.53:440][465]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.15-06.11.53:440][465]PIE: Server logged in
+[2023.11.15-06.11.53:441][465]PIE: Play in editor total start time 0.209 seconds.
+[2023.11.15-06.11.53:485][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:486][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:486][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:487][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:487][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:488][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:489][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.53:489][465]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:594][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.11.55:594][585]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.11.55:595][585]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.15-06.11.55:599][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.11.55:604][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.15-06.11.55:611][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.11.55:641][585]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.15-06.11.55:641][585]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2023.11.15-06.11.55:641][585]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.11.15-06.11.55:643][585]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.11.15-06.11.55:646][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.11.55:658][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.15-06.11.55:699][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:700][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:701][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:701][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:702][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:702][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:703][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:704][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.11.55:713][586]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.11.15-06.11.57:898][713]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.15-06.11.57:898][713]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.11.57:898][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.15-06.12.00:525][860]LogViewport: Scene viewport resized to 1039x594, mode Windowed.
+[2023.11.15-06.12.04:129][ 66]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.12.04:232][ 67]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.12.04:276][ 68]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.12.12:669][561]BlueprintLog: New page: Compile BP_COL_HealthPack
+[2023.11.15-06.12.12:749][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.11.15-06.12.13:019][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.11.15-06.12.13:022][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.15-06.12.13:104][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.15-06.12.13:131][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.15-06.12.13:340][564]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.15-06.12.13:340][564]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking6364E53A4DA56FEC992C648E441D85B1.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.15-06.12.13:350][564]LogFileHelpers: No new changes to save!
+[2023.11.15-06.12.13:350][564]LogFileHelpers: Saving map 'lvl_Blocking' took 0.247
+[2023.11.15-06.12.13:367][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HealthPack" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset" SILENT=true
+[2023.11.15-06.12.13:371][564]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HealthPack
+[2023.11.15-06.12.13:373][564]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HealthPackA0FF7A564741DA39526F23868A1CE6F6.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset'
+[2023.11.15-06.12.13:388][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 365 ms (total: 15.5 sec)
+[2023.11.15-06.12.13:395][564]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.15-06.12.13:395][564]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.15-06.12.13:395][564]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.15-06.12.13:468][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.15-06.12.13:628][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.15-06.12.14:225][610]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:402][855]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.15-06.12.18:411][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.15-06.12.18:411][855]PIE: New page: PIE session: lvl_Blocking (Nov 14, 2023, 6:12:18 PM)
+[2023.11.15-06.12.18:411][855]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.12.18:491][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079728s)
+[2023.11.15-06.12.18:491][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.079776s)
+[2023.11.15-06.12.18:491][855]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.12.18:491][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.15-06.12.18:492][855]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.15-06.12.18:492][855]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2023.11.15-06.12.18:522][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.15-06.12.18:524][855]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.15-06.12.18:524][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.15-06.12.18:524][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.15-06.12.18:525][855]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.15-06.12.18:525][855]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.15-06.12.18:525][855]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.15-06.12.18:527][855]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.15-06.12.18:559][855]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.15-06.12.18:559][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.15-06.12.18:559][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.15-06.12.18:559][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.15-06.12.18:560][855]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.11.15-06.12.18:560][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2023.11.15-06.12.18:562][855]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.11.15-06.12.18:562][855]LogInit: FAudioDevice initialized with ID 41.
+[2023.11.15-06.12.18:562][855]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.11.15-06.12.18:562][855]LogAudio: Display: Audio Device (ID: 41) registered with world 'lvl_Blocking'.
+[2023.11.15-06.12.18:562][855]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2023.11.15-06.12.18:565][855]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.15-06.12.18:617][855]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.15-00.12.18
+[2023.11.15-06.12.18:618][855]LogWorld: Bringing up level for play took: 0.052392
+[2023.11.15-06.12.18:620][855]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2023.11.15-06.12.18:628][855]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.15-06.12.18:628][855]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.15-06.12.18:628][855]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.15-06.12.18:628][855]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.15-06.12.18:628][855]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.15-06.12.18:628][855]PIE: Server logged in
+[2023.11.15-06.12.18:629][855]PIE: Play in editor total start time 0.218 seconds.
+[2023.11.15-06.12.18:673][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:673][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:674][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:674][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:675][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:675][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:677][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.18:677][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.23:586][ 90]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:784][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.12.24:784][161]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.12.24:785][161]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.15-06.12.24:789][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.12.24:795][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.15-06.12.24:801][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.12.24:839][161]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.15-06.12.24:839][161]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2023.11.15-06.12.24:839][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.11.15-06.12.24:841][161]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.11.15-06.12.24:845][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.12.24:855][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.11.15-06.12.24:887][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:888][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:888][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:889][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:889][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:890][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:891][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:891][161]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.24:900][162]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.11.15-06.12.29:164][404]Cmd: DUPLICATE
+[2023.11.15-06.12.29:165][404]Cmd: ACTOR DUPLICATE
+[2023.11.15-06.12.29:218][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:219][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:219][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:220][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:220][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:220][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:221][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.29:222][404]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:291][584]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.15-06.12.32:300][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.15-06.12.32:300][584]PIE: New page: PIE session: lvl_Blocking (Nov 14, 2023, 6:12:32 PM)
+[2023.11.15-06.12.32:300][584]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.12.32:369][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068915s)
+[2023.11.15-06.12.32:369][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.068956s)
+[2023.11.15-06.12.32:370][584]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.12.32:370][584]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.15-06.12.32:370][584]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.15-06.12.32:371][584]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2023.11.15-06.12.32:404][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.11.15-06.12.32:406][584]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.15-06.12.32:406][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.15-06.12.32:406][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.15-06.12.32:406][584]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.15-06.12.32:407][584]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.15-06.12.32:407][584]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.15-06.12.32:408][584]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.15-06.12.32:440][584]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.15-06.12.32:440][584]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.15-06.12.32:440][584]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.15-06.12.32:440][584]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.15-06.12.32:440][584]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2023.11.15-06.12.32:441][584]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2023.11.15-06.12.32:442][584]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2023.11.15-06.12.32:442][584]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2023.11.15-06.12.32:442][584]LogInit: FAudioDevice initialized with ID 42.
+[2023.11.15-06.12.32:442][584]LogAudio: Display: Audio Device (ID: 42) registered with world 'lvl_Blocking'.
+[2023.11.15-06.12.32:442][584]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2023.11.15-06.12.32:446][584]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.15-06.12.32:497][584]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.15-00.12.32
+[2023.11.15-06.12.32:498][584]LogWorld: Bringing up level for play took: 0.051663
+[2023.11.15-06.12.32:500][584]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2023.11.15-06.12.32:504][584]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.15-06.12.32:504][584]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.15-06.12.32:504][584]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.15-06.12.32:504][584]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.15-06.12.32:504][584]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.15-06.12.32:504][584]PIE: Server logged in
+[2023.11.15-06.12.32:505][584]PIE: Play in editor total start time 0.205 seconds.
+[2023.11.15-06.12.32:547][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:548][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:548][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:549][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:549][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:550][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:551][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.32:551][584]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.36:827][771]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.37:828][831]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.39:005][902]LogBlueprintUserMessages: [UI_Inventory_C_0] Health Pack
+[2023.11.15-06.12.39:254][917]LogBlueprintUserMessages: [UI_Inventory_C_0] Health Pack
+[2023.11.15-06.12.39:845][952]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.39:846][952]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:154][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.12.44:154][208]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.12.44:155][208]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.15-06.12.44:159][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.12.44:165][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.15-06.12.44:172][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.12.44:206][208]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.15-06.12.44:206][208]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2023.11.15-06.12.44:206][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.11.15-06.12.44:208][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.11.15-06.12.44:212][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.12.44:223][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.15-06.12.44:256][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:257][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:257][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:258][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:258][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:258][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:260][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:260][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.44:269][209]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2023.11.15-06.12.45:267][264]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2023.11.15-06.12.45:270][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.15-06.12.45:356][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.15-06.12.45:387][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.15-06.12.45:602][264]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.15-06.12.45:603][264]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking26C1491343C5AC79CEB7E3A0EADB4370.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.15-06.12.45:611][264]LogFileHelpers: No new changes to save!
+[2023.11.15-06.12.45:611][264]LogFileHelpers: Saving map 'lvl_Blocking' took 0.256
+[2023.11.15-06.12.45:624][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 352 ms (total: 15.9 sec)
+[2023.11.15-06.12.45:633][264]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.15-06.12.45:633][264]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.15-06.12.45:805][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.11.15-06.12.45:955][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.15-06.12.46:069][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.11.15-06.12.46:359][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.15-06.12.46:534][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.15-06.12.46:676][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.15-06.12.46:803][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.11.15-06.12.48:826][443]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.15-06.12.48:834][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.15-06.12.48:834][443]PIE: New page: PIE session: lvl_Blocking (Nov 14, 2023, 6:12:48 PM)
+[2023.11.15-06.12.48:834][443]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.12.48:914][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079756s)
+[2023.11.15-06.12.48:914][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.079797s)
+[2023.11.15-06.12.48:914][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.15-06.12.48:914][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.15-06.12.48:914][443]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.15-06.12.48:915][443]LogPlayLevel: PIE: World Init took: (0.001689s)
+[2023.11.15-06.12.48:946][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.11.15-06.12.48:948][443]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.15-06.12.48:948][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.15-06.12.48:948][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.15-06.12.48:948][443]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.15-06.12.48:948][443]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.15-06.12.48:948][443]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.15-06.12.48:950][443]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.15-06.12.48:982][443]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.15-06.12.48:982][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.15-06.12.48:982][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.15-06.12.48:982][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.15-06.12.48:982][443]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2023.11.15-06.12.48:982][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2023.11.15-06.12.48:985][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2023.11.15-06.12.48:985][443]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2023.11.15-06.12.48:985][443]LogInit: FAudioDevice initialized with ID 43.
+[2023.11.15-06.12.48:985][443]LogAudio: Display: Audio Device (ID: 43) registered with world 'lvl_Blocking'.
+[2023.11.15-06.12.48:985][443]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2023.11.15-06.12.48:988][443]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.15-06.12.49:037][443]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.15-00.12.49
+[2023.11.15-06.12.49:037][443]LogWorld: Bringing up level for play took: 0.049107
+[2023.11.15-06.12.49:039][443]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2023.11.15-06.12.49:044][443]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.15-06.12.49:044][443]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.15-06.12.49:044][443]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.15-06.12.49:044][443]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.15-06.12.49:044][443]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.15-06.12.49:044][443]PIE: Server logged in
+[2023.11.15-06.12.49:045][443]PIE: Play in editor total start time 0.211 seconds.
+[2023.11.15-06.12.49:089][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:090][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:091][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:091][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:091][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:093][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:094][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.49:094][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.53:154][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.55:171][759]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.57:764][915]LogBlueprintUserMessages: [UI_Inventory_C_0] Health Pack
+[2023.11.15-06.12.58:080][934]LogBlueprintUserMessages: [UI_Inventory_C_0] Health Pack
+[2023.11.15-06.12.58:205][941]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.12.58:206][941]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:494][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.13.01:494][136]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.15-06.13.01:495][136]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.15-06.13.01:499][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.13.01:505][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.15-06.13.01:511][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.15-06.13.01:541][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.15-06.13.01:544][136]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2023.11.15-06.13.01:544][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.11.15-06.13.01:546][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.11.15-06.13.01:561][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.11.15-06.13.01:592][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:592][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:593][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:593][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:593][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:594][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:595][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:595][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.01:605][137]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2023.11.15-06.13.05:697][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.11.15-06.13.05:940][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.11.15-06.13.06:084][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.15-06.13.06:179][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.11.15-06.13.27:118][511]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo_C
+[2023.11.15-06.13.27:118][511]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo_C
+[2023.11.15-06.13.27:120][511]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo as actor: BP_COL_Ammo_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_Ammo_C_0
+[2023.11.15-06.13.27:121][511]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo as actor: BP_COL_Ammo_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_Ammo_C_0
+[2023.11.15-06.13.27:681][540]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo_C
+[2023.11.15-06.13.27:681][540]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo_C
+[2023.11.15-06.13.27:686][540]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo as actor: BP_COL_Ammo_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_Ammo_C_1
+[2023.11.15-06.13.27:687][540]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Collectible/BP_COL_Ammo.BP_COL_Ammo as actor: BP_COL_Ammo_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_COL_Ammo_C_1
+[2023.11.15-06.13.27:710][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:519][645]Cmd: TRANSACTION UNDO
+[2023.11.15-06.13.29:519][645]LogEditorTransaction: Undo Move Elements
+[2023.11.15-06.13.29:589][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:590][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:591][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:591][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:592][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:592][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:593][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.29:594][645]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:436][682]Cmd: TRANSACTION UNDO
+[2023.11.15-06.13.30:436][682]LogEditorTransaction: Undo Create Actors
+[2023.11.15-06.13.30:512][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:513][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:513][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:514][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:515][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:515][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:517][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.30:518][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.31:704][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.11.15-06.13.32:318][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.11.15-06.13.32:497][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.11.15-06.13.32:656][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.11.15-06.13.32:797][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.11.15-06.13.32:905][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.15-06.13.33:421][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.11.15-06.13.33:634][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.11.15-06.13.33:780][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.11.15-06.13.33:920][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.11.15-06.13.34:035][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.11.15-06.13.34:181][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
