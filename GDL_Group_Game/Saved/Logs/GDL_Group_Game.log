@@ -5571,3 +5571,65 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.15-06.13.33:920][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2023.11.15-06.13.34:035][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2023.11.15-06.13.34:181][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.15-06.13.55:695][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.11.15-06.13.55:699][116]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.15-06.13.55:777][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.15-06.13.55:802][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.15-06.13.56:015][116]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.15-06.13.56:015][116]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking2F1DAC30424FB1C031F5249140DE73F0.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.15-06.13.56:024][116]LogFileHelpers: No new changes to save!
+[2023.11.15-06.13.56:024][116]LogFileHelpers: Saving map 'lvl_Blocking' took 0.248
+[2023.11.15-06.13.56:024][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Collectible/BP_COL_HealthPack" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset" SILENT=true
+[2023.11.15-06.13.56:028][116]LogSavePackage: Moving output files for package: /Game/MyContent/Collectible/BP_COL_HealthPack
+[2023.11.15-06.13.56:028][116]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_COL_HealthPack624A352945764D09AF4F62925FAFBC9D.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset'
+[2023.11.15-06.13.56:044][116]LogFileHelpers: InternalPromptForCheckoutAndSave took 345 ms (total: 16.2 sec)
+[2023.11.15-06.13.56:052][116]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.15-06.13.56:052][116]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.15-06.13.56:052][116]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Collectible/BP_COL_HealthPack.BP_COL_HealthPack
+[2023.11.15-06.13.56:794][161]BlueprintLog: New page: Compile BP_COL_HealthPack
+[2023.11.15-06.13.56:847][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.11.15-06.13.57:162][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.11.15-06.13.57:166][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.15-06.13.57:238][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.15-06.13.57:265][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.11.15-06.13.57:481][173]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.15-06.13.57:482][173]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_BlockingEB7C3D3D4594FA0FD7E94F9942E8DD89.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.15-06.13.57:490][173]LogFileHelpers: No new changes to save!
+[2023.11.15-06.13.57:490][173]LogFileHelpers: Saving map 'lvl_Blocking' took 0.252
+[2023.11.15-06.13.57:503][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 16.6 sec)
+[2023.11.15-06.13.57:513][173]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.15-06.13.57:513][173]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.15-06.13.57:646][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.15-06.13.57:765][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.15-06.13.57:899][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.15-06.13.58:057][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.15-06.13.58:193][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.15-06.13.58:942][253]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.13.58:943][253]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.14.02:892][482]Cmd: DELETE
+[2023.11.15-06.14.02:892][482]Cmd: ACTOR DELETE
+[2023.11.15-06.14.02:914][482]LogEditorActor: Deleted Actor: BP_COL_HealthPack_C
+[2023.11.15-06.14.02:944][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.11.15-06.14.02:947][482]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2023.11.15-06.14.02:977][482]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.14.03:617][517]Cmd: DELETE
+[2023.11.15-06.14.03:617][517]Cmd: ACTOR DELETE
+[2023.11.15-06.14.03:630][517]LogEditorActor: Deleted Actor: BP_COL_HealthPack_C
+[2023.11.15-06.14.03:658][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.11.15-06.14.03:660][517]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2023.11.15-06.14.03:694][517]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.15-06.14.04:555][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.15-06.14.04:558][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.15-06.14.04:634][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.15-06.14.04:661][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.15-06.14.04:866][567]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.15-06.14.04:867][567]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking72119C8F4C6E7044C98B54820CD63E0D.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.15-06.14.04:876][567]LogFileHelpers: No new changes to save!
+[2023.11.15-06.14.04:876][567]LogFileHelpers: Saving map 'lvl_Blocking' took 0.243
+[2023.11.15-06.14.04:889][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 331 ms (total: 16.9 sec)
+[2023.11.15-06.14.04:897][567]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.15-06.14.04:897][567]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.15-06.14.05:042][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.15-06.14.05:147][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.15-06.14.05:310][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.15-06.14.05:431][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
