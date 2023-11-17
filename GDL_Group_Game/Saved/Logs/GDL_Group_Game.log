@@ -3041,3 +3041,1290 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.17-04.32.08:393][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.11.17-04.32.08:394][ 40]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.11.17-04.32.08:396][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.11.17-04.40.38:097][594]LogDerivedDataCache: C:/Users/sagar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.367 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3984 files in 5602 folders with total size 316 MiB.
+[2023.11.17-04.54.35:183][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-04.54.35:190][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-04.54.35:190][731]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 4:54:35 PM)
+[2023.11.17-04.54.35:229][731]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.54.35:344][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114890s)
+[2023.11.17-04.54.35:344][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.114948s)
+[2023.11.17-04.54.35:344][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-04.54.35:344][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-04.54.35:345][731]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-04.54.35:346][731]LogPlayLevel: PIE: World Init took: (0.001896s)
+[2023.11.17-04.54.35:376][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.11.17-04.54.35:377][731]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-04.54.35:378][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-04.54.35:378][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-04.54.35:379][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-04.54.35:379][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-04.54.35:379][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-04.54.35:382][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-04.54.35:413][731]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-04.54.35:414][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-04.54.35:414][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-04.54.35:414][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-04.54.35:415][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.11.17-04.54.35:415][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.11.17-04.54.35:416][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.11.17-04.54.35:416][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.11.17-04.54.35:416][731]LogInit: FAudioDevice initialized with ID 20.
+[2023.11.17-04.54.35:416][731]LogAudio: Display: Audio Device (ID: 20) registered with world 'lvl_Blocking'.
+[2023.11.17-04.54.35:416][731]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.11.17-04.54.35:421][731]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-04.54.35:507][731]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-22.54.35
+[2023.11.17-04.54.35:509][731]LogWorld: Bringing up level for play took: 0.087513
+[2023.11.17-04.54.35:511][731]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.11.17-04.54.35:518][731]PIE: Server logged in
+[2023.11.17-04.54.35:519][731]PIE: Play in editor total start time 0.33 seconds.
+[2023.11.17-04.54.35:565][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.35:566][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.35:566][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.35:567][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.35:567][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.35:568][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.35:569][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.38:110][838]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.38:111][838]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.39:111][898]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.39:112][898]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.39:113][898]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.39:113][898]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.40:127][959]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.40:127][959]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.40:128][959]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.40:129][959]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.40:129][959]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.41:787][ 59]LogBlueprintUserMessages: [BP_CTR_Player_C_0] RELOAD!!!!
+[2023.11.17-04.54.51:291][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.54.51:291][626]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.54.51:295][626]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-04.54.51:311][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.54.51:319][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-04.54.51:327][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.54.51:354][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.54.51:360][626]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.11.17-04.54.51:360][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.11.17-04.54.51:362][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.11.17-04.54.51:383][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.11.17-04.54.51:424][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:424][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:425][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:425][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:426][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:426][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:427][626]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.54.51:429][627]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.11.17-04.55.37:387][841]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-04.55.37:394][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-04.55.37:394][841]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 4:55:37 PM)
+[2023.11.17-04.55.37:419][841]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.55.37:529][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109828s)
+[2023.11.17-04.55.37:529][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.109873s)
+[2023.11.17-04.55.37:529][841]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-04.55.37:529][841]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-04.55.37:530][841]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-04.55.37:531][841]LogPlayLevel: PIE: World Init took: (0.001857s)
+[2023.11.17-04.55.37:559][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.17-04.55.37:560][841]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.11.17-04.55.37:560][841]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-04.55.37:561][841]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-04.55.37:561][841]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-04.55.37:561][841]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-04.55.37:561][841]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-04.55.37:561][841]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-04.55.37:561][841]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-04.55.37:561][841]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-04.55.37:561][841]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-04.55.37:561][841]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-04.55.37:561][841]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-04.55.37:563][841]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-04.55.37:596][841]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-04.55.37:597][841]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-04.55.37:597][841]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-04.55.37:597][841]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-04.55.37:598][841]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.11.17-04.55.37:598][841]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.11.17-04.55.37:599][841]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.11.17-04.55.37:599][841]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.11.17-04.55.37:599][841]LogInit: FAudioDevice initialized with ID 21.
+[2023.11.17-04.55.37:599][841]LogAudio: Display: Audio Device (ID: 21) registered with world 'lvl_Blocking'.
+[2023.11.17-04.55.37:599][841]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.11.17-04.55.37:603][841]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-04.55.37:689][841]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-22.55.37
+[2023.11.17-04.55.37:690][841]LogWorld: Bringing up level for play took: 0.087308
+[2023.11.17-04.55.37:693][841]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.11.17-04.55.37:699][841]PIE: Server logged in
+[2023.11.17-04.55.37:700][841]PIE: Play in editor total start time 0.306 seconds.
+[2023.11.17-04.55.37:745][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.37:745][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.37:745][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.37:745][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.37:746][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.37:746][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.37:748][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.42:851][101]LogBlueprintUserMessages: [BP_DoorWithKeys_C_4] BP_DoorWithKeys
+[2023.11.17-04.55.45:709][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.55.45:709][270]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.55.45:710][270]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-04.55.45:717][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.55.45:723][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-04.55.45:730][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.55.45:758][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.55.45:764][270]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.11.17-04.55.45:764][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.11.17-04.55.45:766][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.11.17-04.55.45:785][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.11.17-04.55.45:819][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:820][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:820][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:821][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:821][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:822][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:823][270]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.55.45:824][271]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.11.17-04.56.51:673][117]LogShaderCompilers: Display: ================================================
+[2023.11.17-04.56.51:673][117]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.17-04.56.51:673][117]LogShaderCompilers: Display: Total job queries 54, among them cache hits 12 (22.22%)
+[2023.11.17-04.56.51:673][117]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 27 distinct outputs (64.29%)
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: RAM used: 1.00 MiB of 819.20 MiB budget. Usage: 0.12%
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 1.04 s
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Job life time (pending + execution): average 1.09 s, max 1.14
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.14 s
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Average processing rate: 1.76 jobs/sec
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Total thread time: 1.361 s
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Total thread preprocess time: 0.062 s
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Percentage time preprocessing: 4.54%
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Effective parallelization: 1.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 52.38% of total time (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 47.62% of total time (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2023.11.17-04.56.51:674][117]LogShaderCompilers: Display: ================================================
+[2023.11.17-04.56.54:704][260]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-04.56.54:933][265]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad_C
+[2023.11.17-04.56.54:933][265]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad_C
+[2023.11.17-04.56.54:935][265]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad as actor: BP_INT_SS_Numpad_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_0
+[2023.11.17-04.56.54:937][265]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad as actor: BP_INT_SS_Numpad_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_0
+[2023.11.17-04.56.55:734][307]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad_C
+[2023.11.17-04.56.55:734][307]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad_C
+[2023.11.17-04.56.55:742][307]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad as actor: BP_INT_SS_Numpad_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_1
+[2023.11.17-04.56.55:744][307]LogActorFactory: Actor Factory spawned Blueprint /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad as actor: BP_INT_SS_Numpad_C /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_1
+[2023.11.17-04.56.55:781][307]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:788][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:789][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:789][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:790][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:790][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:791][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.56.59:792][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.02:508][695]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.02:509][695]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.02:524][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.06:271][914]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.06:271][914]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.06:272][914]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.06:272][914]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:537][386]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-04.57.14:545][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-04.57.14:545][386]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 4:57:14 PM)
+[2023.11.17-04.57.14:545][386]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.57.14:663][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118169s)
+[2023.11.17-04.57.14:663][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.118215s)
+[2023.11.17-04.57.14:663][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-04.57.14:663][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-04.57.14:671][386]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-04.57.14:672][386]LogPlayLevel: PIE: World Init took: (0.008388s)
+[2023.11.17-04.57.14:702][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.11.17-04.57.14:705][386]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-04.57.14:705][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-04.57.14:705][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-04.57.14:705][386]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-04.57.14:706][386]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-04.57.14:706][386]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-04.57.14:708][386]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-04.57.14:740][386]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-04.57.14:740][386]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-04.57.14:740][386]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-04.57.14:740][386]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-04.57.14:741][386]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.11.17-04.57.14:741][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.11.17-04.57.14:743][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.11.17-04.57.14:743][386]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.11.17-04.57.14:743][386]LogInit: FAudioDevice initialized with ID 22.
+[2023.11.17-04.57.14:743][386]LogAudio: Display: Audio Device (ID: 22) registered with world 'lvl_Blocking'.
+[2023.11.17-04.57.14:743][386]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.11.17-04.57.14:747][386]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-04.57.14:831][386]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-22.57.14
+[2023.11.17-04.57.14:832][386]LogWorld: Bringing up level for play took: 0.085879
+[2023.11.17-04.57.14:835][386]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.11.17-04.57.14:842][386]PIE: Server logged in
+[2023.11.17-04.57.14:842][386]PIE: Play in editor total start time 0.298 seconds.
+[2023.11.17-04.57.14:889][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:891][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:892][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:894][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:895][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:897][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.14:899][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.18:691][532]LogBlueprintUserMessages: [BP_INT_SS_Numpad_C_1] BP_INT_SS_Numpad
+[2023.11.17-04.57.18:692][532]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.17-04.57.18:693][532]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.17-04.57.18:693][532]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.17-04.57.24:857][902]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.17-04.57.24:857][902]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.17-04.57.29:079][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.57.29:079][153]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.57.29:081][153]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-04.57.29:087][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.57.29:093][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-04.57.29:101][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.57.29:137][153]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-04.57.29:137][153]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.11.17-04.57.29:137][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.11.17-04.57.29:139][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.11.17-04.57.29:144][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.57.29:160][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.11.17-04.57.29:198][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:199][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:199][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:200][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:200][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:200][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:201][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.29:210][154]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.11.17-04.57.30:116][206]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-04.57.30:123][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-04.57.30:123][206]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 4:57:30 PM)
+[2023.11.17-04.57.30:123][206]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.57.30:239][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115381s)
+[2023.11.17-04.57.30:239][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.115428s)
+[2023.11.17-04.57.30:239][206]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-04.57.30:239][206]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-04.57.30:240][206]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-04.57.30:241][206]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2023.11.17-04.57.30:270][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.11.17-04.57.30:273][206]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-04.57.30:273][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-04.57.30:273][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-04.57.30:273][206]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-04.57.30:273][206]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-04.57.30:273][206]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-04.57.30:275][206]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-04.57.30:308][206]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-04.57.30:309][206]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-04.57.30:309][206]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-04.57.30:309][206]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-04.57.30:309][206]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.11.17-04.57.30:309][206]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.11.17-04.57.30:311][206]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.11.17-04.57.30:311][206]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.11.17-04.57.30:311][206]LogInit: FAudioDevice initialized with ID 23.
+[2023.11.17-04.57.30:311][206]LogAudio: Display: Audio Device (ID: 23) registered with world 'lvl_Blocking'.
+[2023.11.17-04.57.30:311][206]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.11.17-04.57.30:315][206]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-04.57.30:399][206]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-22.57.30
+[2023.11.17-04.57.30:401][206]LogWorld: Bringing up level for play took: 0.085027
+[2023.11.17-04.57.30:403][206]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.11.17-04.57.30:409][206]PIE: Server logged in
+[2023.11.17-04.57.30:410][206]PIE: Play in editor total start time 0.287 seconds.
+[2023.11.17-04.57.30:463][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.30:464][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.30:464][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.30:465][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.30:465][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.30:466][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.30:467][206]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:199][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.57.34:199][376]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-04.57.34:201][376]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-04.57.34:208][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.57.34:214][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-04.57.34:220][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-04.57.34:255][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-04.57.34:255][376]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.11.17-04.57.34:255][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.11.17-04.57.34:257][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.11.17-04.57.34:277][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.11.17-04.57.34:319][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:320][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:321][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:322][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:322][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:323][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:324][376]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.34:332][377]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.11.17-04.57.37:087][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.37:087][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.37:088][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.37:088][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.37:089][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.37:089][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.37:090][536]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:126][772]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:126][772]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:127][772]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:127][772]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:128][772]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:128][772]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.41:153][773]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.42:616][860]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.11.17-04.57.42:617][860]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.11.17-04.57.46:301][ 57]LogViewport: Scene viewport resized to 1498x547, mode Windowed.
+[2023.11.17-04.57.46:346][ 59]LogViewport: Scene viewport resized to 1494x547, mode Windowed.
+[2023.11.17-04.57.46:446][ 64]LogViewport: Scene viewport resized to 1492x547, mode Windowed.
+[2023.11.17-04.57.46:494][ 66]LogViewport: Scene viewport resized to 1491x547, mode Windowed.
+[2023.11.17-04.57.46:522][ 67]LogViewport: Scene viewport resized to 1489x547, mode Windowed.
+[2023.11.17-04.57.46:637][ 73]LogViewport: Scene viewport resized to 1487x547, mode Windowed.
+[2023.11.17-04.57.46:683][ 75]LogViewport: Scene viewport resized to 1484x547, mode Windowed.
+[2023.11.17-04.57.46:714][ 76]LogViewport: Scene viewport resized to 1483x547, mode Windowed.
+[2023.11.17-04.57.46:769][ 78]LogViewport: Scene viewport resized to 1479x547, mode Windowed.
+[2023.11.17-04.57.46:801][ 79]LogViewport: Scene viewport resized to 1476x547, mode Windowed.
+[2023.11.17-04.57.46:840][ 80]LogViewport: Scene viewport resized to 1473x547, mode Windowed.
+[2023.11.17-04.57.46:896][ 82]LogViewport: Scene viewport resized to 1469x547, mode Windowed.
+[2023.11.17-04.57.46:929][ 83]LogViewport: Scene viewport resized to 1463x547, mode Windowed.
+[2023.11.17-04.57.46:993][ 85]LogViewport: Scene viewport resized to 1454x547, mode Windowed.
+[2023.11.17-04.57.47:023][ 86]LogViewport: Scene viewport resized to 1443x547, mode Windowed.
+[2023.11.17-04.57.47:079][ 88]LogViewport: Scene viewport resized to 1429x547, mode Windowed.
+[2023.11.17-04.57.47:128][ 90]LogViewport: Scene viewport resized to 1427x547, mode Windowed.
+[2023.11.17-04.57.47:222][ 94]LogViewport: Scene viewport resized to 1419x547, mode Windowed.
+[2023.11.17-04.57.47:254][ 95]LogViewport: Scene viewport resized to 1413x547, mode Windowed.
+[2023.11.17-04.57.47:307][ 97]LogViewport: Scene viewport resized to 1407x547, mode Windowed.
+[2023.11.17-04.57.47:523][109]LogViewport: Scene viewport resized to 1412x547, mode Windowed.
+[2023.11.17-04.57.47:570][111]LogViewport: Scene viewport resized to 1417x547, mode Windowed.
+[2023.11.17-04.57.47:604][112]LogViewport: Scene viewport resized to 1419x547, mode Windowed.
+[2023.11.17-04.57.47:661][114]LogViewport: Scene viewport resized to 1424x547, mode Windowed.
+[2023.11.17-04.57.47:699][115]LogViewport: Scene viewport resized to 1430x547, mode Windowed.
+[2023.11.17-04.57.47:753][117]LogViewport: Scene viewport resized to 1439x547, mode Windowed.
+[2023.11.17-04.57.47:868][123]LogViewport: Scene viewport resized to 1440x547, mode Windowed.
+[2023.11.17-04.57.47:917][125]LogViewport: Scene viewport resized to 1444x547, mode Windowed.
+[2023.11.17-04.57.47:962][127]LogViewport: Scene viewport resized to 1449x547, mode Windowed.
+[2023.11.17-04.57.47:999][128]LogViewport: Scene viewport resized to 1450x547, mode Windowed.
+[2023.11.17-04.57.48:152][136]LogViewport: Scene viewport resized to 1451x547, mode Windowed.
+[2023.11.17-04.57.48:198][138]LogViewport: Scene viewport resized to 1454x547, mode Windowed.
+[2023.11.17-04.57.48:647][164]LogViewport: Scene viewport resized to 1456x547, mode Windowed.
+[2023.11.17-04.57.48:692][166]LogViewport: Scene viewport resized to 1458x547, mode Windowed.
+[2023.11.17-04.57.50:940][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.50:941][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.50:941][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.50:942][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.50:942][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.50:943][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.57.50:944][295]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.58.21:746][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2023.11.17-04.58.22:130][ 89]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/Maps/lvl_Blocking_Auto2
+[2023.11.17-04.58.22:131][ 89]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking_Auto2C4DBC73F451D4D24C56BD5B1D20CD210.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/Autosaves/Game/MyContent/Maps/lvl_Blocking_Auto2.umap'
+[2023.11.17-04.58.22:146][ 89]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/lvl_Blocking' took 0.433
+[2023.11.17-04.58.22:146][ 89]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.433
+[2023.11.17-04.59.06:378][721]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.06:378][721]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.06:379][721]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.06:380][721]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.06:380][721]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.06:381][721]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.06:411][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-04.59.08:871][862]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad
+[2023.11.17-04.59.08:872][862]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-04.59.08:872][862]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-04.59.11:392][970]LogSlate: Window 'BP_INT_SS_Numpad' being destroyed
+[2023.11.17-04.59.12:797][ 53]LogViewport: Scene viewport resized to 1039x594, mode Windowed.
+[2023.11.17-04.59.19:559][453]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:560][453]LogPhysics: Warning: Scale for /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:560][453]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:575][454]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:575][454]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:575][454]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:591][455]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:591][455]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:591][455]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:607][456]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:607][456]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:607][456]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:624][457]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:624][457]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:624][457]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:640][458]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:641][458]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:641][458]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:657][459]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:657][459]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:657][459]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:673][460]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:673][460]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:674][460]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:690][461]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:690][461]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:690][461]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:707][462]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:707][462]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:707][462]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:723][463]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:724][463]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:724][463]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:740][464]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:741][464]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:741][464]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:757][465]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:757][465]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:757][465]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:773][466]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:774][466]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:774][466]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:790][467]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:791][467]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:791][467]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:806][468]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:806][468]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:806][468]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:823][469]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:823][469]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:823][469]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:841][470]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:841][470]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:841][470]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:857][471]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:857][471]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:857][471]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:874][472]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:874][472]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:874][472]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:891][473]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:891][473]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:891][473]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:907][474]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:907][474]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:907][474]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:924][475]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:924][475]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:924][475]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:941][476]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:941][476]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:941][476]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:957][477]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:957][477]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:957][477]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:974][478]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:974][478]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:974][478]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:990][479]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:991][479]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.19:991][479]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:007][480]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:007][480]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:007][480]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:023][481]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:024][481]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:024][481]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:041][482]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:041][482]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:041][482]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:057][483]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:057][483]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:057][483]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:074][484]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:074][484]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:074][484]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:090][485]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:090][485]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:090][485]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:108][486]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:108][486]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:108][486]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:124][487]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:124][487]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:124][487]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:141][488]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:141][488]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:141][488]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:159][489]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:160][489]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:160][489]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:174][490]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:175][490]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:175][490]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:191][491]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:191][491]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:191][491]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:207][492]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:207][492]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:207][492]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:224][493]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:224][493]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:224][493]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:242][494]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:242][494]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:242][494]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:257][495]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:257][495]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:257][495]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:274][496]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:274][496]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:274][496]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:291][497]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:291][497]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:291][497]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:307][498]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:307][498]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:307][498]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:324][499]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:324][499]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:324][499]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:341][500]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:341][500]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:341][500]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:357][501]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.20:357][501]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.500
+[2023.11.17-04.59.25:118][785]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:120][785]LogPhysics: Warning: Scale for /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:120][785]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:134][786]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:135][786]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:135][786]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:151][787]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:151][787]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:151][787]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:167][788]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:167][788]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:167][788]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:184][789]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:184][789]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:184][789]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:201][790]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:201][790]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:201][790]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:217][791]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:217][791]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:217][791]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:234][792]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:234][792]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:234][792]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:250][793]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:250][793]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:251][793]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:267][794]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:267][794]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:267][794]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:283][795]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:284][795]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:284][795]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:300][796]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:300][796]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:300][796]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:317][797]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:317][797]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:317][797]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:334][798]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:334][798]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:334][798]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:350][799]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:350][799]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:350][799]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:367][800]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:367][800]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:367][800]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:384][801]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:384][801]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:384][801]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:400][802]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:400][802]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:400][802]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:417][803]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:417][803]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:417][803]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:433][804]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:434][804]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:434][804]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:450][805]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:451][805]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:451][805]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:467][806]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:467][806]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:468][806]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:484][807]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:484][807]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:484][807]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:501][808]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:501][808]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:501][808]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:517][809]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:517][809]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:517][809]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:534][810]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:534][810]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:534][810]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:551][811]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:551][811]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:551][811]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:567][812]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:567][812]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:567][812]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:583][813]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:583][813]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:583][813]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:601][814]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:601][814]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:601][814]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:617][815]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:617][815]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:617][815]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:634][816]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:634][816]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:634][816]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:650][817]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:650][817]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:650][817]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:667][818]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:667][818]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:667][818]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:684][819]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:684][819]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:684][819]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:700][820]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:700][820]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:700][820]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:717][821]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:717][821]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:717][821]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:733][822]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:733][822]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:734][822]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:750][823]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:751][823]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:751][823]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:768][824]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:768][824]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:768][824]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:785][825]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.25:785][825]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.500 Z=0.250
+[2023.11.17-04.59.26:846][888]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:847][888]LogPhysics: Warning: Scale for /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:848][888]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:863][889]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:863][889]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:863][889]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:879][890]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:879][890]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:879][890]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:896][891]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.26:896][891]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:195][909]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:196][909]LogPhysics: Warning: Scale for /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking:PersistentLevel.BP_INT_SS_Numpad_C_1.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:196][909]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:214][910]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:214][910]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:214][910]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:231][911]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:231][911]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:231][911]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:247][912]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:247][912]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:247][912]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:262][913]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:262][913]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:262][913]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:279][914]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:279][914]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:279][914]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:295][915]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:295][915]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:296][915]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:312][916]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:312][916]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:313][916]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:329][917]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:329][917]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:329][917]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:345][918]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:345][918]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:345][918]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:362][919]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:362][919]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:362][919]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:379][920]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:379][920]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:379][920]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:395][921]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:395][921]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:395][921]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:412][922]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:412][922]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:412][922]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:429][923]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:429][923]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:429][923]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:446][924]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:446][924]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:446][924]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:462][925]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:462][925]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:462][925]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:479][926]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:479][926]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:479][926]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:497][927]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:497][927]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:497][927]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:513][928]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:513][928]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:513][928]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:529][929]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:529][929]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:529][929]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:545][930]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:546][930]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:546][930]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:562][931]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:562][931]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:562][931]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:579][932]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:579][932]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:579][932]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:595][933]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:596][933]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:596][933]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:613][934]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:613][934]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:613][934]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:629][935]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:629][935]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:629][935]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:646][936]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.27:646][936]LogPhysics: Warning: Scale for /Engine/Transient.World_17:PersistentLevel.BP_INT_SS_Numpad_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.500 Z=0.000
+[2023.11.17-04.59.29:303][ 34]BlueprintLog: New page: Compile BP_INT_SS_Numpad
+[2023.11.17-04.59.29:392][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.17-04.59.29:775][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.17-04.59.29:778][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-04.59.29:853][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-04.59.29:882][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.17-04.59.30:229][ 50]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.17-04.59.30:229][ 50]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking59C1BC744E9D0AB31E9FCE8213C3CC95.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.17-04.59.30:238][ 50]LogFileHelpers: No new changes to save!
+[2023.11.17-04.59.30:238][ 50]LogFileHelpers: Saving map 'lvl_Blocking' took 0.387
+[2023.11.17-04.59.30:253][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Interactibles/BP_INT_SS_Numpad" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_Numpad.uasset" SILENT=true
+[2023.11.17-04.59.30:271][ 50]LogSavePackage: Moving output files for package: /Game/MyContent/Interactibles/BP_INT_SS_Numpad
+[2023.11.17-04.59.30:271][ 50]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_INT_SS_Numpad77946FB7488D9E3C66A8C4A14E44C7B4.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_Numpad.uasset'
+[2023.11.17-04.59.30:282][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 503 ms (total: 6.85 sec)
+[2023.11.17-04.59.30:290][ 50]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-04.59.30:290][ 50]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.17-04.59.30:290][ 50]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Interactibles/BP_INT_SS_Numpad.BP_INT_SS_Numpad
+[2023.11.17-04.59.30:755][ 78]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.04:527][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.04:529][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.04:530][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.04:530][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.04:531][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.04:532][956]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:208][100]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-05.00.07:214][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-05.00.07:214][100]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 5:00:07 PM)
+[2023.11.17-05.00.07:215][100]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.00.07:368][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153249s)
+[2023.11.17-05.00.07:368][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.153304s)
+[2023.11.17-05.00.07:368][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.00.07:368][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.00.07:369][100]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-05.00.07:370][100]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2023.11.17-05.00.07:406][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.17-05.00.07:408][100]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-05.00.07:408][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-05.00.07:408][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-05.00.07:409][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-05.00.07:409][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-05.00.07:409][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-05.00.07:411][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-05.00.07:445][100]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-05.00.07:445][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-05.00.07:445][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-05.00.07:445][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-05.00.07:447][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.11.17-05.00.07:447][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.11.17-05.00.07:449][100]LogInit: FAudioDevice initialized with ID 24.
+[2023.11.17-05.00.07:449][100]LogAudio: Display: Audio Device (ID: 24) registered with world 'lvl_Blocking'.
+[2023.11.17-05.00.07:449][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.11.17-05.00.07:449][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.11.17-05.00.07:449][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.11.17-05.00.07:453][100]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-05.00.07:567][100]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-23.00.07
+[2023.11.17-05.00.07:568][100]LogWorld: Bringing up level for play took: 0.115397
+[2023.11.17-05.00.07:571][100]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.11.17-05.00.07:576][100]PIE: Server logged in
+[2023.11.17-05.00.07:578][100]PIE: Play in editor total start time 0.363 seconds.
+[2023.11.17-05.00.07:639][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:639][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:640][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:641][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:642][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:642][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.07:644][100]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:730][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.00.14:731][506]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.00.14:735][506]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-05.00.14:754][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.00.14:764][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-05.00.14:774][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.00.14:809][506]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-05.00.14:811][506]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.11.17-05.00.14:811][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.11.17-05.00.14:813][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.11.17-05.00.14:817][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.00.14:832][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.11.17-05.00.14:874][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:874][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:875][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:875][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:876][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:876][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:877][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.14:899][507]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.11.17-05.00.15:630][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.15:631][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.15:632][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.15:633][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.15:634][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.15:634][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.15:636][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.19:706][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.11.17-05.00.19:710][771]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-05.00.19:785][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-05.00.19:814][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.11.17-05.00.20:192][771]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.17-05.00.20:192][771]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking9480564D40295C8B3C0B2EBEB2757823.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.17-05.00.20:203][771]LogFileHelpers: No new changes to save!
+[2023.11.17-05.00.20:203][771]LogFileHelpers: Saving map 'lvl_Blocking' took 0.419
+[2023.11.17-05.00.20:215][771]LogFileHelpers: InternalPromptForCheckoutAndSave took 504 ms (total: 7.36 sec)
+[2023.11.17-05.00.20:222][771]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.17-05.00.20:222][771]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.17-05.00.20:711][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.11.17-05.00.21:179][827]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-05.00.21:186][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-05.00.21:187][827]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 5:00:21 PM)
+[2023.11.17-05.00.21:219][827]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.00.21:343][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124071s)
+[2023.11.17-05.00.21:343][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.124118s)
+[2023.11.17-05.00.21:343][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.00.21:343][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.00.21:344][827]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-05.00.21:345][827]LogPlayLevel: PIE: World Init took: (0.001621s)
+[2023.11.17-05.00.21:384][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.11.17-05.00.21:385][827]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-05.00.21:385][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-05.00.21:385][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-05.00.21:386][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-05.00.21:386][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-05.00.21:386][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-05.00.21:388][827]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-05.00.21:420][827]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-05.00.21:421][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-05.00.21:421][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-05.00.21:421][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-05.00.21:421][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.11.17-05.00.21:421][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.11.17-05.00.21:424][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.11.17-05.00.21:424][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.11.17-05.00.21:424][827]LogInit: FAudioDevice initialized with ID 25.
+[2023.11.17-05.00.21:424][827]LogAudio: Display: Audio Device (ID: 25) registered with world 'lvl_Blocking'.
+[2023.11.17-05.00.21:424][827]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2023.11.17-05.00.21:428][827]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-05.00.21:513][827]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-23.00.21
+[2023.11.17-05.00.21:514][827]LogWorld: Bringing up level for play took: 0.086720
+[2023.11.17-05.00.21:518][827]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.11.17-05.00.21:524][827]PIE: Server logged in
+[2023.11.17-05.00.21:525][827]PIE: Play in editor total start time 0.339 seconds.
+[2023.11.17-05.00.21:594][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.21:595][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.21:595][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.21:596][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.21:597][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.21:599][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.21:600][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.28:384][222]LogBlueprintUserMessages: [BP_INT_SS_Numpad_C_1] BP_INT_SS_Numpad
+[2023.11.17-05.00.28:384][222]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.17-05.00.28:384][222]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.17-05.00.28:384][222]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.17-05.00.36:983][736]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.17-05.00.36:983][736]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.17-05.00.39:369][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.00.39:369][876]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.00.39:371][876]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-05.00.39:377][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.00.39:384][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-05.00.39:391][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.00.39:422][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.00.39:426][876]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2023.11.17-05.00.39:426][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.11.17-05.00.39:428][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.11.17-05.00.39:448][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.11.17-05.00.39:486][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:486][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:487][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:487][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:487][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:489][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:489][876]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.00.39:498][877]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.11.17-05.00.42:212][ 33]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Mechanics/BP_DoorWithKeys.BP_DoorWithKeys
+[2023.11.17-05.00.42:213][ 33]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.00.42:213][ 33]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.01.12:733][848]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Interactibles/BP_INT_SimpleSwitch.BP_INT_SimpleSwitch
+[2023.11.17-05.01.12:733][848]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.01.12:733][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.01.21:069][336]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-05.01.21:069][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.01.59:517][630]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContent/Characters/UI/UI_Numpad.UI_Numpad
+[2023.11.17-05.01.59:517][630]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.01.59:517][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.01.59:528][630]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.01.59:528][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.03.15:236][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.17-05.03.15:239][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-05.03.15:403][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mechanics/BP_DoorWithKeys" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset" SILENT=true
+[2023.11.17-05.03.15:427][131]LogSavePackage: Moving output files for package: /Game/MyContent/Mechanics/BP_DoorWithKeys
+[2023.11.17-05.03.15:427][131]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_DoorWithKeys63EF38444D3A63D992484AA0A991726F.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset'
+[2023.11.17-05.03.15:439][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 7.56 sec)
+[2023.11.17-05.03.15:445][131]AssetCheck: New page: Asset Save: BP_DoorWithKeys
+[2023.11.17-05.03.15:445][131]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Mechanics/BP_DoorWithKeys.BP_DoorWithKeys
+[2023.11.17-05.03.44:603][875]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2023.11.17-05.05.37:348][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.11.17-05.05.37:352][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-05.05.37:454][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-05.05.37:480][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.17-05.05.37:799][471]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.17-05.05.37:800][471]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_BlockingF6908E5C44C98DA806697A87663FA0C7.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.17-05.05.37:809][471]LogFileHelpers: No new changes to save!
+[2023.11.17-05.05.37:810][471]LogFileHelpers: Saving map 'lvl_Blocking' took 0.357
+[2023.11.17-05.05.37:850][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mechanics/BP_DoorWithKeys" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset" SILENT=true
+[2023.11.17-05.05.37:874][471]LogSavePackage: Moving output files for package: /Game/MyContent/Mechanics/BP_DoorWithKeys
+[2023.11.17-05.05.37:874][471]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/BP_DoorWithKeys16ADCC104A499FA0572BD790667EB70A.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset'
+[2023.11.17-05.05.37:879][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Numpad" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset" SILENT=true
+[2023.11.17-05.05.37:910][471]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Numpad
+[2023.11.17-05.05.37:910][471]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_NumpadC3CF6E4745F2320CBAC0ACA1BA147899.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset'
+[2023.11.17-05.05.37:922][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 569 ms (total: 8.13 sec)
+[2023.11.17-05.05.37:935][471]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-05.05.37:936][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Mechanics/BP_DoorWithKeys.BP_DoorWithKeys
+[2023.11.17-05.05.37:936][471]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.17-05.05.37:936][471]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Numpad.UI_Numpad
+[2023.11.17-05.05.40:980][654]BlueprintLog: New page: Compile BP_DoorWithKeys
+[2023.11.17-05.05.41:113][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.11.17-05.05.43:082][763]BlueprintLog: New page: Compile BP_DoorWithKeys
+[2023.11.17-05.05.43:171][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.17-05.05.43:851][795]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.05.43:851][795]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.05.44:990][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.11.17-05.05.44:994][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-05.05.45:067][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-05.05.45:094][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.17-05.05.45:418][849]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.17-05.05.45:418][849]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_BlockingACAF814742A5F4203BC132BCD0EA57F1.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.17-05.05.45:428][849]LogFileHelpers: No new changes to save!
+[2023.11.17-05.05.45:428][849]LogFileHelpers: Saving map 'lvl_Blocking' took 0.362
+[2023.11.17-05.05.45:436][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 441 ms (total: 8.57 sec)
+[2023.11.17-05.05.45:449][849]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.17-05.05.45:449][849]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.17-05.05.47:997][  2]BlueprintLog: New page: Compile BP_DoorWithKeys
+[2023.11.17-05.05.48:082][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.17-05.06.00:299][677]BlueprintLog: New page: Compile BP_DoorWithKeys
+[2023.11.17-05.06.00:389][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.11.17-05.06.00:989][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.11.17-05.06.00:993][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-05.06.01:067][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-05.06.01:094][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.11.17-05.06.01:425][704]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.17-05.06.01:425][704]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_Blocking03F01CD749E106026CE299B1D4E66E11.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.17-05.06.01:435][704]LogFileHelpers: No new changes to save!
+[2023.11.17-05.06.01:435][704]LogFileHelpers: Saving map 'lvl_Blocking' took 0.369
+[2023.11.17-05.06.01:444][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 450 ms (total: 9.02 sec)
+[2023.11.17-05.06.01:452][704]AssetCheck: New page: Asset Save: lvl_Blocking
+[2023.11.17-05.06.01:452][704]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.17-05.06.02:220][750]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.06.02:220][750]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.06.53:462][753]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.17-05.07.07:855][614]BlueprintLog: New page: Compile UI_Numpad
+[2023.11.17-05.07.07:919][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.17-05.07.08:906][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.17-05.07.08:910][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.17-05.07.08:990][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/lvl_Blocking" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.17-05.07.09:017][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.17-05.07.09:371][659]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/lvl_Blocking
+[2023.11.17-05.07.09:371][659]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/lvl_BlockingF3A118A04B7B3D0A825CD6843057A102.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap'
+[2023.11.17-05.07.09:382][659]LogFileHelpers: No new changes to save!
+[2023.11.17-05.07.09:383][659]LogFileHelpers: Saving map 'lvl_Blocking' took 0.393
+[2023.11.17-05.07.09:390][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Characters/UI/UI_Numpad" FILE="D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset" SILENT=true
+[2023.11.17-05.07.09:425][659]LogSavePackage: Moving output files for package: /Game/MyContent/Characters/UI/UI_Numpad
+[2023.11.17-05.07.09:426][659]LogSavePackage: Moving 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Saved/UI_Numpad2A7333614141985A38C4679D96F630BB.tmp' to 'D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset'
+[2023.11.17-05.07.09:436][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 525 ms (total: 9.55 sec)
+[2023.11.17-05.07.09:447][659]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.17-05.07.09:447][659]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking
+[2023.11.17-05.07.09:447][659]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MyContent/Characters/UI/UI_Numpad.UI_Numpad
+[2023.11.17-05.07.13:536][888]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-05.07.13:542][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-05.07.13:542][888]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 5:07:13 PM)
+[2023.11.17-05.07.13:569][888]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.07.13:682][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112653s)
+[2023.11.17-05.07.13:682][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.112702s)
+[2023.11.17-05.07.13:682][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.07.13:682][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.07.13:682][888]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-05.07.13:683][888]LogPlayLevel: PIE: World Init took: (0.001919s)
+[2023.11.17-05.07.13:713][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.17-05.07.13:714][888]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-05.07.13:714][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-05.07.13:714][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-05.07.13:714][888]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-05.07.13:714][888]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-05.07.13:714][888]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-05.07.13:717][888]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-05.07.13:750][888]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-05.07.13:751][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-05.07.13:751][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-05.07.13:751][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-05.07.13:752][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.11.17-05.07.13:752][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.11.17-05.07.13:754][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.11.17-05.07.13:754][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.11.17-05.07.13:754][888]LogInit: FAudioDevice initialized with ID 26.
+[2023.11.17-05.07.13:754][888]LogAudio: Display: Audio Device (ID: 26) registered with world 'lvl_Blocking'.
+[2023.11.17-05.07.13:754][888]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2023.11.17-05.07.13:759][888]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-05.07.13:843][888]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-23.07.13
+[2023.11.17-05.07.13:845][888]LogWorld: Bringing up level for play took: 0.086423
+[2023.11.17-05.07.13:855][888]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.11.17-05.07.13:867][888]PIE: Server logged in
+[2023.11.17-05.07.13:868][888]PIE: Play in editor total start time 0.326 seconds.
+[2023.11.17-05.07.13:914][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.13:915][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.13:915][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.13:916][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.13:917][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.13:919][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.13:919][888]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.15:981][997]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.15:982][997]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.15:982][997]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.15:983][997]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.19:024][180]LogBlueprintUserMessages: [BP_INT_SS_Numpad_C_1] BP_INT_SS_Numpad
+[2023.11.17-05.07.19:025][180]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.17-05.07.19:025][180]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.17-05.07.19:025][180]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.17-05.07.24:374][501]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.17-05.07.24:374][501]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.17-05.07.31:969][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.07.31:969][955]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.07.31:971][955]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-05.07.31:982][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.07.31:994][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-05.07.32:001][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.07.32:036][955]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-05.07.32:036][955]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2023.11.17-05.07.32:036][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.11.17-05.07.32:039][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.11.17-05.07.32:044][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.07.32:062][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.17-05.07.32:098][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:099][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:099][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:100][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:100][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:101][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:102][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.32:112][956]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.11.17-05.07.33:178][ 17]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-05.07.33:186][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-05.07.33:186][ 17]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 5:07:33 PM)
+[2023.11.17-05.07.33:186][ 17]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.07.33:305][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119161s)
+[2023.11.17-05.07.33:305][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.119206s)
+[2023.11.17-05.07.33:306][ 17]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.07.33:306][ 17]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.07.33:306][ 17]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-05.07.33:307][ 17]LogPlayLevel: PIE: World Init took: (0.001545s)
+[2023.11.17-05.07.33:333][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.17-05.07.33:335][ 17]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-05.07.33:335][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-05.07.33:335][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-05.07.33:336][ 17]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-05.07.33:336][ 17]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-05.07.33:336][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-05.07.33:338][ 17]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-05.07.33:372][ 17]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-05.07.33:373][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-05.07.33:373][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-05.07.33:373][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-05.07.33:374][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.11.17-05.07.33:374][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.11.17-05.07.33:375][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.11.17-05.07.33:376][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.11.17-05.07.33:376][ 17]LogInit: FAudioDevice initialized with ID 27.
+[2023.11.17-05.07.33:376][ 17]LogAudio: Display: Audio Device (ID: 27) registered with world 'lvl_Blocking'.
+[2023.11.17-05.07.33:376][ 17]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2023.11.17-05.07.33:380][ 17]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-05.07.33:467][ 17]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-23.07.33
+[2023.11.17-05.07.33:469][ 17]LogWorld: Bringing up level for play took: 0.088892
+[2023.11.17-05.07.33:471][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.11.17-05.07.33:476][ 17]PIE: Server logged in
+[2023.11.17-05.07.33:478][ 17]PIE: Play in editor total start time 0.293 seconds.
+[2023.11.17-05.07.33:521][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.33:524][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.33:524][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.33:524][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.33:524][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.33:526][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.33:526][ 17]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:559][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.07.40:560][427]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.07.40:561][427]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-05.07.40:567][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.07.40:576][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-05.07.40:584][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.07.40:614][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.17-05.07.40:618][427]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2023.11.17-05.07.40:618][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.11.17-05.07.40:620][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.11.17-05.07.40:625][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.07.40:640][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.11.17-05.07.40:677][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:677][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:678][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:679][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:679][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:680][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:680][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.07.40:690][428]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.11.17-05.08.32:526][528]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.17-05.08.32:533][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.17-05.08.32:533][528]PIE: New page: PIE session: lvl_Blocking (Nov 16, 2023, 5:08:32 PM)
+[2023.11.17-05.08.32:534][528]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.08.32:669][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135049s)
+[2023.11.17-05.08.32:669][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/lvl_Blocking.lvl_Blocking to /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking (0.135094s)
+[2023.11.17-05.08.32:670][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.17-05.08.32:670][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.17-05.08.32:670][528]LogAIModule: Creating AISystem for world lvl_Blocking
+[2023.11.17-05.08.32:671][528]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2023.11.17-05.08.32:702][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.11.17-05.08.32:704][528]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.11.17-05.08.32:704][528]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.17-05.08.32:704][528]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.17-05.08.32:704][528]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.17-05.08.32:705][528]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.17-05.08.32:705][528]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.17-05.08.32:705][528]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.17-05.08.32:705][528]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.17-05.08.32:705][528]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.17-05.08.32:705][528]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.17-05.08.32:705][528]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.17-05.08.32:705][528]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.17-05.08.32:707][528]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.17-05.08.32:740][528]LogAudioMixer: Display: Using Audio Hardware Device Headphones (soundcore Space Q45)
+[2023.11.17-05.08.32:740][528]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.17-05.08.32:740][528]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.17-05.08.32:740][528]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.17-05.08.32:741][528]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.11.17-05.08.32:741][528]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.11.17-05.08.32:743][528]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.11.17-05.08.32:743][528]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.11.17-05.08.32:743][528]LogInit: FAudioDevice initialized with ID 28.
+[2023.11.17-05.08.32:743][528]LogAudio: Display: Audio Device (ID: 28) registered with world 'lvl_Blocking'.
+[2023.11.17-05.08.32:743][528]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2023.11.17-05.08.32:747][528]LogLoad: Game class is 'BP_GM_Core_C'
+[2023.11.17-05.08.32:833][528]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking.lvl_Blocking up for play (max tick rate 60) at 2023.11.16-23.08.32
+[2023.11.17-05.08.32:835][528]LogWorld: Bringing up level for play took: 0.087869
+[2023.11.17-05.08.32:837][528]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.11.17-05.08.32:843][528]PIE: Server logged in
+[2023.11.17-05.08.32:844][528]PIE: Play in editor total start time 0.311 seconds.
+[2023.11.17-05.08.32:899][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.32:900][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.32:900][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.32:901][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.32:902][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.32:904][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.32:904][528]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.35:650][683]LogBlueprintUserMessages: [BP_INT_SS_Numpad_C_1] BP_INT_SS_Numpad
+[2023.11.17-05.08.35:651][683]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.17-05.08.35:651][683]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.11.17-05.08.35:651][683]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.11.17-05.08.46:233][318]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.11.17-05.08.46:234][318]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.11.17-05.08.50:175][554]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.53:224][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.53:225][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.53:225][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.08.53:226][737]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.00:967][202]LogBlueprintUserMessages: [BP_DoorWithKeys_C_8] BP_DoorWithKeys3
+[2023.11.17-05.09.05:451][469]LogBlueprintUserMessages: [BP_DoorWithKeys_C_8] BP_DoorWithKeys3
+[2023.11.17-05.09.05:691][483]LogBlueprintUserMessages: [BP_DoorWithKeys_C_8] BP_DoorWithKeys3
+[2023.11.17-05.09.05:875][494]LogBlueprintUserMessages: [BP_DoorWithKeys_C_8] BP_DoorWithKeys3
+[2023.11.17-05.09.06:042][504]LogBlueprintUserMessages: [BP_DoorWithKeys_C_8] BP_DoorWithKeys3
+[2023.11.17-05.09.06:225][515]LogBlueprintUserMessages: [BP_DoorWithKeys_C_8] BP_DoorWithKeys3
+[2023.11.17-05.09.09:750][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.09.09:750][724]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_lvl_Blocking
+[2023.11.17-05.09.09:751][724]LogWorld: UWorld::CleanupWorld for lvl_Blocking, bSessionEnded=true, bCleanupResources=true
+[2023.11.17-05.09.09:759][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.09.09:766][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.17-05.09.09:774][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.17-05.09.09:810][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.17-05.09.09:811][724]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2023.11.17-05.09.09:811][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.11.17-05.09.09:813][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.11.17-05.09.09:835][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.17-05.09.09:873][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:874][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:874][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:875][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:875][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:876][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:877][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.09:885][725]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.11.17-05.09.10:595][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.10:596][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.10:596][761]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.10:621][762]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.17-05.09.23:721][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.17-05.09.30:081][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
