@@ -6,7 +6,12 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Maps/lvl_Blocking.umap",
-				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset"
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/Enemies/BP_CTR_Enemy.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/BP_UI_DoorCode.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_Numpad.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset"
 			]
 		}
 	]
