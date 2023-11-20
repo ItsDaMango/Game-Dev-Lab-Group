@@ -11,7 +11,12 @@
 				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/BP_UI_DoorCode.uasset",
 				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_Numpad.uasset",
 				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset",
-				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset"
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Freeze.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/Input/IA_FreezeEnemy.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/Input/IMC_Locomotion.uasset",
+				"D:/Game-Dev-Lab-Group/GDL_Group_Game/Content/MyContent/Characters/BP_CTR_Player_Controller.uasset"
 			]
 		}
 	]
