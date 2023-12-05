@@ -893,10 +893,6 @@
 			"ChunkId": "f95ade32d57ba98c00000001"
 		},
 		{
-			"Path": "Engine/Content/MapTemplates/Materials/BasicAsset02.uasset",
-			"ChunkId": "19a160333942071900000001"
-		},
-		{
 			"Path": "Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset",
 			"ChunkId": "37cdeb5ce1d3ccd800000001"
 		},
@@ -907,6 +903,10 @@
 		{
 			"Path": "Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset",
 			"ChunkId": "2a8ace463a029fae00000001"
+		},
+		{
+			"Path": "Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset",
+			"ChunkId": "015fbb66195aa07700000001"
 		},
 		{
 			"Path": "Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset",
@@ -1745,12 +1745,20 @@
 			"ChunkId": "aaf0dcf34da6539400000001"
 		},
 		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagara_AttributeSamplingApplyOutput.uasset",
+			"ChunkId": "6942f8168c428dc300000001"
+		},
+		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagara_EmitterStateOptions.uasset",
 			"ChunkId": "9a8c617db248826700000001"
 		},
 		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagara_InfiniteLoopDuration.uasset",
 			"ChunkId": "62462e99cdf9f9ae00000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraCalculateRadiusOptions.uasset",
+			"ChunkId": "8f18ada3e2a3cda100000001"
 		},
 		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraCoordinateSpace.uasset",
@@ -1811,6 +1819,14 @@
 		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Transforms/ENiagara_MeshOrientationOptions.uasset",
 			"ChunkId": "9a85f684f044a74900000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Utility/ENiagara_OrientVectorCount.uasset",
+			"ChunkId": "d1c3ad689f083fb500000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Utility/ENiagara_UpdateMeshOrientationMode.uasset",
+			"ChunkId": "3fe6b01464aa5bfe00000001"
 		},
 		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Particle_InfiniteLife.uasset",
@@ -1901,6 +1917,10 @@
 			"ChunkId": "50b9efe856f95eac00000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/BattleDrone/Materials/SciFi_Battle_Drone_03/M_SciFi_Battle_Drone_03.uasset",
+			"ChunkId": "51abddc79407db4700000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/BattleDrone/Materials/SciFi_Battle_Drone_ColorChange/M_SciFi_Battle_Drone_ColorChange.uasset",
 			"ChunkId": "10d9b29ad02c755700000001"
 		},
@@ -1987,6 +2007,22 @@
 		{
 			"Path": "GDL_Group_Game/Content/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_AO_R_M.ubulk",
 			"ChunkId": "b0a4675616a768f300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_BC.uasset",
+			"ChunkId": "cb11ef56e5e492a800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_BC.ubulk",
+			"ChunkId": "cb11ef56e5e492a800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_EM.uasset",
+			"ChunkId": "c559a2726b9056ff00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_EM.ubulk",
+			"ChunkId": "c559a2726b9056ff00000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_N.uasset",
@@ -2341,24 +2377,12 @@
 			"ChunkId": "535ad5eae0a0f43c00000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Debris_Tileable_01.uasset",
-			"ChunkId": "eed028e42183613700000001"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Ember_Speed_01.uasset",
 			"ChunkId": "f5f7ee13f1ea000f00000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Explosion_8x8_A_01.uasset",
-			"ChunkId": "caf43874e88ec08500000001"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_GlowSphere_01.uasset",
 			"ChunkId": "5023e6db22091ac800000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_LightRay_01.uasset",
-			"ChunkId": "a03f200e308121d400000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Pistol_Smoke_2x2_A.uasset",
@@ -2369,28 +2393,8 @@
 			"ChunkId": "ddad7518e3f7934600000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_RocketExplosion_8x8_A_01_Inst.uasset",
-			"ChunkId": "889ae53fc9149b1900000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_RockSmall_01.uasset",
-			"ChunkId": "23a8713fa191295d00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Shockwave_Refraction_01.uasset",
-			"ChunkId": "371d74b96ccb74a300000001"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Smoke_8x8_B_01.uasset",
 			"ChunkId": "edc10c073f47652b00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Smoke_8x8_B_01_Inst.uasset",
-			"ChunkId": "668a974cc2c5511c00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_SmokeRibbon_01.uasset",
-			"ChunkId": "b4f8af5600f1ce1800000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Materials/M_Sparks_02.uasset",
@@ -2413,10 +2417,6 @@
 			"ChunkId": "25b488b6e1892fc200000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/P_Grenade_Explosion_01.uasset",
-			"ChunkId": "183fe676c5680ea600000001"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/P_Impact_Metal_Large_01.uasset",
 			"ChunkId": "86e8a9da77bc50c600000001"
 		},
@@ -2429,14 +2429,6 @@
 			"ChunkId": "597e549ef4beb13200000002"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Debris_Tileable_01.uasset",
-			"ChunkId": "7719767dcff1bac800000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Debris_Tileable_01.ubulk",
-			"ChunkId": "7719767dcff1bac800000002"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Ember_01.uasset",
 			"ChunkId": "a0aef74ea5bc225400000001"
 		},
@@ -2445,52 +2437,12 @@
 			"ChunkId": "a0aef74ea5bc225400000002"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Density_01.uasset",
-			"ChunkId": "f2604c378c1bca7c00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Density_01.ubulk",
-			"ChunkId": "f2604c378c1bca7c00000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Erode_01.uasset",
-			"ChunkId": "fe1b257fcb763e4e00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Erode_01.ubulk",
-			"ChunkId": "fe1b257fcb763e4e00000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Temperature_01.uasset",
-			"ChunkId": "45c7dad3ecb4da5500000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Temperature_01.ubulk",
-			"ChunkId": "45c7dad3ecb4da5500000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_Macro_01.uasset",
-			"ChunkId": "16e323a395a07c7200000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Explosion_Macro_01.ubulk",
-			"ChunkId": "16e323a395a07c7200000002"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_FL_Detail_01.uasset",
 			"ChunkId": "bba3c6047451510400000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_FL_Detail_01.ubulk",
 			"ChunkId": "bba3c6047451510400000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_LightRay_01.uasset",
-			"ChunkId": "509acfafab986e7800000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_LightRay_01.ubulk",
-			"ChunkId": "509acfafab986e7800000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Pistol_Smoke_2x2_A.uasset",
@@ -2509,36 +2461,12 @@
 			"ChunkId": "ccaa327268d8268200000002"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_RockSmall_01.uasset",
-			"ChunkId": "0c513dd79af2ec3900000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_RockSmall_01.ubulk",
-			"ChunkId": "0c513dd79af2ec3900000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Shockwave_NormalMap_01.uasset",
-			"ChunkId": "ab4ed20eb852bcb100000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Shockwave_NormalMap_01.ubulk",
-			"ChunkId": "ab4ed20eb852bcb100000002"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Smoke_8x8_B_01.uasset",
 			"ChunkId": "d7ea25729d3747b400000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_Smoke_8x8_B_01.ubulk",
 			"ChunkId": "d7ea25729d3747b400000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_SmokeRibbon_01.uasset",
-			"ChunkId": "34c488db953b884200000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_SmokeRibbon_01.ubulk",
-			"ChunkId": "34c488db953b884200000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/FX/Textures/T_SparkImpacts_2x2_01.uasset",
@@ -2629,6 +2557,42 @@
 			"ChunkId": "bdee2f0d8fa9794a00000002"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Attenuation/WeaponHandling_att.uasset",
+			"ChunkId": "06232e06e854987700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Rifle_Reload_Cue.uasset",
+			"ChunkId": "5551eae5ee6f6e8700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.uasset",
+			"ChunkId": "23588078d5c5ae8a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload01.uasset",
+			"ChunkId": "82fa330b6a7cddf700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload01.ubulk",
+			"ChunkId": "82fa330b6a7cddf700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload02.uasset",
+			"ChunkId": "28941edeab54de5000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload02.ubulk",
+			"ChunkId": "28941edeab54de5000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload03.uasset",
+			"ChunkId": "d432295aacab144b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload03.ubulk",
+			"ChunkId": "d432295aacab144b00000002"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/RifleB_Fire01.uasset",
 			"ChunkId": "29db3c4727ccf6ac00000001"
 		},
@@ -2643,6 +2607,14 @@
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Sound/Rifle/Wavs/RifleB_Fire02.ubulk",
 			"ChunkId": "99594fbf97d9892a00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Weapons/Anims/Reload_Rifle_Hip_W.uasset",
+			"ChunkId": "e746244ca1075d6400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Weapons/Anims/Reload_Rifle_Hip_W_Montage.uasset",
+			"ChunkId": "fdc94c30b8d5370300000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MilitaryWeapDark/Weapons/Assault_Rifle_B.uasset",
@@ -2917,6 +2889,10 @@
 			"ChunkId": "b08ea1d47e639c0100000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/Enemies/BP_CTR_EnemyStrong.uasset",
+			"ChunkId": "bb1f0cc7805d299100000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/Enemies/BP_EnemyCamp.uasset",
 			"ChunkId": "a29395c1e9799e8600000001"
 		},
@@ -2965,12 +2941,24 @@
 			"ChunkId": "b973f9bb6fcee86100000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_Aim.uasset",
+			"ChunkId": "8d120ed1f4df8f0200000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_CameraRotation.uasset",
 			"ChunkId": "c1ed48a4f088b0ea00000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_FreezeEnemy.uasset",
+			"ChunkId": "61ba3b6621139da600000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_Interact.uasset",
 			"ChunkId": "99a56dcbb5e971e600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_InventoryHideShow.uasset",
+			"ChunkId": "1aef6b8451b1d2db00000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_Jump.uasset",
@@ -2985,6 +2973,10 @@
 			"ChunkId": "2aab419df57d54ad00000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_Reload.uasset",
+			"ChunkId": "1fea274e538ba14300000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/Input/IA_Sprint.uasset",
 			"ChunkId": "24bfd621ddf7e66c00000001"
 		},
@@ -2997,16 +2989,36 @@
 			"ChunkId": "31ece7803bd4af3800000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/UI/UI_CollectibleSingleItem.uasset",
+			"ChunkId": "766b957d215cc19500000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/UI/UI_Inventory.uasset",
 			"ChunkId": "018c5323613a755400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Characters/UI/UI_Numpad.uasset",
+			"ChunkId": "25f0979f401ca6a100000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Characters/UI/UI_PlayerHUD.uasset",
 			"ChunkId": "cdb3402cef3927a100000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Ammo.uasset",
+			"ChunkId": "14150acadf4a03f900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Code.uasset",
+			"ChunkId": "45097c0f8d20453500000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HackingDevice.uasset",
 			"ChunkId": "fda6f6edfa96833c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Collectible/BP_COL_HealthPack.uasset",
+			"ChunkId": "27044a4e2119e0ae00000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Collectible/BP_COL_Weapon.uasset",
@@ -3015,6 +3027,10 @@
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Collectible/BP_Collectible.uasset",
 			"ChunkId": "28830816a07dd49300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Collectible/Struct_InventoryItem.uasset",
+			"ChunkId": "c60aa41909e5d80100000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Core/BP_AC_Health.uasset",
@@ -3035,6 +3051,18 @@
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_DoorB.uasset",
 			"ChunkId": "a936d46bf3c874fc00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_DoorB_Master.uasset",
+			"ChunkId": "86ffb55dce46b92300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_Lever.uasset",
+			"ChunkId": "b1dc31eca4ccfb3d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/Interactibles/BP_INT_SS_Numpad.uasset",
+			"ChunkId": "86a8d7e30b0647f100000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Interactibles/BP_Interactible.uasset",
@@ -3103,6 +3131,22 @@
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/Mechanics/BP_DoorWithKeys.uasset",
 			"ChunkId": "e0f090a96531cd0d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/SFX/GunShot_Scifi__mp3cut_net_.uasset",
+			"ChunkId": "6f635ae28f3d12e900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/SFX/GunShot_Scifi__mp3cut_net_.ubulk",
+			"ChunkId": "6f635ae28f3d12e900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/SFX/Healing.uasset",
+			"ChunkId": "4bb807c8fec29a5c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/SFX/Healing.ubulk",
+			"ChunkId": "4bb807c8fec29a5c00000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/1_Interior/SM_Ceiling2.uasset",
@@ -3425,6 +3469,22 @@
 			"ChunkId": "1936b986c09c4aa000000002"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/3_Props/SM_Lever_Base.uasset",
+			"ChunkId": "6eaf976faac952ae00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/3_Props/SM_Lever_Base.ubulk",
+			"ChunkId": "6eaf976faac952ae00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/3_Props/SM_Lock.uasset",
+			"ChunkId": "678b3107c75fdce400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/3_Props/SM_Lock.ubulk",
+			"ChunkId": "678b3107c75fdce400000002"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/3_Props/SM_Panel1.uasset",
 			"ChunkId": "81c212112130352800000001"
 		},
@@ -3493,6 +3553,1122 @@
 			"ChunkId": "6c040da1292cdb2000000002"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Ceiling1.uasset",
+			"ChunkId": "808b5339920d6f3600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Ceiling2.uasset",
+			"ChunkId": "112e4c4b6e4e7e0600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingPart1.uasset",
+			"ChunkId": "c5bbe7c412e6de1300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts1-long.uasset",
+			"ChunkId": "34a81cb333be9eff00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts10.uasset",
+			"ChunkId": "cd35342d050706c100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts2.uasset",
+			"ChunkId": "d5d9d0f4b434f9f500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts3.uasset",
+			"ChunkId": "13c3b239a706df1f00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts5.uasset",
+			"ChunkId": "c60fd8929a90327e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts6.uasset",
+			"ChunkId": "aed3beac9724d08d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts7.uasset",
+			"ChunkId": "d92c21295886871500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts8.uasset",
+			"ChunkId": "521b6679b748572b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts9.uasset",
+			"ChunkId": "1e18c57ad0a78cad00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Door1.uasset",
+			"ChunkId": "5434302755469d2d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_DoorWall.uasset",
+			"ChunkId": "d603fea51262cb4500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-1.uasset",
+			"ChunkId": "523cf48c332b77f200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-2.uasset",
+			"ChunkId": "924a6bdc84d695ce00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-3.uasset",
+			"ChunkId": "223df310988c267300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorB-1.uasset",
+			"ChunkId": "8c2c0a51512b49a000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorB-2.uasset",
+			"ChunkId": "5c492b5b5ec4d6d600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Pillar1.uasset",
+			"ChunkId": "ce82e258630c711800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Pillar2.uasset",
+			"ChunkId": "b0c0f61522ef288d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall1.uasset",
+			"ChunkId": "782b3d3429bee82700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall2.uasset",
+			"ChunkId": "4376f6c2e799650a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall3.uasset",
+			"ChunkId": "53187e90867deb7c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall4.uasset",
+			"ChunkId": "09188a69438b5d4d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall5.uasset",
+			"ChunkId": "46b2f6f9e87f19e900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide1.uasset",
+			"ChunkId": "a77d8a0e530fb1b900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide2.uasset",
+			"ChunkId": "24379daa7fb5b30c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide3.uasset",
+			"ChunkId": "e60519b87fd4fbcd00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide4.uasset",
+			"ChunkId": "be9621cc4c03778f00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSideInner.uasset",
+			"ChunkId": "0b1249713c4d169c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_BaseColor.uasset",
+			"ChunkId": "3571a5a06354b3d200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_BaseColor.ubulk",
+			"ChunkId": "3571a5a06354b3d200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_Emissive.uasset",
+			"ChunkId": "6295e0d6473e8ac400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_Emissive.ubulk",
+			"ChunkId": "6295e0d6473e8ac400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_Normal.uasset",
+			"ChunkId": "2d6b97d65904e3c400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_Normal.ubulk",
+			"ChunkId": "2d6b97d65904e3c400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "03837c1a442f38f200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "03837c1a442f38f200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_BaseColor.uasset",
+			"ChunkId": "c0cdcfb1c0dbbdd900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_BaseColor.ubulk",
+			"ChunkId": "c0cdcfb1c0dbbdd900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_Emissive.uasset",
+			"ChunkId": "2dad11a0c1729e3300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_Emissive.ubulk",
+			"ChunkId": "2dad11a0c1729e3300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_Normal.uasset",
+			"ChunkId": "7973debb5c034d5700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_Normal.ubulk",
+			"ChunkId": "7973debb5c034d5700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "ef1e1e463d44991000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "ef1e1e463d44991000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_BaseColor.uasset",
+			"ChunkId": "6be6b9c10dc3c9eb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_BaseColor.ubulk",
+			"ChunkId": "6be6b9c10dc3c9eb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_Emissive.uasset",
+			"ChunkId": "66a5f3ac23a9063300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_Emissive.ubulk",
+			"ChunkId": "66a5f3ac23a9063300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_Normal.uasset",
+			"ChunkId": "359e72aac25a8a1600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_Normal.ubulk",
+			"ChunkId": "359e72aac25a8a1600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "fd10e237cfcbf3cc00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "fd10e237cfcbf3cc00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_BaseColor.uasset",
+			"ChunkId": "35d5ed2b7a5cccdb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_BaseColor.ubulk",
+			"ChunkId": "35d5ed2b7a5cccdb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_Emissive.uasset",
+			"ChunkId": "3e518d5aaf99312e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_Emissive.ubulk",
+			"ChunkId": "3e518d5aaf99312e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_Normal.uasset",
+			"ChunkId": "2a7093799b81167800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_Normal.ubulk",
+			"ChunkId": "2a7093799b81167800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "d38a2019bc4d917400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "d38a2019bc4d917400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_BaseColor.uasset",
+			"ChunkId": "c52f3120be67fbff00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_BaseColor.ubulk",
+			"ChunkId": "c52f3120be67fbff00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_Emissive.uasset",
+			"ChunkId": "9d950f6d3637e80200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_Emissive.ubulk",
+			"ChunkId": "9d950f6d3637e80200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_Normal.uasset",
+			"ChunkId": "09bc055cb467d4f700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_Normal.ubulk",
+			"ChunkId": "09bc055cb467d4f700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "42a61702c4e67c5600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "42a61702c4e67c5600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_BaseColor.uasset",
+			"ChunkId": "e2c7b02022465ebc00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_BaseColor.ubulk",
+			"ChunkId": "e2c7b02022465ebc00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_Emissive.uasset",
+			"ChunkId": "087d1778029cae2e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_Emissive.ubulk",
+			"ChunkId": "087d1778029cae2e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_Normal.uasset",
+			"ChunkId": "7e5e2bd93ad685eb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_Normal.ubulk",
+			"ChunkId": "7e5e2bd93ad685eb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "7f0121aee05b3b1200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "7f0121aee05b3b1200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_BaseColor.uasset",
+			"ChunkId": "5524e8f48a3dc2cd00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_BaseColor.ubulk",
+			"ChunkId": "5524e8f48a3dc2cd00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_Emissive.uasset",
+			"ChunkId": "7122fbd229c66f0400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_Emissive.ubulk",
+			"ChunkId": "7122fbd229c66f0400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_Normal.uasset",
+			"ChunkId": "d4b42c81fdcbeeeb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_Normal.ubulk",
+			"ChunkId": "d4b42c81fdcbeeeb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "6fb4c8e29541410b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "6fb4c8e29541410b00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_BaseColor.uasset",
+			"ChunkId": "e463d84bc1537c1100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_BaseColor.ubulk",
+			"ChunkId": "e463d84bc1537c1100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_Emissive.uasset",
+			"ChunkId": "6ebce8f3d035c25d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_Emissive.ubulk",
+			"ChunkId": "6ebce8f3d035c25d00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_Normal.uasset",
+			"ChunkId": "f0192b48d16b563000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_Normal.ubulk",
+			"ChunkId": "f0192b48d16b563000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "963b080f98ff475600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "963b080f98ff475600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_BaseColor.uasset",
+			"ChunkId": "0ceb281cc363fa2500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_BaseColor.ubulk",
+			"ChunkId": "0ceb281cc363fa2500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_Emissive.uasset",
+			"ChunkId": "ac720a06471ab76e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_Emissive.ubulk",
+			"ChunkId": "ac720a06471ab76e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_Normal.uasset",
+			"ChunkId": "686dd8faefa7b1ab00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_Normal.ubulk",
+			"ChunkId": "686dd8faefa7b1ab00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "d952193a147d687c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "d952193a147d687c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_BaseColor.uasset",
+			"ChunkId": "48e965e6879e785600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_BaseColor.ubulk",
+			"ChunkId": "48e965e6879e785600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_Emissive.uasset",
+			"ChunkId": "053bef0f722a268600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_Emissive.ubulk",
+			"ChunkId": "053bef0f722a268600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_Normal.uasset",
+			"ChunkId": "211297ec6ce1b19300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_Normal.ubulk",
+			"ChunkId": "211297ec6ce1b19300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "366291ef32d53ed000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "366291ef32d53ed000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_BaseColor.uasset",
+			"ChunkId": "5823a6dac832e89d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_BaseColor.ubulk",
+			"ChunkId": "5823a6dac832e89d00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_Emissive.uasset",
+			"ChunkId": "7d3115492880001c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_Emissive.ubulk",
+			"ChunkId": "7d3115492880001c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_Normal.uasset",
+			"ChunkId": "3242f5be0c63d9f400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_Normal.ubulk",
+			"ChunkId": "3242f5be0c63d9f400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "02d0472a9a723da500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "02d0472a9a723da500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_BaseColor.uasset",
+			"ChunkId": "6ebc2a85762e8f9900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_BaseColor.ubulk",
+			"ChunkId": "6ebc2a85762e8f9900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_Emissive.uasset",
+			"ChunkId": "bff3602794de567300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_Emissive.ubulk",
+			"ChunkId": "bff3602794de567300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_Normal.uasset",
+			"ChunkId": "06257a21a25edae700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_Normal.ubulk",
+			"ChunkId": "06257a21a25edae700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "b9fbd257a761a1ce00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "b9fbd257a761a1ce00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_BaseColor.uasset",
+			"ChunkId": "2bec76da52c3290600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_BaseColor.ubulk",
+			"ChunkId": "2bec76da52c3290600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_Emissive.uasset",
+			"ChunkId": "754728095d2459d300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_Emissive.ubulk",
+			"ChunkId": "754728095d2459d300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_Normal.uasset",
+			"ChunkId": "585fb5d50cc3f5c800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_Normal.ubulk",
+			"ChunkId": "585fb5d50cc3f5c800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "0438e3527a90c54e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "0438e3527a90c54e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_BaseColor.uasset",
+			"ChunkId": "b76c207806df437100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_BaseColor.ubulk",
+			"ChunkId": "b76c207806df437100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_Emissive.uasset",
+			"ChunkId": "e18528bc6269499700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_Emissive.ubulk",
+			"ChunkId": "e18528bc6269499700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_Normal.uasset",
+			"ChunkId": "32f82d431fa4c85300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_Normal.ubulk",
+			"ChunkId": "32f82d431fa4c85300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "a642b37bd61ba78a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "a642b37bd61ba78a00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_BaseColor.uasset",
+			"ChunkId": "97fa5efb90a2475700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_BaseColor.ubulk",
+			"ChunkId": "97fa5efb90a2475700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_Emissive.uasset",
+			"ChunkId": "e24bd33c6c64c31200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_Emissive.ubulk",
+			"ChunkId": "e24bd33c6c64c31200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_Normal.uasset",
+			"ChunkId": "8f62e9bbd3c4071e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_Normal.ubulk",
+			"ChunkId": "8f62e9bbd3c4071e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "49c440c9188bdce400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "49c440c9188bdce400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_BaseColor.uasset",
+			"ChunkId": "27a4b5fc08a1e69800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_BaseColor.ubulk",
+			"ChunkId": "27a4b5fc08a1e69800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_Emissive.uasset",
+			"ChunkId": "bf19a438aab8a26c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_Emissive.ubulk",
+			"ChunkId": "bf19a438aab8a26c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_Normal.uasset",
+			"ChunkId": "becf0ca9e1b7e50600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_Normal.ubulk",
+			"ChunkId": "becf0ca9e1b7e50600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "59fdf37db8f16a4c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "59fdf37db8f16a4c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_BaseColor.uasset",
+			"ChunkId": "a25f8415f6b2110b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_BaseColor.ubulk",
+			"ChunkId": "a25f8415f6b2110b00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_Emissive.uasset",
+			"ChunkId": "65bdebaba8107da900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_Emissive.ubulk",
+			"ChunkId": "65bdebaba8107da900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_Normal.uasset",
+			"ChunkId": "22094d6fe798dd2a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_Normal.ubulk",
+			"ChunkId": "22094d6fe798dd2a00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "0d594528a4133e6c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "0d594528a4133e6c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_BaseColor.uasset",
+			"ChunkId": "0e721100c40a17bf00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_BaseColor.ubulk",
+			"ChunkId": "0e721100c40a17bf00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_Emissive.uasset",
+			"ChunkId": "578c43f5c3dfa7b100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_Emissive.ubulk",
+			"ChunkId": "578c43f5c3dfa7b100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_Normal.uasset",
+			"ChunkId": "ae42022cad96475600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_Normal.ubulk",
+			"ChunkId": "ae42022cad96475600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "2f0eb454858aca3900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "2f0eb454858aca3900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_BaseColor.uasset",
+			"ChunkId": "60f0e900e23450f200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_BaseColor.ubulk",
+			"ChunkId": "60f0e900e23450f200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_Emissive.uasset",
+			"ChunkId": "949e043a14291ed600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_Emissive.ubulk",
+			"ChunkId": "949e043a14291ed600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_Normal.uasset",
+			"ChunkId": "6e868efc710278c900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_Normal.ubulk",
+			"ChunkId": "6e868efc710278c900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "191758364403209800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "191758364403209800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_BaseColor.uasset",
+			"ChunkId": "bfa23c08d62649e900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_BaseColor.ubulk",
+			"ChunkId": "bfa23c08d62649e900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_Emissive.uasset",
+			"ChunkId": "42c3291093cc602700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_Emissive.ubulk",
+			"ChunkId": "42c3291093cc602700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_Normal.uasset",
+			"ChunkId": "ac461a7766a9217000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_Normal.ubulk",
+			"ChunkId": "ac461a7766a9217000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "20a6ddffc43f2afc00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "20a6ddffc43f2afc00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_BaseColor.uasset",
+			"ChunkId": "653152c98d1d389f00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_BaseColor.ubulk",
+			"ChunkId": "653152c98d1d389f00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_Emissive.uasset",
+			"ChunkId": "e0fd3b37f8e7098200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_Emissive.ubulk",
+			"ChunkId": "e0fd3b37f8e7098200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_Normal.uasset",
+			"ChunkId": "a89699720c7440bf00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_Normal.ubulk",
+			"ChunkId": "a89699720c7440bf00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "d969c1bc46a1835c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "d969c1bc46a1835c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_BaseColor.uasset",
+			"ChunkId": "399c041d171ee45a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_BaseColor.ubulk",
+			"ChunkId": "399c041d171ee45a00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_Emissive.uasset",
+			"ChunkId": "51e7038ac3baeef000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_Emissive.ubulk",
+			"ChunkId": "51e7038ac3baeef000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_Normal.uasset",
+			"ChunkId": "c6ffa218a9cade2b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_Normal.ubulk",
+			"ChunkId": "c6ffa218a9cade2b00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "c563abed58b555ca00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "c563abed58b555ca00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_BaseColor.uasset",
+			"ChunkId": "a3fc67d1ed4ffbc100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_BaseColor.ubulk",
+			"ChunkId": "a3fc67d1ed4ffbc100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_Emissive.uasset",
+			"ChunkId": "c76921d15877b2bb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_Emissive.ubulk",
+			"ChunkId": "c76921d15877b2bb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_Normal.uasset",
+			"ChunkId": "ca2c66062c8a3c3d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_Normal.ubulk",
+			"ChunkId": "ca2c66062c8a3c3d00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "39d743d17ff6f87900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "39d743d17ff6f87900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_BaseColor.uasset",
+			"ChunkId": "acb3a16eb78f027100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_BaseColor.ubulk",
+			"ChunkId": "acb3a16eb78f027100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_Emissive.uasset",
+			"ChunkId": "73550ca653d4a3d400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_Emissive.ubulk",
+			"ChunkId": "73550ca653d4a3d400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_Normal.uasset",
+			"ChunkId": "de00fda130d166de00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_Normal.ubulk",
+			"ChunkId": "de00fda130d166de00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "9489f00b7d66490900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "9489f00b7d66490900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_BaseColor.uasset",
+			"ChunkId": "248a4657ffd2c11500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_BaseColor.ubulk",
+			"ChunkId": "248a4657ffd2c11500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_Emissive.uasset",
+			"ChunkId": "03407c67cd5fa7f900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_Emissive.ubulk",
+			"ChunkId": "03407c67cd5fa7f900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_Normal.uasset",
+			"ChunkId": "12ed85fb9aa0430800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_Normal.ubulk",
+			"ChunkId": "12ed85fb9aa0430800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "4cb79f33c8bf25dc00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "4cb79f33c8bf25dc00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_BaseColor.uasset",
+			"ChunkId": "55e4620d6519493700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_BaseColor.ubulk",
+			"ChunkId": "55e4620d6519493700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_Emissive.uasset",
+			"ChunkId": "1762d135de00098b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_Emissive.ubulk",
+			"ChunkId": "1762d135de00098b00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_Normal.uasset",
+			"ChunkId": "4ec6360333b683ea00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_Normal.ubulk",
+			"ChunkId": "4ec6360333b683ea00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "0bb5472b131ab10500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "0bb5472b131ab10500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_BaseColor.uasset",
+			"ChunkId": "1bf7d0aa3faac75000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_BaseColor.ubulk",
+			"ChunkId": "1bf7d0aa3faac75000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_Emissive.uasset",
+			"ChunkId": "625363e91a16d4af00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_Emissive.ubulk",
+			"ChunkId": "625363e91a16d4af00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_Normal.uasset",
+			"ChunkId": "af2bf1141b64d0cb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_Normal.ubulk",
+			"ChunkId": "af2bf1141b64d0cb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "9c6500867128e03200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "9c6500867128e03200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_BaseColor.uasset",
+			"ChunkId": "99f2352866ba94eb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_BaseColor.ubulk",
+			"ChunkId": "99f2352866ba94eb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_Emissive.uasset",
+			"ChunkId": "a4c9958e55fc715900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_Emissive.ubulk",
+			"ChunkId": "a4c9958e55fc715900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_Normal.uasset",
+			"ChunkId": "772c550d15df78d100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_Normal.ubulk",
+			"ChunkId": "772c550d15df78d100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "73b90028002ffafc00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "73b90028002ffafc00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_BaseColor.uasset",
+			"ChunkId": "478ad02b822b5e3d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_BaseColor.ubulk",
+			"ChunkId": "478ad02b822b5e3d00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_Emissive.uasset",
+			"ChunkId": "ca0d9f24d3cc669200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_Emissive.ubulk",
+			"ChunkId": "ca0d9f24d3cc669200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_Normal.uasset",
+			"ChunkId": "e80757924b1928ef00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_Normal.ubulk",
+			"ChunkId": "e80757924b1928ef00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "a63f172e264d35ef00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "a63f172e264d35ef00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_BaseColor.uasset",
+			"ChunkId": "eccf234bd938e99300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_BaseColor.ubulk",
+			"ChunkId": "eccf234bd938e99300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_Emissive.uasset",
+			"ChunkId": "f3e0bba84d84784b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_Emissive.ubulk",
+			"ChunkId": "f3e0bba84d84784b00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_Normal.uasset",
+			"ChunkId": "6ed54514077b3f8400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_Normal.ubulk",
+			"ChunkId": "6ed54514077b3f8400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "91b6af3e0a5975e200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "91b6af3e0a5975e200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_BaseColor.uasset",
+			"ChunkId": "68ea3257acb6967100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_BaseColor.ubulk",
+			"ChunkId": "68ea3257acb6967100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_Emissive.uasset",
+			"ChunkId": "5ba2450990f5690c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_Emissive.ubulk",
+			"ChunkId": "5ba2450990f5690c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_Normal.uasset",
+			"ChunkId": "36e0cfd60d58b2c300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_Normal.ubulk",
+			"ChunkId": "36e0cfd60d58b2c300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "5b7702c5d01eddc800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "5b7702c5d01eddc800000002"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Ceiling.uasset",
 			"ChunkId": "c627de6b79b561e600000001"
 		},
@@ -3501,24 +4677,8 @@
 			"ChunkId": "ce0ca4478a23622f00000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Door2_Normal.uasset",
-			"ChunkId": "051aa346bc70f5ca00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Door2_Normal.ubulk",
-			"ChunkId": "051aa346bc70f5ca00000002"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2.uasset",
 			"ChunkId": "71847b561499241200000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2_Normal.uasset",
-			"ChunkId": "c2aff23c60064cd200000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2_Normal.ubulk",
-			"ChunkId": "c2aff23c60064cd200000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Floor.uasset",
@@ -3529,72 +4689,216 @@
 			"ChunkId": "a3ee99790537411600000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Wall_Normal.uasset",
-			"ChunkId": "ce56f1e1f362ffd600000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Wall_Normal.ubulk",
-			"ChunkId": "ce56f1e1f362ffd600000002"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide.uasset",
 			"ChunkId": "ce5644b8e4df93dc00000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide_Normal.uasset",
-			"ChunkId": "fe33bdc73ae94e0100000001"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_BaseColor.uasset",
+			"ChunkId": "9e4c7195ef896a6500000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide_Normal.ubulk",
-			"ChunkId": "fe33bdc73ae94e0100000002"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_BaseColor.ubulk",
+			"ChunkId": "9e4c7195ef896a6500000002"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSideOuter.uasset",
-			"ChunkId": "1d40279669cb720e00000001"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_Emissive.uasset",
+			"ChunkId": "afacfe6bd22d87f900000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSideOuter_Normal.uasset",
-			"ChunkId": "5d8a5203b678d3d500000001"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_Emissive.ubulk",
+			"ChunkId": "afacfe6bd22d87f900000002"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSideOuter_Normal.ubulk",
-			"ChunkId": "5d8a5203b678d3d500000002"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_Normal.uasset",
+			"ChunkId": "65a30641e51254cb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_Normal.ubulk",
+			"ChunkId": "65a30641e51254cb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "34e2306e829abdd000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "34e2306e829abdd000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_BaseColor.uasset",
+			"ChunkId": "6887ee07268c528800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_BaseColor.ubulk",
+			"ChunkId": "6887ee07268c528800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_Emissive.uasset",
+			"ChunkId": "4a4219028a48ab0900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_Emissive.ubulk",
+			"ChunkId": "4a4219028a48ab0900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_Normal.uasset",
+			"ChunkId": "decb9af4ab04e88e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_Normal.ubulk",
+			"ChunkId": "decb9af4ab04e88e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "3cdd99eca34f344000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "3cdd99eca34f344000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_BaseColor.uasset",
+			"ChunkId": "063b9706a985b92c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_BaseColor.ubulk",
+			"ChunkId": "063b9706a985b92c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_Emissive.uasset",
+			"ChunkId": "ea0e7c0747c6204500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_Emissive.ubulk",
+			"ChunkId": "ea0e7c0747c6204500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_Normal.uasset",
+			"ChunkId": "dec836212a072ac500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_Normal.ubulk",
+			"ChunkId": "dec836212a072ac500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "12289ab39e2127f800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "12289ab39e2127f800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_BaseColor.uasset",
+			"ChunkId": "c3a0a0a7240fe3a600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_BaseColor.ubulk",
+			"ChunkId": "c3a0a0a7240fe3a600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_Emissive.uasset",
+			"ChunkId": "8cc4b8f9ecda1c1c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_Emissive.ubulk",
+			"ChunkId": "8cc4b8f9ecda1c1c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_Normal.uasset",
+			"ChunkId": "5858ae362ccc5c7c00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_Normal.ubulk",
+			"ChunkId": "5858ae362ccc5c7c00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "332c4afa3d68f19e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "332c4afa3d68f19e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_BaseColor.uasset",
+			"ChunkId": "0e4f91e23c7be09900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_BaseColor.ubulk",
+			"ChunkId": "0e4f91e23c7be09900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_Emissive.uasset",
+			"ChunkId": "a11b3cf5bc0e071800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_Emissive.ubulk",
+			"ChunkId": "a11b3cf5bc0e071800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_Normal.uasset",
+			"ChunkId": "0d4fb75ea5fa6f3900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_Normal.ubulk",
+			"ChunkId": "0d4fb75ea5fa6f3900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "e2f9d9ef52dd345200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "e2f9d9ef52dd345200000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_BaseColor.uasset",
+			"ChunkId": "d2d424870d78d03300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_BaseColor.ubulk",
+			"ChunkId": "d2d424870d78d03300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_Emissive.uasset",
+			"ChunkId": "16b021dcdc26fa2700000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_Emissive.ubulk",
+			"ChunkId": "16b021dcdc26fa2700000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_Normal.uasset",
+			"ChunkId": "07b8d347379cbe9400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_Normal.ubulk",
+			"ChunkId": "07b8d347379cbe9400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "f1b4a3f6a7e1a1be00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "f1b4a3f6a7e1a1be00000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates1.uasset",
 			"ChunkId": "50ebede9a152269600000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates1_Normal.uasset",
-			"ChunkId": "44b2d25407c0993a00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates1_Normal.ubulk",
-			"ChunkId": "44b2d25407c0993a00000002"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2.uasset",
 			"ChunkId": "15668d40a43db67800000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2_Normal.uasset",
-			"ChunkId": "50df483d70a8f05d00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2_Normal.ubulk",
-			"ChunkId": "50df483d70a8f05d00000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lever.uasset",
 			"ChunkId": "385b55011876b1b000000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lever_Normal.uasset",
-			"ChunkId": "1b9c210ffb2347f300000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lever_Normal.ubulk",
-			"ChunkId": "1b9c210ffb2347f300000002"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lock.uasset",
+			"ChunkId": "e6a94e9bd7d4b77800000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel1.uasset",
@@ -3613,68 +4917,352 @@
 			"ChunkId": "18e17a827b75b52000000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Tank_Normal.uasset",
-			"ChunkId": "e22005d2ee959f2500000001"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_BaseColor.uasset",
+			"ChunkId": "225d397a82153d1400000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/M_Tank_Normal.ubulk",
-			"ChunkId": "e22005d2ee959f2500000002"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_BaseColor.ubulk",
+			"ChunkId": "225d397a82153d1400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_Emissive.uasset",
+			"ChunkId": "76b52ee739e1c7eb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_Emissive.ubulk",
+			"ChunkId": "76b52ee739e1c7eb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_Normal.uasset",
+			"ChunkId": "af98cfed87739cb100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_Normal.ubulk",
+			"ChunkId": "af98cfed87739cb100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "3f739cef9aa4a87a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "3f739cef9aa4a87a00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_BaseColor.uasset",
+			"ChunkId": "f9ff437016d0970400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_BaseColor.ubulk",
+			"ChunkId": "f9ff437016d0970400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_Emissive.uasset",
+			"ChunkId": "a0dddbaf9b45c72800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_Emissive.ubulk",
+			"ChunkId": "a0dddbaf9b45c72800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_Normal.uasset",
+			"ChunkId": "73436a5dcd23dd9300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_Normal.ubulk",
+			"ChunkId": "73436a5dcd23dd9300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "8a4566f5653184c300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "8a4566f5653184c300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_BaseColor.uasset",
+			"ChunkId": "1ad22b4fb6ac56bf00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_BaseColor.ubulk",
+			"ChunkId": "1ad22b4fb6ac56bf00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_Emissive.uasset",
+			"ChunkId": "2529564251e0e8a300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_Emissive.ubulk",
+			"ChunkId": "2529564251e0e8a300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_Normal.uasset",
+			"ChunkId": "ba21321f61d3344d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_Normal.ubulk",
+			"ChunkId": "ba21321f61d3344d00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "22d8a349ce19504f00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "22d8a349ce19504f00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_BaseColor.uasset",
+			"ChunkId": "5ccdda6c538f61d400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_BaseColor.ubulk",
+			"ChunkId": "5ccdda6c538f61d400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_Emissive.uasset",
+			"ChunkId": "33002ef1894c033e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_Emissive.ubulk",
+			"ChunkId": "33002ef1894c033e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_Normal.uasset",
+			"ChunkId": "a026f011106af74e00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_Normal.ubulk",
+			"ChunkId": "a026f011106af74e00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "c3778716c0f734f100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "c3778716c0f734f100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_BaseColor.uasset",
+			"ChunkId": "41eab0b7480be68100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_BaseColor.ubulk",
+			"ChunkId": "41eab0b7480be68100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_Emissive.uasset",
+			"ChunkId": "db47d720fa9aeae000000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_Emissive.ubulk",
+			"ChunkId": "db47d720fa9aeae000000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_Normal.uasset",
+			"ChunkId": "a327a94e00f1f3d600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_Normal.ubulk",
+			"ChunkId": "a327a94e00f1f3d600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "4b5a159367606d9400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "4b5a159367606d9400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_BaseColor.uasset",
+			"ChunkId": "055d15ddc40d480f00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_BaseColor.ubulk",
+			"ChunkId": "055d15ddc40d480f00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_Emissive.uasset",
+			"ChunkId": "5ccfc8edfde8440400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_Emissive.ubulk",
+			"ChunkId": "5ccfc8edfde8440400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_Normal.uasset",
+			"ChunkId": "9e40d2aa1197660d00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_Normal.ubulk",
+			"ChunkId": "9e40d2aa1197660d00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "1dc37b8f9764156a00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "1dc37b8f9764156a00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_BaseColor.uasset",
+			"ChunkId": "6306beffc02109b100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_BaseColor.ubulk",
+			"ChunkId": "6306beffc02109b100000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_Emissive.uasset",
+			"ChunkId": "70a9efb267641dcd00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_Emissive.ubulk",
+			"ChunkId": "70a9efb267641dcd00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_Normal.uasset",
+			"ChunkId": "e91a798c443edbfb00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_Normal.ubulk",
+			"ChunkId": "e91a798c443edbfb00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "ef9643630c5129de00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "ef9643630c5129de00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_BaseColor.uasset",
+			"ChunkId": "f801e1cb2e8b342500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_BaseColor.ubulk",
+			"ChunkId": "f801e1cb2e8b342500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_Emissive.uasset",
+			"ChunkId": "98b34092907e821300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_Emissive.ubulk",
+			"ChunkId": "98b34092907e821300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_Normal.uasset",
+			"ChunkId": "00290d2942b9ca4b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_Normal.ubulk",
+			"ChunkId": "00290d2942b9ca4b00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "00424e114b27293100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "00424e114b27293100000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun.uasset",
 			"ChunkId": "395ab19cc28ddc2000000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_BaseColor.uasset",
-			"ChunkId": "07d2bd7043f634a500000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_BaseColor.ubulk",
-			"ChunkId": "07d2bd7043f634a500000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_Material_Emissive.uasset",
-			"ChunkId": "24b41d0c44585ad300000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_Material_Emissive.ubulk",
-			"ChunkId": "24b41d0c44585ad300000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_Material_Normal.uasset",
-			"ChunkId": "163d958e74840b4b00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_Material_Normal.ubulk",
-			"ChunkId": "163d958e74840b4b00000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_OcclusionRoughnessMetallic.uasset",
-			"ChunkId": "7257c08dc4c31bba00000001"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_OcclusionRoughnessMetallic.ubulk",
-			"ChunkId": "7257c08dc4c31bba00000002"
-		},
-		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_previous.uasset",
-			"ChunkId": "02bb2ca38668aab700000001"
-		},
-		{
 			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_HackingDevice.uasset",
 			"ChunkId": "95192ffcbeb13db000000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_HackingDevice_Normal.uasset",
-			"ChunkId": "dd7114bacf16279f00000001"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_BaseColor.uasset",
+			"ChunkId": "aa1a19289b3e014c00000001"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_HackingDevice_Normal.ubulk",
-			"ChunkId": "dd7114bacf16279f00000002"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_BaseColor.ubulk",
+			"ChunkId": "aa1a19289b3e014c00000002"
 		},
 		{
-			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/M_Phong1.uasset",
-			"ChunkId": "548eac7f407467e700000001"
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_Emissive.uasset",
+			"ChunkId": "5fb381176913a47500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_Emissive.ubulk",
+			"ChunkId": "5fb381176913a47500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_Normal.uasset",
+			"ChunkId": "7b558ff6086053d900000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_Normal.ubulk",
+			"ChunkId": "7b558ff6086053d900000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "fbef4403e5bcdfdf00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "fbef4403e5bcdfdf00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_BaseColor.uasset",
+			"ChunkId": "df0da934401bf6d400000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_BaseColor.ubulk",
+			"ChunkId": "df0da934401bf6d400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_Emissive.uasset",
+			"ChunkId": "9478166c1e334fec00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_Emissive.ubulk",
+			"ChunkId": "9478166c1e334fec00000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_Normal.uasset",
+			"ChunkId": "b1737a016566d4d500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_Normal.ubulk",
+			"ChunkId": "b1737a016566d4d500000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_OcclusionRoughnessMetallic.uasset",
+			"ChunkId": "608ecda32e0e203800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_OcclusionRoughnessMetallic.ubulk",
+			"ChunkId": "608ecda32e0e203800000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/sA_Megapack_v1/sA_PickupSet_1/Fx/NiagaraSystems/NS_Healing_1.uasset",
+			"ChunkId": "994104c247ae37ed00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/sA_Megapack_v1/sA_PickupSet_1/Materials/M_Master_Fresnel.uasset",
+			"ChunkId": "abcb3597299a0dd100000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/sA_Megapack_v1/sA_PickupSet_1/Materials/MI_Fresnel.uasset",
+			"ChunkId": "d6a3a82192aea0e300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/sA_Megapack_v1/sA_PickupSet_1/Models/SM_Pickup_Health.uasset",
+			"ChunkId": "7480868c1c6f83ae00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/sA_Megapack_v1/sA_PickupSet_1/Models/SM_Pickup_Health.ubulk",
+			"ChunkId": "7480868c1c6f83ae00000002"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/sA_Megapack_v1/sA_ShootingVfxPack/FX/NiagaraSystems/NS_AR_Muzzleflash_1_ONCE.uasset",
@@ -3757,8 +5345,20 @@
 			"ChunkId": "78a415a9fef363cb00000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset",
+			"ChunkId": "edef4cb3080f2af800000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/StarterContent/Particles/Materials/m_flare_01.uasset",
 			"ChunkId": "944183ec31bb66f200000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset",
+			"ChunkId": "bd71d4bf20b88eae00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset",
+			"ChunkId": "c2c6d4c4ce3135ad00000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset",
@@ -3769,8 +5369,20 @@
 			"ChunkId": "2b1b696b3be19b8f00000001"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Particles/Materials/M_Spark.uasset",
+			"ChunkId": "1f2d21ed3416ac8000000001"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/StarterContent/Particles/P_Explosion.uasset",
 			"ChunkId": "576a27e1c9a9cbff00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Particles/P_Fire.uasset",
+			"ChunkId": "d9b417805ca28c3b00000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Particles/P_Sparks.uasset",
+			"ChunkId": "7d2a7077a23a46d200000001"
 		},
 		{
 			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Burst_M.uasset",
@@ -3789,6 +5401,22 @@
 			"ChunkId": "da49fa0276935a6b00000002"
 		},
 		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Fire_SubUV.uasset",
+			"ChunkId": "4d82fcd67206ed4300000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Fire_SubUV.ubulk",
+			"ChunkId": "4d82fcd67206ed4300000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset",
+			"ChunkId": "0cbe29530e94312800000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Fire_Tiled_D.ubulk",
+			"ChunkId": "0cbe29530e94312800000002"
+		},
+		{
 			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Smoke_SubUV.uasset",
 			"ChunkId": "a8c5a99af2e0489800000001"
 		},
@@ -3803,6 +5431,22 @@
 		{
 			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Smoke_Tiled_D.ubulk",
 			"ChunkId": "5e6e8fc7dbda358400000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Spark_Core.uasset",
+			"ChunkId": "6ca48c5de77c719600000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Spark_Core.ubulk",
+			"ChunkId": "6ca48c5de77c719600000002"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Water_N.uasset",
+			"ChunkId": "a91d4d275372148500000001"
+		},
+		{
+			"Path": "GDL_Group_Game/Content/StarterContent/Textures/T_Water_N.ubulk",
+			"ChunkId": "a91d4d275372148500000002"
 		}
 	],
 	"Packages": [
@@ -5910,12 +7554,6 @@
 			]
 		},
 		{
-			"Name": "/Engine/MapTemplates/Materials/BasicAsset02",
-			"ExportBundleChunkIds": [
-				"19a160333942071900000001"
-			]
-		},
-		{
 			"Name": "/Engine/MobileResources/HUD/DefaultVirtualJoysticks",
 			"ExportBundleChunkIds": [
 				"37cdeb5ce1d3ccd800000001"
@@ -5931,6 +7569,12 @@
 			"Name": "/Engine/MobileResources/HUD/VirtualJoystick_Thumb",
 			"ExportBundleChunkIds": [
 				"2a8ace463a029fae00000001"
+			]
+		},
+		{
+			"Name": "/Engine/VREditor/LaserPointer/LaserPointerMaterial",
+			"ExportBundleChunkIds": [
+				"015fbb66195aa07700000001"
 			]
 		},
 		{
@@ -6063,6 +7707,12 @@
 			]
 		},
 		{
+			"Name": "/Game/BattleDrone/Materials/SciFi_Battle_Drone_03/M_SciFi_Battle_Drone_03",
+			"ExportBundleChunkIds": [
+				"51abddc79407db4700000001"
+			]
+		},
+		{
 			"Name": "/Game/BattleDrone/Materials/SciFi_Battle_Drone_ColorChange/M_SciFi_Battle_Drone_ColorChange",
 			"ExportBundleChunkIds": [
 				"10d9b29ad02c755700000001"
@@ -6165,6 +7815,24 @@
 			],
 			"BulkDataChunkIds": [
 				"b0a4675616a768f300000002"
+			]
+		},
+		{
+			"Name": "/Game/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_BC",
+			"ExportBundleChunkIds": [
+				"cb11ef56e5e492a800000001"
+			],
+			"BulkDataChunkIds": [
+				"cb11ef56e5e492a800000002"
+			]
+		},
+		{
+			"Name": "/Game/BattleDrone/Textures/SciFi_Battle_Drone_03/SciFi_BattleDrone_03_EM",
+			"ExportBundleChunkIds": [
+				"c559a2726b9056ff00000001"
+			],
+			"BulkDataChunkIds": [
+				"c559a2726b9056ff00000002"
 			]
 		},
 		{
@@ -6615,33 +8283,15 @@
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_Debris_Tileable_01",
-			"ExportBundleChunkIds": [
-				"eed028e42183613700000001"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_Ember_Speed_01",
 			"ExportBundleChunkIds": [
 				"f5f7ee13f1ea000f00000001"
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_Explosion_8x8_A_01",
-			"ExportBundleChunkIds": [
-				"caf43874e88ec08500000001"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_GlowSphere_01",
 			"ExportBundleChunkIds": [
 				"5023e6db22091ac800000001"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_LightRay_01",
-			"ExportBundleChunkIds": [
-				"a03f200e308121d400000001"
 			]
 		},
 		{
@@ -6657,39 +8307,9 @@
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_RocketExplosion_8x8_A_01_Inst",
-			"ExportBundleChunkIds": [
-				"889ae53fc9149b1900000001"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_RockSmall_01",
-			"ExportBundleChunkIds": [
-				"23a8713fa191295d00000001"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_Shockwave_Refraction_01",
-			"ExportBundleChunkIds": [
-				"371d74b96ccb74a300000001"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_Smoke_8x8_B_01",
 			"ExportBundleChunkIds": [
 				"edc10c073f47652b00000001"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_Smoke_8x8_B_01_Inst",
-			"ExportBundleChunkIds": [
-				"668a974cc2c5511c00000001"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Materials/M_SmokeRibbon_01",
-			"ExportBundleChunkIds": [
-				"b4f8af5600f1ce1800000001"
 			]
 		},
 		{
@@ -6720,12 +8340,6 @@
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/P_Grenade_Explosion_01",
-			"ExportBundleChunkIds": [
-				"183fe676c5680ea600000001"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/P_Impact_Metal_Large_01",
 			"ExportBundleChunkIds": [
 				"86e8a9da77bc50c600000001"
@@ -6741,15 +8355,6 @@
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Debris_Tileable_01",
-			"ExportBundleChunkIds": [
-				"7719767dcff1bac800000001"
-			],
-			"BulkDataChunkIds": [
-				"7719767dcff1bac800000002"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Ember_01",
 			"ExportBundleChunkIds": [
 				"a0aef74ea5bc225400000001"
@@ -6759,57 +8364,12 @@
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Density_01",
-			"ExportBundleChunkIds": [
-				"f2604c378c1bca7c00000001"
-			],
-			"BulkDataChunkIds": [
-				"f2604c378c1bca7c00000002"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Erode_01",
-			"ExportBundleChunkIds": [
-				"fe1b257fcb763e4e00000001"
-			],
-			"BulkDataChunkIds": [
-				"fe1b257fcb763e4e00000002"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Explosion_8x8_Temperature_01",
-			"ExportBundleChunkIds": [
-				"45c7dad3ecb4da5500000001"
-			],
-			"BulkDataChunkIds": [
-				"45c7dad3ecb4da5500000002"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Explosion_Macro_01",
-			"ExportBundleChunkIds": [
-				"16e323a395a07c7200000001"
-			],
-			"BulkDataChunkIds": [
-				"16e323a395a07c7200000002"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_FL_Detail_01",
 			"ExportBundleChunkIds": [
 				"bba3c6047451510400000001"
 			],
 			"BulkDataChunkIds": [
 				"bba3c6047451510400000002"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_LightRay_01",
-			"ExportBundleChunkIds": [
-				"509acfafab986e7800000001"
-			],
-			"BulkDataChunkIds": [
-				"509acfafab986e7800000002"
 			]
 		},
 		{
@@ -6831,39 +8391,12 @@
 			]
 		},
 		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_RockSmall_01",
-			"ExportBundleChunkIds": [
-				"0c513dd79af2ec3900000001"
-			],
-			"BulkDataChunkIds": [
-				"0c513dd79af2ec3900000002"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Shockwave_NormalMap_01",
-			"ExportBundleChunkIds": [
-				"ab4ed20eb852bcb100000001"
-			],
-			"BulkDataChunkIds": [
-				"ab4ed20eb852bcb100000002"
-			]
-		},
-		{
 			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_Smoke_8x8_B_01",
 			"ExportBundleChunkIds": [
 				"d7ea25729d3747b400000001"
 			],
 			"BulkDataChunkIds": [
 				"d7ea25729d3747b400000002"
-			]
-		},
-		{
-			"Name": "/Game/MilitaryWeapDark/FX/Textures/T_SmokeRibbon_01",
-			"ExportBundleChunkIds": [
-				"34c488db953b884200000001"
-			],
-			"BulkDataChunkIds": [
-				"34c488db953b884200000002"
 			]
 		},
 		{
@@ -6969,6 +8502,51 @@
 			]
 		},
 		{
+			"Name": "/Game/MilitaryWeapDark/Sound/Attenuation/WeaponHandling_att",
+			"ExportBundleChunkIds": [
+				"06232e06e854987700000001"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Sound/Rifle/Rifle_Reload_Cue",
+			"ExportBundleChunkIds": [
+				"5551eae5ee6f6e8700000001"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue",
+			"ExportBundleChunkIds": [
+				"23588078d5c5ae8a00000001"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload01",
+			"ExportBundleChunkIds": [
+				"82fa330b6a7cddf700000001"
+			],
+			"BulkDataChunkIds": [
+				"82fa330b6a7cddf700000002"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload02",
+			"ExportBundleChunkIds": [
+				"28941edeab54de5000000001"
+			],
+			"BulkDataChunkIds": [
+				"28941edeab54de5000000002"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_Reload03",
+			"ExportBundleChunkIds": [
+				"d432295aacab144b00000001"
+			],
+			"BulkDataChunkIds": [
+				"d432295aacab144b00000002"
+			]
+		},
+		{
 			"Name": "/Game/MilitaryWeapDark/Sound/Rifle/Wavs/RifleB_Fire01",
 			"ExportBundleChunkIds": [
 				"29db3c4727ccf6ac00000001"
@@ -6984,6 +8562,18 @@
 			],
 			"BulkDataChunkIds": [
 				"99594fbf97d9892a00000002"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Weapons/Anims/Reload_Rifle_Hip_W",
+			"ExportBundleChunkIds": [
+				"e746244ca1075d6400000001"
+			]
+		},
+		{
+			"Name": "/Game/MilitaryWeapDark/Weapons/Anims/Reload_Rifle_Hip_W_Montage",
+			"ExportBundleChunkIds": [
+				"fdc94c30b8d5370300000001"
 			]
 		},
 		{
@@ -7344,6 +8934,12 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/Characters/Enemies/BP_CTR_EnemyStrong",
+			"ExportBundleChunkIds": [
+				"bb1f0cc7805d299100000001"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/Characters/Enemies/BP_EnemyCamp",
 			"ExportBundleChunkIds": [
 				"a29395c1e9799e8600000001"
@@ -7416,15 +9012,33 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/Characters/Input/IA_Aim",
+			"ExportBundleChunkIds": [
+				"8d120ed1f4df8f0200000001"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/Characters/Input/IA_CameraRotation",
 			"ExportBundleChunkIds": [
 				"c1ed48a4f088b0ea00000001"
 			]
 		},
 		{
+			"Name": "/Game/MyContent/Characters/Input/IA_FreezeEnemy",
+			"ExportBundleChunkIds": [
+				"61ba3b6621139da600000001"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/Characters/Input/IA_Interact",
 			"ExportBundleChunkIds": [
 				"99a56dcbb5e971e600000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Characters/Input/IA_InventoryHideShow",
+			"ExportBundleChunkIds": [
+				"1aef6b8451b1d2db00000001"
 			]
 		},
 		{
@@ -7446,6 +9060,12 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/Characters/Input/IA_Reload",
+			"ExportBundleChunkIds": [
+				"1fea274e538ba14300000001"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/Characters/Input/IA_Sprint",
 			"ExportBundleChunkIds": [
 				"24bfd621ddf7e66c00000001"
@@ -7464,9 +9084,21 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/Characters/UI/UI_CollectibleSingleItem",
+			"ExportBundleChunkIds": [
+				"766b957d215cc19500000001"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/Characters/UI/UI_Inventory",
 			"ExportBundleChunkIds": [
 				"018c5323613a755400000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Characters/UI/UI_Numpad",
+			"ExportBundleChunkIds": [
+				"25f0979f401ca6a100000001"
 			]
 		},
 		{
@@ -7476,9 +9108,27 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/Collectible/BP_COL_Ammo",
+			"ExportBundleChunkIds": [
+				"14150acadf4a03f900000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Collectible/BP_COL_Code",
+			"ExportBundleChunkIds": [
+				"45097c0f8d20453500000001"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/Collectible/BP_COL_HackingDevice",
 			"ExportBundleChunkIds": [
 				"fda6f6edfa96833c00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Collectible/BP_COL_HealthPack",
+			"ExportBundleChunkIds": [
+				"27044a4e2119e0ae00000001"
 			]
 		},
 		{
@@ -7491,6 +9141,12 @@
 			"Name": "/Game/MyContent/Collectible/BP_Collectible",
 			"ExportBundleChunkIds": [
 				"28830816a07dd49300000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Collectible/Struct_InventoryItem",
+			"ExportBundleChunkIds": [
+				"c60aa41909e5d80100000001"
 			]
 		},
 		{
@@ -7521,6 +9177,24 @@
 			"Name": "/Game/MyContent/Interactibles/BP_INT_SS_DoorB",
 			"ExportBundleChunkIds": [
 				"a936d46bf3c874fc00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Interactibles/BP_INT_SS_DoorB_Master",
+			"ExportBundleChunkIds": [
+				"86ffb55dce46b92300000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Interactibles/BP_INT_SS_Lever",
+			"ExportBundleChunkIds": [
+				"b1dc31eca4ccfb3d00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/Interactibles/BP_INT_SS_Numpad",
+			"ExportBundleChunkIds": [
+				"86a8d7e30b0647f100000001"
 			]
 		},
 		{
@@ -7620,6 +9294,24 @@
 			"Name": "/Game/MyContent/Mechanics/BP_DoorWithKeys",
 			"ExportBundleChunkIds": [
 				"e0f090a96531cd0d00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/SFX/GunShot_Scifi__mp3cut_net_",
+			"ExportBundleChunkIds": [
+				"6f635ae28f3d12e900000001"
+			],
+			"BulkDataChunkIds": [
+				"6f635ae28f3d12e900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/SFX/Healing",
+			"ExportBundleChunkIds": [
+				"4bb807c8fec29a5c00000001"
+			],
+			"BulkDataChunkIds": [
+				"4bb807c8fec29a5c00000002"
 			]
 		},
 		{
@@ -7983,6 +9675,24 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/StaticMeshes/3_Props/SM_Lever_Base",
+			"ExportBundleChunkIds": [
+				"6eaf976faac952ae00000001"
+			],
+			"BulkDataChunkIds": [
+				"6eaf976faac952ae00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/3_Props/SM_Lock",
+			"ExportBundleChunkIds": [
+				"678b3107c75fdce400000001"
+			],
+			"BulkDataChunkIds": [
+				"678b3107c75fdce400000002"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/StaticMeshes/3_Props/SM_Panel1",
 			"ExportBundleChunkIds": [
 				"81c212112130352800000001"
@@ -8067,6 +9777,1308 @@
 			]
 		},
 		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Ceiling1",
+			"ExportBundleChunkIds": [
+				"808b5339920d6f3600000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Ceiling2",
+			"ExportBundleChunkIds": [
+				"112e4c4b6e4e7e0600000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingPart1",
+			"ExportBundleChunkIds": [
+				"c5bbe7c412e6de1300000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts1-long",
+			"ExportBundleChunkIds": [
+				"34a81cb333be9eff00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts10",
+			"ExportBundleChunkIds": [
+				"cd35342d050706c100000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts2",
+			"ExportBundleChunkIds": [
+				"d5d9d0f4b434f9f500000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts3",
+			"ExportBundleChunkIds": [
+				"13c3b239a706df1f00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts5",
+			"ExportBundleChunkIds": [
+				"c60fd8929a90327e00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts6",
+			"ExportBundleChunkIds": [
+				"aed3beac9724d08d00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts7",
+			"ExportBundleChunkIds": [
+				"d92c21295886871500000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts8",
+			"ExportBundleChunkIds": [
+				"521b6679b748572b00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts9",
+			"ExportBundleChunkIds": [
+				"1e18c57ad0a78cad00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Door1",
+			"ExportBundleChunkIds": [
+				"5434302755469d2d00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_DoorWall",
+			"ExportBundleChunkIds": [
+				"d603fea51262cb4500000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-1",
+			"ExportBundleChunkIds": [
+				"523cf48c332b77f200000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-2",
+			"ExportBundleChunkIds": [
+				"924a6bdc84d695ce00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-3",
+			"ExportBundleChunkIds": [
+				"223df310988c267300000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorB-1",
+			"ExportBundleChunkIds": [
+				"8c2c0a51512b49a000000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorB-2",
+			"ExportBundleChunkIds": [
+				"5c492b5b5ec4d6d600000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Pillar1",
+			"ExportBundleChunkIds": [
+				"ce82e258630c711800000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Pillar2",
+			"ExportBundleChunkIds": [
+				"b0c0f61522ef288d00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall1",
+			"ExportBundleChunkIds": [
+				"782b3d3429bee82700000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall2",
+			"ExportBundleChunkIds": [
+				"4376f6c2e799650a00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall3",
+			"ExportBundleChunkIds": [
+				"53187e90867deb7c00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall4",
+			"ExportBundleChunkIds": [
+				"09188a69438b5d4d00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall5",
+			"ExportBundleChunkIds": [
+				"46b2f6f9e87f19e900000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide1",
+			"ExportBundleChunkIds": [
+				"a77d8a0e530fb1b900000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide2",
+			"ExportBundleChunkIds": [
+				"24379daa7fb5b30c00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide3",
+			"ExportBundleChunkIds": [
+				"e60519b87fd4fbcd00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide4",
+			"ExportBundleChunkIds": [
+				"be9621cc4c03778f00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSideInner",
+			"ExportBundleChunkIds": [
+				"0b1249713c4d169c00000001"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"3571a5a06354b3d200000001"
+			],
+			"BulkDataChunkIds": [
+				"3571a5a06354b3d200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"6295e0d6473e8ac400000001"
+			],
+			"BulkDataChunkIds": [
+				"6295e0d6473e8ac400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"2d6b97d65904e3c400000001"
+			],
+			"BulkDataChunkIds": [
+				"2d6b97d65904e3c400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"03837c1a442f38f200000001"
+			],
+			"BulkDataChunkIds": [
+				"03837c1a442f38f200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"c0cdcfb1c0dbbdd900000001"
+			],
+			"BulkDataChunkIds": [
+				"c0cdcfb1c0dbbdd900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"2dad11a0c1729e3300000001"
+			],
+			"BulkDataChunkIds": [
+				"2dad11a0c1729e3300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"7973debb5c034d5700000001"
+			],
+			"BulkDataChunkIds": [
+				"7973debb5c034d5700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Ceiling2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"ef1e1e463d44991000000001"
+			],
+			"BulkDataChunkIds": [
+				"ef1e1e463d44991000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"6be6b9c10dc3c9eb00000001"
+			],
+			"BulkDataChunkIds": [
+				"6be6b9c10dc3c9eb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"66a5f3ac23a9063300000001"
+			],
+			"BulkDataChunkIds": [
+				"66a5f3ac23a9063300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_Normal",
+			"ExportBundleChunkIds": [
+				"359e72aac25a8a1600000001"
+			],
+			"BulkDataChunkIds": [
+				"359e72aac25a8a1600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1-long_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"fd10e237cfcbf3cc00000001"
+			],
+			"BulkDataChunkIds": [
+				"fd10e237cfcbf3cc00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"35d5ed2b7a5cccdb00000001"
+			],
+			"BulkDataChunkIds": [
+				"35d5ed2b7a5cccdb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"3e518d5aaf99312e00000001"
+			],
+			"BulkDataChunkIds": [
+				"3e518d5aaf99312e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_Normal",
+			"ExportBundleChunkIds": [
+				"2a7093799b81167800000001"
+			],
+			"BulkDataChunkIds": [
+				"2a7093799b81167800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts10_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"d38a2019bc4d917400000001"
+			],
+			"BulkDataChunkIds": [
+				"d38a2019bc4d917400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"c52f3120be67fbff00000001"
+			],
+			"BulkDataChunkIds": [
+				"c52f3120be67fbff00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"9d950f6d3637e80200000001"
+			],
+			"BulkDataChunkIds": [
+				"9d950f6d3637e80200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"09bc055cb467d4f700000001"
+			],
+			"BulkDataChunkIds": [
+				"09bc055cb467d4f700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"42a61702c4e67c5600000001"
+			],
+			"BulkDataChunkIds": [
+				"42a61702c4e67c5600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"e2c7b02022465ebc00000001"
+			],
+			"BulkDataChunkIds": [
+				"e2c7b02022465ebc00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"087d1778029cae2e00000001"
+			],
+			"BulkDataChunkIds": [
+				"087d1778029cae2e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"7e5e2bd93ad685eb00000001"
+			],
+			"BulkDataChunkIds": [
+				"7e5e2bd93ad685eb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"7f0121aee05b3b1200000001"
+			],
+			"BulkDataChunkIds": [
+				"7f0121aee05b3b1200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"5524e8f48a3dc2cd00000001"
+			],
+			"BulkDataChunkIds": [
+				"5524e8f48a3dc2cd00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"7122fbd229c66f0400000001"
+			],
+			"BulkDataChunkIds": [
+				"7122fbd229c66f0400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_Normal",
+			"ExportBundleChunkIds": [
+				"d4b42c81fdcbeeeb00000001"
+			],
+			"BulkDataChunkIds": [
+				"d4b42c81fdcbeeeb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts3_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"6fb4c8e29541410b00000001"
+			],
+			"BulkDataChunkIds": [
+				"6fb4c8e29541410b00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"e463d84bc1537c1100000001"
+			],
+			"BulkDataChunkIds": [
+				"e463d84bc1537c1100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"6ebce8f3d035c25d00000001"
+			],
+			"BulkDataChunkIds": [
+				"6ebce8f3d035c25d00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_Normal",
+			"ExportBundleChunkIds": [
+				"f0192b48d16b563000000001"
+			],
+			"BulkDataChunkIds": [
+				"f0192b48d16b563000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts5_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"963b080f98ff475600000001"
+			],
+			"BulkDataChunkIds": [
+				"963b080f98ff475600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"0ceb281cc363fa2500000001"
+			],
+			"BulkDataChunkIds": [
+				"0ceb281cc363fa2500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"ac720a06471ab76e00000001"
+			],
+			"BulkDataChunkIds": [
+				"ac720a06471ab76e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_Normal",
+			"ExportBundleChunkIds": [
+				"686dd8faefa7b1ab00000001"
+			],
+			"BulkDataChunkIds": [
+				"686dd8faefa7b1ab00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts6_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"d952193a147d687c00000001"
+			],
+			"BulkDataChunkIds": [
+				"d952193a147d687c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"48e965e6879e785600000001"
+			],
+			"BulkDataChunkIds": [
+				"48e965e6879e785600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"053bef0f722a268600000001"
+			],
+			"BulkDataChunkIds": [
+				"053bef0f722a268600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_Normal",
+			"ExportBundleChunkIds": [
+				"211297ec6ce1b19300000001"
+			],
+			"BulkDataChunkIds": [
+				"211297ec6ce1b19300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts7_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"366291ef32d53ed000000001"
+			],
+			"BulkDataChunkIds": [
+				"366291ef32d53ed000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"5823a6dac832e89d00000001"
+			],
+			"BulkDataChunkIds": [
+				"5823a6dac832e89d00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"7d3115492880001c00000001"
+			],
+			"BulkDataChunkIds": [
+				"7d3115492880001c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_Normal",
+			"ExportBundleChunkIds": [
+				"3242f5be0c63d9f400000001"
+			],
+			"BulkDataChunkIds": [
+				"3242f5be0c63d9f400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts8_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"02d0472a9a723da500000001"
+			],
+			"BulkDataChunkIds": [
+				"02d0472a9a723da500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"6ebc2a85762e8f9900000001"
+			],
+			"BulkDataChunkIds": [
+				"6ebc2a85762e8f9900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"bff3602794de567300000001"
+			],
+			"BulkDataChunkIds": [
+				"bff3602794de567300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_Normal",
+			"ExportBundleChunkIds": [
+				"06257a21a25edae700000001"
+			],
+			"BulkDataChunkIds": [
+				"06257a21a25edae700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_CeilingParts9_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"b9fbd257a761a1ce00000001"
+			],
+			"BulkDataChunkIds": [
+				"b9fbd257a761a1ce00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"2bec76da52c3290600000001"
+			],
+			"BulkDataChunkIds": [
+				"2bec76da52c3290600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"754728095d2459d300000001"
+			],
+			"BulkDataChunkIds": [
+				"754728095d2459d300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"585fb5d50cc3f5c800000001"
+			],
+			"BulkDataChunkIds": [
+				"585fb5d50cc3f5c800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Door1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"0438e3527a90c54e00000001"
+			],
+			"BulkDataChunkIds": [
+				"0438e3527a90c54e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"b76c207806df437100000001"
+			],
+			"BulkDataChunkIds": [
+				"b76c207806df437100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"e18528bc6269499700000001"
+			],
+			"BulkDataChunkIds": [
+				"e18528bc6269499700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_Normal",
+			"ExportBundleChunkIds": [
+				"32f82d431fa4c85300000001"
+			],
+			"BulkDataChunkIds": [
+				"32f82d431fa4c85300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_DoorWall_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"a642b37bd61ba78a00000001"
+			],
+			"BulkDataChunkIds": [
+				"a642b37bd61ba78a00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"97fa5efb90a2475700000001"
+			],
+			"BulkDataChunkIds": [
+				"97fa5efb90a2475700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"e24bd33c6c64c31200000001"
+			],
+			"BulkDataChunkIds": [
+				"e24bd33c6c64c31200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"8f62e9bbd3c4071e00000001"
+			],
+			"BulkDataChunkIds": [
+				"8f62e9bbd3c4071e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"49c440c9188bdce400000001"
+			],
+			"BulkDataChunkIds": [
+				"49c440c9188bdce400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"27a4b5fc08a1e69800000001"
+			],
+			"BulkDataChunkIds": [
+				"27a4b5fc08a1e69800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"bf19a438aab8a26c00000001"
+			],
+			"BulkDataChunkIds": [
+				"bf19a438aab8a26c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"becf0ca9e1b7e50600000001"
+			],
+			"BulkDataChunkIds": [
+				"becf0ca9e1b7e50600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"59fdf37db8f16a4c00000001"
+			],
+			"BulkDataChunkIds": [
+				"59fdf37db8f16a4c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"a25f8415f6b2110b00000001"
+			],
+			"BulkDataChunkIds": [
+				"a25f8415f6b2110b00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"65bdebaba8107da900000001"
+			],
+			"BulkDataChunkIds": [
+				"65bdebaba8107da900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_Normal",
+			"ExportBundleChunkIds": [
+				"22094d6fe798dd2a00000001"
+			],
+			"BulkDataChunkIds": [
+				"22094d6fe798dd2a00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorA-3_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"0d594528a4133e6c00000001"
+			],
+			"BulkDataChunkIds": [
+				"0d594528a4133e6c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"0e721100c40a17bf00000001"
+			],
+			"BulkDataChunkIds": [
+				"0e721100c40a17bf00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"578c43f5c3dfa7b100000001"
+			],
+			"BulkDataChunkIds": [
+				"578c43f5c3dfa7b100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"ae42022cad96475600000001"
+			],
+			"BulkDataChunkIds": [
+				"ae42022cad96475600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"2f0eb454858aca3900000001"
+			],
+			"BulkDataChunkIds": [
+				"2f0eb454858aca3900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"60f0e900e23450f200000001"
+			],
+			"BulkDataChunkIds": [
+				"60f0e900e23450f200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"949e043a14291ed600000001"
+			],
+			"BulkDataChunkIds": [
+				"949e043a14291ed600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"6e868efc710278c900000001"
+			],
+			"BulkDataChunkIds": [
+				"6e868efc710278c900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_FloorB-2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"191758364403209800000001"
+			],
+			"BulkDataChunkIds": [
+				"191758364403209800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"bfa23c08d62649e900000001"
+			],
+			"BulkDataChunkIds": [
+				"bfa23c08d62649e900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"42c3291093cc602700000001"
+			],
+			"BulkDataChunkIds": [
+				"42c3291093cc602700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"ac461a7766a9217000000001"
+			],
+			"BulkDataChunkIds": [
+				"ac461a7766a9217000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"20a6ddffc43f2afc00000001"
+			],
+			"BulkDataChunkIds": [
+				"20a6ddffc43f2afc00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"653152c98d1d389f00000001"
+			],
+			"BulkDataChunkIds": [
+				"653152c98d1d389f00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"e0fd3b37f8e7098200000001"
+			],
+			"BulkDataChunkIds": [
+				"e0fd3b37f8e7098200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"a89699720c7440bf00000001"
+			],
+			"BulkDataChunkIds": [
+				"a89699720c7440bf00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Pillar2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"d969c1bc46a1835c00000001"
+			],
+			"BulkDataChunkIds": [
+				"d969c1bc46a1835c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"399c041d171ee45a00000001"
+			],
+			"BulkDataChunkIds": [
+				"399c041d171ee45a00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"51e7038ac3baeef000000001"
+			],
+			"BulkDataChunkIds": [
+				"51e7038ac3baeef000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"c6ffa218a9cade2b00000001"
+			],
+			"BulkDataChunkIds": [
+				"c6ffa218a9cade2b00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"c563abed58b555ca00000001"
+			],
+			"BulkDataChunkIds": [
+				"c563abed58b555ca00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"a3fc67d1ed4ffbc100000001"
+			],
+			"BulkDataChunkIds": [
+				"a3fc67d1ed4ffbc100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"c76921d15877b2bb00000001"
+			],
+			"BulkDataChunkIds": [
+				"c76921d15877b2bb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"ca2c66062c8a3c3d00000001"
+			],
+			"BulkDataChunkIds": [
+				"ca2c66062c8a3c3d00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"39d743d17ff6f87900000001"
+			],
+			"BulkDataChunkIds": [
+				"39d743d17ff6f87900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"acb3a16eb78f027100000001"
+			],
+			"BulkDataChunkIds": [
+				"acb3a16eb78f027100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"73550ca653d4a3d400000001"
+			],
+			"BulkDataChunkIds": [
+				"73550ca653d4a3d400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_Normal",
+			"ExportBundleChunkIds": [
+				"de00fda130d166de00000001"
+			],
+			"BulkDataChunkIds": [
+				"de00fda130d166de00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall3_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"9489f00b7d66490900000001"
+			],
+			"BulkDataChunkIds": [
+				"9489f00b7d66490900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"248a4657ffd2c11500000001"
+			],
+			"BulkDataChunkIds": [
+				"248a4657ffd2c11500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"03407c67cd5fa7f900000001"
+			],
+			"BulkDataChunkIds": [
+				"03407c67cd5fa7f900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_Normal",
+			"ExportBundleChunkIds": [
+				"12ed85fb9aa0430800000001"
+			],
+			"BulkDataChunkIds": [
+				"12ed85fb9aa0430800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall4_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"4cb79f33c8bf25dc00000001"
+			],
+			"BulkDataChunkIds": [
+				"4cb79f33c8bf25dc00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"55e4620d6519493700000001"
+			],
+			"BulkDataChunkIds": [
+				"55e4620d6519493700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"1762d135de00098b00000001"
+			],
+			"BulkDataChunkIds": [
+				"1762d135de00098b00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_Normal",
+			"ExportBundleChunkIds": [
+				"4ec6360333b683ea00000001"
+			],
+			"BulkDataChunkIds": [
+				"4ec6360333b683ea00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_Wall5_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"0bb5472b131ab10500000001"
+			],
+			"BulkDataChunkIds": [
+				"0bb5472b131ab10500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"1bf7d0aa3faac75000000001"
+			],
+			"BulkDataChunkIds": [
+				"1bf7d0aa3faac75000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"625363e91a16d4af00000001"
+			],
+			"BulkDataChunkIds": [
+				"625363e91a16d4af00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"af2bf1141b64d0cb00000001"
+			],
+			"BulkDataChunkIds": [
+				"af2bf1141b64d0cb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"9c6500867128e03200000001"
+			],
+			"BulkDataChunkIds": [
+				"9c6500867128e03200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"99f2352866ba94eb00000001"
+			],
+			"BulkDataChunkIds": [
+				"99f2352866ba94eb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"a4c9958e55fc715900000001"
+			],
+			"BulkDataChunkIds": [
+				"a4c9958e55fc715900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"772c550d15df78d100000001"
+			],
+			"BulkDataChunkIds": [
+				"772c550d15df78d100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"73b90028002ffafc00000001"
+			],
+			"BulkDataChunkIds": [
+				"73b90028002ffafc00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"478ad02b822b5e3d00000001"
+			],
+			"BulkDataChunkIds": [
+				"478ad02b822b5e3d00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"ca0d9f24d3cc669200000001"
+			],
+			"BulkDataChunkIds": [
+				"ca0d9f24d3cc669200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_Normal",
+			"ExportBundleChunkIds": [
+				"e80757924b1928ef00000001"
+			],
+			"BulkDataChunkIds": [
+				"e80757924b1928ef00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide3_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"a63f172e264d35ef00000001"
+			],
+			"BulkDataChunkIds": [
+				"a63f172e264d35ef00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"eccf234bd938e99300000001"
+			],
+			"BulkDataChunkIds": [
+				"eccf234bd938e99300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"f3e0bba84d84784b00000001"
+			],
+			"BulkDataChunkIds": [
+				"f3e0bba84d84784b00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_Normal",
+			"ExportBundleChunkIds": [
+				"6ed54514077b3f8400000001"
+			],
+			"BulkDataChunkIds": [
+				"6ed54514077b3f8400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSide4_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"91b6af3e0a5975e200000001"
+			],
+			"BulkDataChunkIds": [
+				"91b6af3e0a5975e200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"68ea3257acb6967100000001"
+			],
+			"BulkDataChunkIds": [
+				"68ea3257acb6967100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"5ba2450990f5690c00000001"
+			],
+			"BulkDataChunkIds": [
+				"5ba2450990f5690c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_Normal",
+			"ExportBundleChunkIds": [
+				"36e0cfd60d58b2c300000001"
+			],
+			"BulkDataChunkIds": [
+				"36e0cfd60d58b2c300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/Textures/SM_WallSideInner_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"5b7702c5d01eddc800000001"
+			],
+			"BulkDataChunkIds": [
+				"5b7702c5d01eddc800000002"
+			]
+		},
+		{
 			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Ceiling",
 			"ExportBundleChunkIds": [
 				"c627de6b79b561e600000001"
@@ -8079,27 +11091,9 @@
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Door2_Normal",
-			"ExportBundleChunkIds": [
-				"051aa346bc70f5ca00000001"
-			],
-			"BulkDataChunkIds": [
-				"051aa346bc70f5ca00000002"
-			]
-		},
-		{
 			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2",
 			"ExportBundleChunkIds": [
 				"71847b561499241200000001"
-			]
-		},
-		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2_Normal",
-			"ExportBundleChunkIds": [
-				"c2aff23c60064cd200000001"
-			],
-			"BulkDataChunkIds": [
-				"c2aff23c60064cd200000002"
 			]
 		},
 		{
@@ -8115,42 +11109,225 @@
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Wall_Normal",
-			"ExportBundleChunkIds": [
-				"ce56f1e1f362ffd600000001"
-			],
-			"BulkDataChunkIds": [
-				"ce56f1e1f362ffd600000002"
-			]
-		},
-		{
 			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide",
 			"ExportBundleChunkIds": [
 				"ce5644b8e4df93dc00000001"
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide_Normal",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_BaseColor",
 			"ExportBundleChunkIds": [
-				"fe33bdc73ae94e0100000001"
+				"9e4c7195ef896a6500000001"
 			],
 			"BulkDataChunkIds": [
-				"fe33bdc73ae94e0100000002"
+				"9e4c7195ef896a6500000002"
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSideOuter",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_Emissive",
 			"ExportBundleChunkIds": [
-				"1d40279669cb720e00000001"
+				"afacfe6bd22d87f900000001"
+			],
+			"BulkDataChunkIds": [
+				"afacfe6bd22d87f900000002"
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSideOuter_Normal",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_Normal",
 			"ExportBundleChunkIds": [
-				"5d8a5203b678d3d500000001"
+				"65a30641e51254cb00000001"
 			],
 			"BulkDataChunkIds": [
-				"5d8a5203b678d3d500000002"
+				"65a30641e51254cb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Ceiling_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"34e2306e829abdd000000001"
+			],
+			"BulkDataChunkIds": [
+				"34e2306e829abdd000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"6887ee07268c528800000001"
+			],
+			"BulkDataChunkIds": [
+				"6887ee07268c528800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"4a4219028a48ab0900000001"
+			],
+			"BulkDataChunkIds": [
+				"4a4219028a48ab0900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"decb9af4ab04e88e00000001"
+			],
+			"BulkDataChunkIds": [
+				"decb9af4ab04e88e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Door2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"3cdd99eca34f344000000001"
+			],
+			"BulkDataChunkIds": [
+				"3cdd99eca34f344000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"063b9706a985b92c00000001"
+			],
+			"BulkDataChunkIds": [
+				"063b9706a985b92c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"ea0e7c0747c6204500000001"
+			],
+			"BulkDataChunkIds": [
+				"ea0e7c0747c6204500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"dec836212a072ac500000001"
+			],
+			"BulkDataChunkIds": [
+				"dec836212a072ac500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_DoorWall2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"12289ab39e2127f800000001"
+			],
+			"BulkDataChunkIds": [
+				"12289ab39e2127f800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"c3a0a0a7240fe3a600000001"
+			],
+			"BulkDataChunkIds": [
+				"c3a0a0a7240fe3a600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"8cc4b8f9ecda1c1c00000001"
+			],
+			"BulkDataChunkIds": [
+				"8cc4b8f9ecda1c1c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_Normal",
+			"ExportBundleChunkIds": [
+				"5858ae362ccc5c7c00000001"
+			],
+			"BulkDataChunkIds": [
+				"5858ae362ccc5c7c00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Floor_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"332c4afa3d68f19e00000001"
+			],
+			"BulkDataChunkIds": [
+				"332c4afa3d68f19e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"0e4f91e23c7be09900000001"
+			],
+			"BulkDataChunkIds": [
+				"0e4f91e23c7be09900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"a11b3cf5bc0e071800000001"
+			],
+			"BulkDataChunkIds": [
+				"a11b3cf5bc0e071800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_Normal",
+			"ExportBundleChunkIds": [
+				"0d4fb75ea5fa6f3900000001"
+			],
+			"BulkDataChunkIds": [
+				"0d4fb75ea5fa6f3900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_Wall_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"e2f9d9ef52dd345200000001"
+			],
+			"BulkDataChunkIds": [
+				"e2f9d9ef52dd345200000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"d2d424870d78d03300000001"
+			],
+			"BulkDataChunkIds": [
+				"d2d424870d78d03300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"16b021dcdc26fa2700000001"
+			],
+			"BulkDataChunkIds": [
+				"16b021dcdc26fa2700000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_Normal",
+			"ExportBundleChunkIds": [
+				"07b8d347379cbe9400000001"
+			],
+			"BulkDataChunkIds": [
+				"07b8d347379cbe9400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/Textures/SM_WallSide_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"f1b4a3f6a7e1a1be00000001"
+			],
+			"BulkDataChunkIds": [
+				"f1b4a3f6a7e1a1be00000002"
 			]
 		},
 		{
@@ -8160,27 +11337,9 @@
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates1_Normal",
-			"ExportBundleChunkIds": [
-				"44b2d25407c0993a00000001"
-			],
-			"BulkDataChunkIds": [
-				"44b2d25407c0993a00000002"
-			]
-		},
-		{
 			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2",
 			"ExportBundleChunkIds": [
 				"15668d40a43db67800000001"
-			]
-		},
-		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2_Normal",
-			"ExportBundleChunkIds": [
-				"50df483d70a8f05d00000001"
-			],
-			"BulkDataChunkIds": [
-				"50df483d70a8f05d00000002"
 			]
 		},
 		{
@@ -8190,12 +11349,9 @@
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lever_Normal",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lock",
 			"ExportBundleChunkIds": [
-				"1b9c210ffb2347f300000001"
-			],
-			"BulkDataChunkIds": [
-				"1b9c210ffb2347f300000002"
+				"e6a94e9bd7d4b77800000001"
 			]
 		},
 		{
@@ -8223,12 +11379,291 @@
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Tank_Normal",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_BaseColor",
 			"ExportBundleChunkIds": [
-				"e22005d2ee959f2500000001"
+				"225d397a82153d1400000001"
 			],
 			"BulkDataChunkIds": [
-				"e22005d2ee959f2500000002"
+				"225d397a82153d1400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"76b52ee739e1c7eb00000001"
+			],
+			"BulkDataChunkIds": [
+				"76b52ee739e1c7eb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"af98cfed87739cb100000001"
+			],
+			"BulkDataChunkIds": [
+				"af98cfed87739cb100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"3f739cef9aa4a87a00000001"
+			],
+			"BulkDataChunkIds": [
+				"3f739cef9aa4a87a00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"f9ff437016d0970400000001"
+			],
+			"BulkDataChunkIds": [
+				"f9ff437016d0970400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"a0dddbaf9b45c72800000001"
+			],
+			"BulkDataChunkIds": [
+				"a0dddbaf9b45c72800000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"73436a5dcd23dd9300000001"
+			],
+			"BulkDataChunkIds": [
+				"73436a5dcd23dd9300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Crates2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"8a4566f5653184c300000001"
+			],
+			"BulkDataChunkIds": [
+				"8a4566f5653184c300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"1ad22b4fb6ac56bf00000001"
+			],
+			"BulkDataChunkIds": [
+				"1ad22b4fb6ac56bf00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"2529564251e0e8a300000001"
+			],
+			"BulkDataChunkIds": [
+				"2529564251e0e8a300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_Normal",
+			"ExportBundleChunkIds": [
+				"ba21321f61d3344d00000001"
+			],
+			"BulkDataChunkIds": [
+				"ba21321f61d3344d00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lever_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"22d8a349ce19504f00000001"
+			],
+			"BulkDataChunkIds": [
+				"22d8a349ce19504f00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"5ccdda6c538f61d400000001"
+			],
+			"BulkDataChunkIds": [
+				"5ccdda6c538f61d400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"33002ef1894c033e00000001"
+			],
+			"BulkDataChunkIds": [
+				"33002ef1894c033e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_Normal",
+			"ExportBundleChunkIds": [
+				"a026f011106af74e00000001"
+			],
+			"BulkDataChunkIds": [
+				"a026f011106af74e00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Lock_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"c3778716c0f734f100000001"
+			],
+			"BulkDataChunkIds": [
+				"c3778716c0f734f100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"41eab0b7480be68100000001"
+			],
+			"BulkDataChunkIds": [
+				"41eab0b7480be68100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"db47d720fa9aeae000000001"
+			],
+			"BulkDataChunkIds": [
+				"db47d720fa9aeae000000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_Normal",
+			"ExportBundleChunkIds": [
+				"a327a94e00f1f3d600000001"
+			],
+			"BulkDataChunkIds": [
+				"a327a94e00f1f3d600000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel1_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"4b5a159367606d9400000001"
+			],
+			"BulkDataChunkIds": [
+				"4b5a159367606d9400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"055d15ddc40d480f00000001"
+			],
+			"BulkDataChunkIds": [
+				"055d15ddc40d480f00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"5ccfc8edfde8440400000001"
+			],
+			"BulkDataChunkIds": [
+				"5ccfc8edfde8440400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_Normal",
+			"ExportBundleChunkIds": [
+				"9e40d2aa1197660d00000001"
+			],
+			"BulkDataChunkIds": [
+				"9e40d2aa1197660d00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel2_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"1dc37b8f9764156a00000001"
+			],
+			"BulkDataChunkIds": [
+				"1dc37b8f9764156a00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"6306beffc02109b100000001"
+			],
+			"BulkDataChunkIds": [
+				"6306beffc02109b100000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"70a9efb267641dcd00000001"
+			],
+			"BulkDataChunkIds": [
+				"70a9efb267641dcd00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_Normal",
+			"ExportBundleChunkIds": [
+				"e91a798c443edbfb00000001"
+			],
+			"BulkDataChunkIds": [
+				"e91a798c443edbfb00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Panel3_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"ef9643630c5129de00000001"
+			],
+			"BulkDataChunkIds": [
+				"ef9643630c5129de00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"f801e1cb2e8b342500000001"
+			],
+			"BulkDataChunkIds": [
+				"f801e1cb2e8b342500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"98b34092907e821300000001"
+			],
+			"BulkDataChunkIds": [
+				"98b34092907e821300000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_Normal",
+			"ExportBundleChunkIds": [
+				"00290d2942b9ca4b00000001"
+			],
+			"BulkDataChunkIds": [
+				"00290d2942b9ca4b00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/3_Props_Material/Textures/SM_Tank_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"00424e114b27293100000001"
+			],
+			"BulkDataChunkIds": [
+				"00424e114b27293100000002"
 			]
 		},
 		{
@@ -8238,66 +11673,108 @@
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_BaseColor",
-			"ExportBundleChunkIds": [
-				"07d2bd7043f634a500000001"
-			],
-			"BulkDataChunkIds": [
-				"07d2bd7043f634a500000002"
-			]
-		},
-		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_Material_Emissive",
-			"ExportBundleChunkIds": [
-				"24b41d0c44585ad300000001"
-			],
-			"BulkDataChunkIds": [
-				"24b41d0c44585ad300000002"
-			]
-		},
-		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_Material_Normal",
-			"ExportBundleChunkIds": [
-				"163d958e74840b4b00000001"
-			],
-			"BulkDataChunkIds": [
-				"163d958e74840b4b00000002"
-			]
-		},
-		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_OcclusionRoughnessMetallic",
-			"ExportBundleChunkIds": [
-				"7257c08dc4c31bba00000001"
-			],
-			"BulkDataChunkIds": [
-				"7257c08dc4c31bba00000002"
-			]
-		},
-		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_previous",
-			"ExportBundleChunkIds": [
-				"02bb2ca38668aab700000001"
-			]
-		},
-		{
 			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_HackingDevice",
 			"ExportBundleChunkIds": [
 				"95192ffcbeb13db000000001"
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_HackingDevice_Normal",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_BaseColor",
 			"ExportBundleChunkIds": [
-				"dd7114bacf16279f00000001"
+				"aa1a19289b3e014c00000001"
 			],
 			"BulkDataChunkIds": [
-				"dd7114bacf16279f00000002"
+				"aa1a19289b3e014c00000002"
 			]
 		},
 		{
-			"Name": "/Game/MyContent/StaticMeshes/Materials/M_Phong1",
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_Emissive",
 			"ExportBundleChunkIds": [
-				"548eac7f407467e700000001"
+				"5fb381176913a47500000001"
+			],
+			"BulkDataChunkIds": [
+				"5fb381176913a47500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_Normal",
+			"ExportBundleChunkIds": [
+				"7b558ff6086053d900000001"
+			],
+			"BulkDataChunkIds": [
+				"7b558ff6086053d900000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/SM_HackingDevice_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"fbef4403e5bcdfdf00000001"
+			],
+			"BulkDataChunkIds": [
+				"fbef4403e5bcdfdf00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_BaseColor",
+			"ExportBundleChunkIds": [
+				"df0da934401bf6d400000001"
+			],
+			"BulkDataChunkIds": [
+				"df0da934401bf6d400000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_Emissive",
+			"ExportBundleChunkIds": [
+				"9478166c1e334fec00000001"
+			],
+			"BulkDataChunkIds": [
+				"9478166c1e334fec00000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_Normal",
+			"ExportBundleChunkIds": [
+				"b1737a016566d4d500000001"
+			],
+			"BulkDataChunkIds": [
+				"b1737a016566d4d500000002"
+			]
+		},
+		{
+			"Name": "/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/Textures/SM_Gun_Material_OcclusionRoughnessMetallic",
+			"ExportBundleChunkIds": [
+				"608ecda32e0e203800000001"
+			],
+			"BulkDataChunkIds": [
+				"608ecda32e0e203800000002"
+			]
+		},
+		{
+			"Name": "/Game/sA_Megapack_v1/sA_PickupSet_1/Fx/NiagaraSystems/NS_Healing_1",
+			"ExportBundleChunkIds": [
+				"994104c247ae37ed00000001"
+			]
+		},
+		{
+			"Name": "/Game/sA_Megapack_v1/sA_PickupSet_1/Materials/M_Master_Fresnel",
+			"ExportBundleChunkIds": [
+				"abcb3597299a0dd100000001"
+			]
+		},
+		{
+			"Name": "/Game/sA_Megapack_v1/sA_PickupSet_1/Materials/MI_Fresnel",
+			"ExportBundleChunkIds": [
+				"d6a3a82192aea0e300000001"
+			]
+		},
+		{
+			"Name": "/Game/sA_Megapack_v1/sA_PickupSet_1/Models/SM_Pickup_Health",
+			"ExportBundleChunkIds": [
+				"7480868c1c6f83ae00000001"
+			],
+			"BulkDataChunkIds": [
+				"7480868c1c6f83ae00000002"
 			]
 		},
 		{
@@ -8424,9 +11901,27 @@
 			]
 		},
 		{
+			"Name": "/Game/StarterContent/Particles/Materials/M_Fire_SubUV",
+			"ExportBundleChunkIds": [
+				"edef4cb3080f2af800000001"
+			]
+		},
+		{
 			"Name": "/Game/StarterContent/Particles/Materials/m_flare_01",
 			"ExportBundleChunkIds": [
 				"944183ec31bb66f200000001"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Particles/Materials/M_Heat_Distortion",
+			"ExportBundleChunkIds": [
+				"bd71d4bf20b88eae00000001"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Particles/Materials/M_Radial_Gradient",
+			"ExportBundleChunkIds": [
+				"c2c6d4c4ce3135ad00000001"
 			]
 		},
 		{
@@ -8442,9 +11937,27 @@
 			]
 		},
 		{
+			"Name": "/Game/StarterContent/Particles/Materials/M_Spark",
+			"ExportBundleChunkIds": [
+				"1f2d21ed3416ac8000000001"
+			]
+		},
+		{
 			"Name": "/Game/StarterContent/Particles/P_Explosion",
 			"ExportBundleChunkIds": [
 				"576a27e1c9a9cbff00000001"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Particles/P_Fire",
+			"ExportBundleChunkIds": [
+				"d9b417805ca28c3b00000001"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Particles/P_Sparks",
+			"ExportBundleChunkIds": [
+				"7d2a7077a23a46d200000001"
 			]
 		},
 		{
@@ -8466,6 +11979,24 @@
 			]
 		},
 		{
+			"Name": "/Game/StarterContent/Textures/T_Fire_SubUV",
+			"ExportBundleChunkIds": [
+				"4d82fcd67206ed4300000001"
+			],
+			"BulkDataChunkIds": [
+				"4d82fcd67206ed4300000002"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Textures/T_Fire_Tiled_D",
+			"ExportBundleChunkIds": [
+				"0cbe29530e94312800000001"
+			],
+			"BulkDataChunkIds": [
+				"0cbe29530e94312800000002"
+			]
+		},
+		{
 			"Name": "/Game/StarterContent/Textures/T_Smoke_SubUV",
 			"ExportBundleChunkIds": [
 				"a8c5a99af2e0489800000001"
@@ -8481,6 +12012,24 @@
 			],
 			"BulkDataChunkIds": [
 				"5e6e8fc7dbda358400000002"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Textures/T_Spark_Core",
+			"ExportBundleChunkIds": [
+				"6ca48c5de77c719600000001"
+			],
+			"BulkDataChunkIds": [
+				"6ca48c5de77c719600000002"
+			]
+		},
+		{
+			"Name": "/Game/StarterContent/Textures/T_Water_N",
+			"ExportBundleChunkIds": [
+				"a91d4d275372148500000001"
+			],
+			"BulkDataChunkIds": [
+				"a91d4d275372148500000002"
 			]
 		},
 		{
@@ -8550,6 +12099,12 @@
 			"Name": "/Niagara/DynamicInputs/Helpers/SimulationPosition"
 		},
 		{
+			"Name": "/Niagara/DynamicInputs/LinearColor/MultiplyLinearColor"
+		},
+		{
+			"Name": "/Niagara/DynamicInputs/Multiply/Multiply_Float"
+		},
+		{
 			"Name": "/Niagara/DynamicInputs/Multiply/Multiply_VectorByFloat"
 		},
 		{
@@ -8580,6 +12135,12 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput",
+			"ExportBundleChunkIds": [
+				"6942f8168c428dc300000001"
+			]
+		},
+		{
 			"Name": "/Niagara/Enums/ENiagara_EmitterStateOptions",
 			"ExportBundleChunkIds": [
 				"9a8c617db248826700000001"
@@ -8589,6 +12150,12 @@
 			"Name": "/Niagara/Enums/ENiagara_InfiniteLoopDuration",
 			"ExportBundleChunkIds": [
 				"62462e99cdf9f9ae00000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Enums/ENiagaraCalculateRadiusOptions",
+			"ExportBundleChunkIds": [
+				"8f18ada3e2a3cda100000001"
 			]
 		},
 		{
@@ -8682,6 +12249,24 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Enums/Utility/ENiagara_OrientVectorCount",
+			"ExportBundleChunkIds": [
+				"d1c3ad689f083fb500000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Enums/Utility/ENiagara_UpdateMeshOrientationMode",
+			"ExportBundleChunkIds": [
+				"3fe6b01464aa5bfe00000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Functions/CalculateMeshRadius"
+		},
+		{
+			"Name": "/Niagara/Functions/DeriveThirdOrthogonalVector"
+		},
+		{
 			"Name": "/Niagara/Functions/DirectionAndLengthSafe"
 		},
 		{
@@ -8697,6 +12282,12 @@
 			"Name": "/Niagara/Functions/GetRandomInfo"
 		},
 		{
+			"Name": "/Niagara/Functions/Helpers/DoOnce_fn"
+		},
+		{
+			"Name": "/Niagara/Functions/Helpers/FN_FirstFrame_Numeric"
+		},
+		{
 			"Name": "/Niagara/Functions/Localspace/SimulationPosition"
 		},
 		{
@@ -8709,16 +12300,25 @@
 			"Name": "/Niagara/Functions/Localspace/TransformVector"
 		},
 		{
+			"Name": "/Niagara/Functions/MakeVectorsOrthogonal"
+		},
+		{
 			"Name": "/Niagara/Functions/Math/CalculateRandomPointInConeSphereIntersection"
 		},
 		{
 			"Name": "/Niagara/Functions/Math/CentimeterMeterConversion"
 		},
 		{
+			"Name": "/Niagara/Functions/Math/InterpolateOverTime_V3_"
+		},
+		{
 			"Name": "/Niagara/Functions/Math/RemapValueRange"
 		},
 		{
 			"Name": "/Niagara/Functions/Math/SaturateFloat"
+		},
+		{
+			"Name": "/Niagara/Functions/Math/V2/SmoothLerpOverTime"
 		},
 		{
 			"Name": "/Niagara/Functions/NormalizedExecutionIndex"
@@ -8728,6 +12328,9 @@
 		},
 		{
 			"Name": "/Niagara/Functions/PolarToCartesianCoordinates"
+		},
+		{
+			"Name": "/Niagara/Functions/ProjectVectorOnPlane"
 		},
 		{
 			"Name": "/Niagara/Functions/RandomPointInSphere"
@@ -8754,6 +12357,21 @@
 			"Name": "/Niagara/Functions/Rotation/FindQuatBetween"
 		},
 		{
+			"Name": "/Niagara/Functions/Rotation/InvertQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/LerpQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MakeQuaternionFrom3BasisVectors"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MakeQuaternionFromXAndYVectors"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MakeQuaternionFromXAndZVectors"
+		},
+		{
 			"Name": "/Niagara/Functions/Rotation/MatrixToQuaternion"
 		},
 		{
@@ -8764,6 +12382,12 @@
 		},
 		{
 			"Name": "/Niagara/Functions/Rotation/RandomQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/RotateAngleOnAxis"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/TwoVectorsToQuaternion"
 		},
 		{
 			"Name": "/Niagara/Functions/Spline/FindPositionOnBezierSpline"
@@ -8863,6 +12487,9 @@
 		},
 		{
 			"Name": "/Niagara/Modules/Update/Mass/CalculateSizeAndRotationalInertiaByMass"
+		},
+		{
+			"Name": "/Niagara/Modules/Update/Orientation/V3/UpdateMeshOrientation"
 		},
 		{
 			"Name": "/Niagara/Modules/Update/Size/ScaleMeshSize"
