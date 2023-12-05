@@ -11,3 +11,10 @@ GDL_Group_Game/Intermediate/TurnkeyReport_1.log
 GDL_Group_Game/Saved/Config/WindowsEditor/Engine.ini
 GDL_Group_Game/Saved/Logs/GDL_Group_Game.log
 GDL_Group_Game/Content/ModSci_Engineer/
+GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.exe
+GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.lib
+GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.pdb
+GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.target
+GDL_Group_Game/Builds/
+GDL_Group_Game/Intermediate/Build/
+GDL_Group_Game/saved/Cooked/
