@@ -20,15 +20,21 @@
 			]
 		},
 		{
-			"ShaderMapHash": "10DDD402E5FEEFD1C022A04523AABB782C6FABAD",
+			"ShaderMapHash": "3DA22456C0A9B98F3AFC75079626E6F558599F3F",
 			"Assets": [
-				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
+				"/Engine/EditorLandscapeResources/SplineEditorMeshMat"
 			]
 		},
 		{
 			"ShaderMapHash": "E9D613A309CB6E058F7155E683045471DA392153",
 			"Assets": [
 				"/MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor"
+			]
+		},
+		{
+			"ShaderMapHash": "10DDD402E5FEEFD1C022A04523AABB782C6FABAD",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
 			]
 		},
 		{
@@ -62,12 +68,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "3DA22456C0A9B98F3AFC75079626E6F558599F3F",
-			"Assets": [
-				"/Engine/EditorLandscapeResources/SplineEditorMeshMat"
-			]
-		},
-		{
 			"ShaderMapHash": "6F5D7A35238D5A57901D6BA2481BD3D4199B04F9",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
@@ -82,13 +82,7 @@
 		{
 			"ShaderMapHash": "3A40243A0DB13753F782B84F4EA528AD76FB8505",
 			"Assets": [
-				"/Engine/VREditor/TransformGizmo/Xray",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel1",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel2",
-				"/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun_previous",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel3",
-				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Ceiling",
-				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Floor"
+				"/Engine/VREditor/TransformGizmo/Xray"
 			]
 		},
 		{
@@ -98,88 +92,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "5A0F47A7E41FCC556D9B58B04424182CB977A00E",
-			"Assets": [
-				"/AnimationSharing/AnimSharingBase"
-			]
-		},
-		{
-			"ShaderMapHash": "ABFA816F9A67CF18BB47824580FFBB94A522D192",
-			"Assets": [
-				"/Game/MyContent/Materials/M_SolidColour",
-				"/Game/MyContent/StaticMeshes/Materials/M_Phong1"
-			]
-		},
-		{
-			"ShaderMapHash": "023AFC096EEC683AFB4F0537AECC3B4D97649605",
-			"Assets": [
-				"/Game/StarterContent/Particles/Materials/m_flare_01"
-			]
-		},
-		{
-			"ShaderMapHash": "3095451962479BD490FC557C596068F0F08B9559",
-			"Assets": [
-				"/Niagara/DefaultAssets/DefaultRIbbonMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "E7327DBFC398027DAAD38D31BAFFD46059A76713",
-			"Assets": [
-				"/Engine/EngineMaterials/EmissiveMeshMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "912737B039761A955163A7379166164F9B218665",
-			"Assets": [
-				"/Paper2D/DefaultSpriteMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "0EBA8A6C0D8E3E26A4EBB0AA81B97B7038677996",
-			"Assets": [
-				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "95B0B952FAE8EF592C9E5DCE72519100E8DC75CF",
-			"Assets": [
-				"/ControlRig/M_Manip"
-			]
-		},
-		{
-			"ShaderMapHash": "E6AD92431E92E425DEBDC6C351918C071876255B",
-			"Assets": [
-				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
-			]
-		},
-		{
-			"ShaderMapHash": "0EA8A5E60DD1620D323C03E4524469DFF8702B3B",
-			"Assets": [
-				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
-			]
-		},
-		{
 			"ShaderMapHash": "C237CB833FF8A4F89CC8E610EF0CB72116F44243",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "F05FCFBF84E4225886EE9A7804F5F0CB42FF4D93",
-			"Assets": [
-				"/DatasmithContent/Materials/C4DReference"
-			]
-		},
-		{
-			"ShaderMapHash": "24C1B26EABBD83C10240BBA54D3691B73E858649",
-			"Assets": [
-				"/Paper2D/OpaqueUnlitSpriteMaterial"
-			]
-		},
-		{
-			"ShaderMapHash": "C01D951EB995D99835F046A6FDC5CB6E57B0F988",
-			"Assets": [
-				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
 			]
 		},
 		{
@@ -201,64 +116,39 @@
 			]
 		},
 		{
-			"ShaderMapHash": "C1350DC8A7B7FDCDCB04FEED0BADA8EB23C5382B",
+			"ShaderMapHash": "5A0F47A7E41FCC556D9B58B04424182CB977A00E",
 			"Assets": [
-				"/Game/FPSAssaultPack/FPS_Arms/Materials/Arms/M_Arms"
+				"/AnimationSharing/AnimSharingBase"
 			]
 		},
 		{
-			"ShaderMapHash": "6C282F1AD637B13348AA0EDFAE0BEC8E58FE399C",
+			"ShaderMapHash": "ABFA816F9A67CF18BB47824580FFBB94A522D192",
 			"Assets": [
-				"/DatasmithContent/Materials/CE_OpacitySimpleReference"
+				"/Game/MyContent/Materials/M_SolidColour"
 			]
 		},
 		{
-			"ShaderMapHash": "431E4163CF5B548516A4FDCCD06F5CBA88858604",
+			"ShaderMapHash": "C01D951EB995D99835F046A6FDC5CB6E57B0F988",
 			"Assets": [
-				"/DatasmithContent/Materials/CE_OpacityReference"
+				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "96A3A52ED212601D31047ED95A2065A6CA47A1EF",
+			"ShaderMapHash": "023AFC096EEC683AFB4F0537AECC3B4D97649605",
 			"Assets": [
-				"/DatasmithContent/Materials/CE_OpaqueReference"
+				"/Game/StarterContent/Particles/Materials/m_flare_01"
 			]
 		},
 		{
-			"ShaderMapHash": "6A0CAD2B022475E23C83CF431974EE8DCA260F37",
+			"ShaderMapHash": "3095451962479BD490FC557C596068F0F08B9559",
 			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+				"/Niagara/DefaultAssets/DefaultRIbbonMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "53F8BE6B5D1DEE59D4838C11D52EAE81703FEE60",
+			"ShaderMapHash": "51B0F20F1F3AC5810229E7DCA6BE05A38114D0FF",
 			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
-			]
-		},
-		{
-			"ShaderMapHash": "3F28350DF4C7CBF6391AFCBBBB57E49A9A77A4A0",
-			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
-			]
-		},
-		{
-			"ShaderMapHash": "58A28EE7A4019BED349B7230126495856F2FB306",
-			"Assets": [
-				"/DatasmithContent/Materials/RevitReference"
-			]
-		},
-		{
-			"ShaderMapHash": "6707F3E294D4B46C3A02DB7952B605FD3EE5069E",
-			"Assets": [
-				"/Engine/EngineMaterials/FlattenMaterial",
-				"/Engine/EngineMaterials/FlattenMaterial_VT"
-			]
-		},
-		{
-			"ShaderMapHash": "DE6E354202800737CD8129D30065844EEFB19E0F",
-			"Assets": [
-				"/Engine/EngineMaterials/M_InvalidLightmapSettings"
+				"/Game/sA_Megapack_v1/sA_PickupSet_1/Materials/M_Master_Fresnel"
 			]
 		},
 		{
@@ -268,51 +158,76 @@
 			]
 		},
 		{
-			"ShaderMapHash": "3A658E080C9CA3A6DA5BE258BC774CDE6ED563B4",
+			"ShaderMapHash": "C1350DC8A7B7FDCDCB04FEED0BADA8EB23C5382B",
 			"Assets": [
-				"/Game/FPSAssaultPack/Materials/Rifle/M_Rifle_Master"
+				"/Game/FPSAssaultPack/FPS_Arms/Materials/Arms/M_Arms"
 			]
 		},
 		{
-			"ShaderMapHash": "B202FB079C1A331BD4CEFC03013D601A14C793CF",
+			"ShaderMapHash": "CE51C3502D27C4D71DD5D3D013FF1818ACFC3445",
 			"Assets": [
-				"/Game/StarterContent/Particles/Materials/M_Burst"
+				"/Game/MyContent/Materials/M_Cubemap"
 			]
 		},
 		{
-			"ShaderMapHash": "85D5EB5BFF1CA1FEAF8C92B13E40E27D7CACDE57",
+			"ShaderMapHash": "E7543FE4C0B73622CB14A3695D7965E99F35103F",
 			"Assets": [
-				"/Game/StarterContent/Particles/Materials/M_explosion_subUV"
+				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
 			]
 		},
 		{
-			"ShaderMapHash": "330363A52F0C3D1D785A46E6C1F9823ABF8024CF",
+			"ShaderMapHash": "48674F62C86011014A12735CC82C9525540634EA",
 			"Assets": [
-				"/Game/StarterContent/Particles/Materials/M_radial_ramp"
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
 			]
 		},
 		{
-			"ShaderMapHash": "7C799BAA59DDDAA84B96CA0F4F79AF5EA19CC462",
+			"ShaderMapHash": "8C8187CB3CB377F2E8E241F78FDCE5CD7114CB9A",
 			"Assets": [
-				"/Game/StarterContent/Particles/Materials/M_smoke_subUV"
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
 			]
 		},
 		{
-			"ShaderMapHash": "6A813BDE33ED7863A74071DBFB67E617374AF8F4",
+			"ShaderMapHash": "62D3DF209AC4E17A9A316F3E4664ABA1B6ACC897",
 			"Assets": [
-				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "C78CF843AF455E0FE229E895E9FC527B0094011D",
+			"ShaderMapHash": "6707F3E294D4B46C3A02DB7952B605FD3EE5069E",
 			"Assets": [
-				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
+				"/Engine/EngineMaterials/FlattenMaterial_VT",
+				"/Engine/EngineMaterials/FlattenMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "B6725FACA1A34F71543A99E7A3A2CE2B12F94220",
+			"ShaderMapHash": "DE6E354202800737CD8129D30065844EEFB19E0F",
 			"Assets": [
-				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
+				"/Engine/EngineMaterials/M_InvalidLightmapSettings"
+			]
+		},
+		{
+			"ShaderMapHash": "E7327DBFC398027DAAD38D31BAFFD46059A76713",
+			"Assets": [
+				"/Engine/EngineMaterials/EmissiveMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "0EBA8A6C0D8E3E26A4EBB0AA81B97B7038677996",
+			"Assets": [
+				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "95B0B952FAE8EF592C9E5DCE72519100E8DC75CF",
+			"Assets": [
+				"/ControlRig/M_Manip"
+			]
+		},
+		{
+			"ShaderMapHash": "0FC82D8E3BC5A4E76A10C17B2452F0D82015B2D9",
+			"Assets": [
+				"/Engine/VREditor/LaserPointer/LaserPointerMaterial"
 			]
 		},
 		{
@@ -359,33 +274,233 @@
 			]
 		},
 		{
-			"ShaderMapHash": "E7543FE4C0B73622CB14A3695D7965E99F35103F",
+			"ShaderMapHash": "E6AD92431E92E425DEBDC6C351918C071876255B",
 			"Assets": [
-				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
 			]
 		},
 		{
-			"ShaderMapHash": "48674F62C86011014A12735CC82C9525540634EA",
+			"ShaderMapHash": "0EA8A5E60DD1620D323C03E4524469DFF8702B3B",
 			"Assets": [
-				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
+				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "8C8187CB3CB377F2E8E241F78FDCE5CD7114CB9A",
+			"ShaderMapHash": "912737B039761A955163A7379166164F9B218665",
 			"Assets": [
-				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+				"/Paper2D/DefaultSpriteMaterial"
 			]
 		},
 		{
-			"ShaderMapHash": "62D3DF209AC4E17A9A316F3E4664ABA1B6ACC897",
+			"ShaderMapHash": "20CB2F5DB9774568D4A3E135918DC147B95DDAAF",
 			"Assets": [
-				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
+				"/Game/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Basic_Particle"
+			]
+		},
+		{
+			"ShaderMapHash": "330363A52F0C3D1D785A46E6C1F9823ABF8024CF",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_Radial_Gradient",
+				"/Game/StarterContent/Particles/Materials/M_radial_ramp"
+			]
+		},
+		{
+			"ShaderMapHash": "7C799BAA59DDDAA84B96CA0F4F79AF5EA19CC462",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_smoke_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "5D6A21C5EB9F01F4DBE8D37222056F222AC2A06C",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_Spark"
+			]
+		},
+		{
+			"ShaderMapHash": "3A658E080C9CA3A6DA5BE258BC774CDE6ED563B4",
+			"Assets": [
+				"/Game/FPSAssaultPack/Materials/Rifle/M_Rifle_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "9A435ACE28B0C6A1C3FF1F0E1D187F75404997B0",
+			"Assets": [
+				"/Game/MilitaryWeapDark/Weapons/Materials/M_WeaponMaster_01"
+			]
+		},
+		{
+			"ShaderMapHash": "3AE34C5F356A8FA8B9FED7A5D2839A1624D20FE5",
+			"Assets": [
+				"/Game/MilitaryWeapDark/FX/Materials/M_Ember_Speed_01"
+			]
+		},
+		{
+			"ShaderMapHash": "4F9F8E2611918316FDDC5BBAF36995939DCDC7A3",
+			"Assets": [
+				"/Game/MilitaryWeapDark/FX/Materials/M_Smoke_8x8_B_01"
+			]
+		},
+		{
+			"ShaderMapHash": "7573F1A1346D06B4F757739CEC3D0B2EAACF1CCC",
+			"Assets": [
+				"/Game/MilitaryWeapDark/FX/Materials/M_SparksImpact_2x2_01"
+			]
+		},
+		{
+			"ShaderMapHash": "53F8BE6B5D1DEE59D4838C11D52EAE81703FEE60",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "3F28350DF4C7CBF6391AFCBBBB57E49A9A77A4A0",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "24C1B26EABBD83C10240BBA54D3691B73E858649",
+			"Assets": [
+				"/Paper2D/OpaqueUnlitSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A979826F69AB94EF81C66ABA44BBB9D31EFB79AC",
+			"Assets": [
+				"/Game/MilitaryWeapDark/FX/Materials/M_Pistol_Smoke_2x2_A"
+			]
+		},
+		{
+			"ShaderMapHash": "7CE89309B71E9271AAA790A1BD95659E95075E8C",
+			"Assets": [
+				"/Game/MilitaryWeapDark/FX/Materials/M_GlowSphere_01"
+			]
+		},
+		{
+			"ShaderMapHash": "85D5EB5BFF1CA1FEAF8C92B13E40E27D7CACDE57",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_explosion_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "6A813BDE33ED7863A74071DBFB67E617374AF8F4",
+			"Assets": [
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+			]
+		},
+		{
+			"ShaderMapHash": "87053EEFA06D6E461CBD02ED726737C865462CF7",
+			"Assets": [
+				"/Game/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Master_Muzzle"
+			]
+		},
+		{
+			"ShaderMapHash": "540CD415DE22B97CADB8ACC3CC3776A8F12C6130",
+			"Assets": [
+				"/Game/MilitaryWeapDark/FX/Materials/M_Pistol_Streaks_01",
+				"/Game/MilitaryWeapDark/FX/Materials/M_AssaultRifle_MuzzleFlash_4x1"
+			]
+		},
+		{
+			"ShaderMapHash": "AAB46F80D6E7DA08DF803D3B6B029E0ED6E7DF07",
+			"Assets": [
+				"/Game/FPSAssaultPack/Particles/Materials/M_Smoke_MASTER"
+			]
+		},
+		{
+			"ShaderMapHash": "58A28EE7A4019BED349B7230126495856F2FB306",
+			"Assets": [
+				"/DatasmithContent/Materials/RevitReference"
+			]
+		},
+		{
+			"ShaderMapHash": "F05FCFBF84E4225886EE9A7804F5F0CB42FF4D93",
+			"Assets": [
+				"/DatasmithContent/Materials/C4DReference"
+			]
+		},
+		{
+			"ShaderMapHash": "C78CF843AF455E0FE229E895E9FC527B0094011D",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "B6725FACA1A34F71543A99E7A3A2CE2B12F94220",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "6C282F1AD637B13348AA0EDFAE0BEC8E58FE399C",
+			"Assets": [
+				"/DatasmithContent/Materials/CE_OpacitySimpleReference"
+			]
+		},
+		{
+			"ShaderMapHash": "431E4163CF5B548516A4FDCCD06F5CBA88858604",
+			"Assets": [
+				"/DatasmithContent/Materials/CE_OpacityReference"
+			]
+		},
+		{
+			"ShaderMapHash": "96A3A52ED212601D31047ED95A2065A6CA47A1EF",
+			"Assets": [
+				"/DatasmithContent/Materials/CE_OpaqueReference"
+			]
+		},
+		{
+			"ShaderMapHash": "6A0CAD2B022475E23C83CF431974EE8DCA260F37",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "B8334057B24E8E9C168F1B8DFADF311CA2BCE617",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_Fire_SubUV"
+			]
+		},
+		{
+			"ShaderMapHash": "99D4A3E1BAEE282087369D7AE2D072929D0F2255",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_Heat_Distortion"
+			]
+		},
+		{
+			"ShaderMapHash": "B202FB079C1A331BD4CEFC03013D601A14C793CF",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_Burst"
 			]
 		},
 		{
 			"ShaderMapHash": "334E6E5B76802590CC42E5424E53711FE9CC860A",
 			"Assets": [
 				"/Game/FirstPersonArms/Character/Materials/M_UE4Man_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "DDE995FF9140800B5B24BEB61AE387AA07958894",
+			"Assets": [
+				"/Game/BattleDrone/Materials/SciFi_Battle_Drone_02/M_SciFi_Battle_Drone_02"
+			]
+		},
+		{
+			"ShaderMapHash": "C9CA63E870FCBB26B894C32CC147EDDA56496381",
+			"Assets": [
+				"/Game/BattleDrone/Materials/SciFi_Battle_Drone_03/M_SciFi_Battle_Drone_03"
+			]
+		},
+		{
+			"ShaderMapHash": "EB9E24941CA2FFE26F796FC56B3D32133A942E4F",
+			"Assets": [
+				"/Game/BattleDrone/Materials/SciFi_Battle_Drone_01/M_SciFi_Battle_Drone_01"
+			]
+		},
+		{
+			"ShaderMapHash": "48A0F88C18B5B735089A6DF4E11F1B0FA8317F2B",
+			"Assets": [
+				"/Game/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Master_RadialBeam"
 			]
 		},
 		{
@@ -425,6 +540,18 @@
 			]
 		},
 		{
+			"ShaderMapHash": "6ECD9E98F706028BF8E1AA683122F5E8EE9DFB98",
+			"Assets": [
+				"/DatasmithContent/Materials/StdEmissive/M_StdEmissive"
+			]
+		},
+		{
+			"ShaderMapHash": "9D27FD0B782C95AB1E43BC8FED23519A50DBEB19",
+			"Assets": [
+				"/DatasmithContent/Materials/StdTranslucent/M_StdTranslucent"
+			]
+		},
+		{
 			"ShaderMapHash": "0634862A3DDBA031C3C52B86CF097E4BC427E636",
 			"Assets": [
 				"/DatasmithContent/Materials/FBXImporter/VRED/UnicolorCarpaint"
@@ -443,9 +570,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "568282943755C32B6800EFB23E983E2A3925E827",
+			"ShaderMapHash": "F56B1935235FDD97040508B76E783DABCE4998BE",
 			"Assets": [
-				"/DatasmithContent/Materials/FBXImporter/VRED/Glass"
+				"/DatasmithContent/Materials/StdOpaque/M_StdOpaque"
 			]
 		},
 		{
@@ -455,128 +582,65 @@
 			]
 		},
 		{
-			"ShaderMapHash": "6ECD9E98F706028BF8E1AA683122F5E8EE9DFB98",
+			"ShaderMapHash": "568282943755C32B6800EFB23E983E2A3925E827",
 			"Assets": [
-				"/DatasmithContent/Materials/StdEmissive/M_StdEmissive"
+				"/DatasmithContent/Materials/FBXImporter/VRED/Glass"
 			]
 		},
 		{
-			"ShaderMapHash": "9D27FD0B782C95AB1E43BC8FED23519A50DBEB19",
+			"ShaderMapHash": "EB476936C062E8DD0493AF97A62BD513966EEB55",
 			"Assets": [
-				"/DatasmithContent/Materials/StdTranslucent/M_StdTranslucent"
-			]
-		},
-		{
-			"ShaderMapHash": "F56B1935235FDD97040508B76E783DABCE4998BE",
-			"Assets": [
-				"/DatasmithContent/Materials/StdOpaque/M_StdOpaque"
-			]
-		},
-		{
-			"ShaderMapHash": "48A0F88C18B5B735089A6DF4E11F1B0FA8317F2B",
-			"Assets": [
-				"/Game/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Master_RadialBeam"
-			]
-		},
-		{
-			"ShaderMapHash": "45487FA7812B45E60ED529A3C749805F425D893F",
-			"Assets": [
-				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSideOuter",
-				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Wall",
-				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide",
 				"/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_HackingDevice",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates1",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2",
-				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lever",
+				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Ceiling",
+				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Floor",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Door1",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_DoorWall",
 				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Door2",
-				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Tank"
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lock",
+				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_Wall",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSideInner",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide3",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide4",
+				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_WallSide",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall3",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall4",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates1",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorB-2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide2",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Crates2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall5",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_WallSide1",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Lever",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorB-1",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Wall1",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-3",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Pillar2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Pillar1",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel1",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts7",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts6",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_FloorA-1",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts9",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts8",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Panel3",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingPart1",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts3",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts1-long",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts10",
+				"/Game/MyContent/StaticMeshes/Materials/3_Props_Material/M_Tank",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_CeilingParts5",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Ceiling2",
+				"/Game/MyContent/StaticMeshes/Materials/1_Interior_Material/M_Ceiling1"
 			]
 		},
 		{
-			"ShaderMapHash": "DDE995FF9140800B5B24BEB61AE387AA07958894",
+			"ShaderMapHash": "CF13C83DAC52C8D0DCA01FE4D8ECDE271815061C",
 			"Assets": [
-				"/Game/BattleDrone/Materials/SciFi_Battle_Drone_02/M_SciFi_Battle_Drone_02"
-			]
-		},
-		{
-			"ShaderMapHash": "EB9E24941CA2FFE26F796FC56B3D32133A942E4F",
-			"Assets": [
-				"/Game/BattleDrone/Materials/SciFi_Battle_Drone_01/M_SciFi_Battle_Drone_01"
-			]
-		},
-		{
-			"ShaderMapHash": "7CE89309B71E9271AAA790A1BD95659E95075E8C",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_GlowSphere_01"
-			]
-		},
-		{
-			"ShaderMapHash": "540CD415DE22B97CADB8ACC3CC3776A8F12C6130",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_AssaultRifle_MuzzleFlash_4x1",
-				"/Game/MilitaryWeapDark/FX/Materials/M_Pistol_Streaks_01"
-			]
-		},
-		{
-			"ShaderMapHash": "A979826F69AB94EF81C66ABA44BBB9D31EFB79AC",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_Pistol_Smoke_2x2_A"
-			]
-		},
-		{
-			"ShaderMapHash": "1C03280174BCEEC65400A6AC62DE18562461A958",
-			"Assets": [
-				"/Engine/MapTemplates/Materials/BasicAsset02"
-			]
-		},
-		{
-			"ShaderMapHash": "AAB46F80D6E7DA08DF803D3B6B029E0ED6E7DF07",
-			"Assets": [
-				"/Game/FPSAssaultPack/Particles/Materials/M_Smoke_MASTER"
-			]
-		},
-		{
-			"ShaderMapHash": "87053EEFA06D6E461CBD02ED726737C865462CF7",
-			"Assets": [
-				"/Game/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Master_Muzzle"
-			]
-		},
-		{
-			"ShaderMapHash": "D157F99486FF6EBCB6FA98E5EC7F326AFCD0CC8E",
-			"Assets": [
-				"/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun"
-			]
-		},
-		{
-			"ShaderMapHash": "4F9F8E2611918316FDDC5BBAF36995939DCDC7A3",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_Smoke_8x8_B_01"
-			]
-		},
-		{
-			"ShaderMapHash": "7573F1A1346D06B4F757739CEC3D0B2EAACF1CCC",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_SparksImpact_2x2_01",
-				"/Game/MilitaryWeapDark/FX/Materials/M_RockSmall_01"
-			]
-		},
-		{
-			"ShaderMapHash": "2C878D341ACD64AA1268348DFA4657ADAC008993",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_Explosion_8x8_A_01"
-			]
-		},
-		{
-			"ShaderMapHash": "CE51C3502D27C4D71DD5D3D013FF1818ACFC3445",
-			"Assets": [
-				"/Game/MyContent/Materials/M_Cubemap"
-			]
-		},
-		{
-			"ShaderMapHash": "3AE34C5F356A8FA8B9FED7A5D2839A1624D20FE5",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_Ember_Speed_01"
+				"/Game/MyContent/StaticMeshes/Materials/2_Interior_Material/M_DoorWall2"
 			]
 		},
 		{
@@ -586,39 +650,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "E165EA5A0A134DB7A806B69F91E4FDFB4DEB229A",
+			"ShaderMapHash": "95936847FC2110D4EDDC4F3F0EFE74265D7918A0",
 			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_Debris_Tileable_01"
-			]
-		},
-		{
-			"ShaderMapHash": "9A435ACE28B0C6A1C3FF1F0E1D187F75404997B0",
-			"Assets": [
-				"/Game/MilitaryWeapDark/Weapons/Materials/M_WeaponMaster_01"
-			]
-		},
-		{
-			"ShaderMapHash": "20CB2F5DB9774568D4A3E135918DC147B95DDAAF",
-			"Assets": [
-				"/Game/sA_Megapack_v1/sA_ShootingVfxPack/Materials/M_Basic_Particle"
-			]
-		},
-		{
-			"ShaderMapHash": "9029762BE00146FCBB15461F6749E988FC07F551",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_LightRay_01"
-			]
-		},
-		{
-			"ShaderMapHash": "865B7A0D01EB3BFFEB872A1216EAB58A0FAC2793",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_Shockwave_Refraction_01"
-			]
-		},
-		{
-			"ShaderMapHash": "AC196461349306B577EB8F839CDD6EAE25F7CF82",
-			"Assets": [
-				"/Game/MilitaryWeapDark/FX/Materials/M_SmokeRibbon_01"
+				"/Game/MyContent/StaticMeshes/Materials/4_Weapons_Material/M_Gun"
 			]
 		}
 	]
