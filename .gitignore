@@ -15,6 +15,11 @@ GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.exe
 GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.lib
 GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.pdb
 GDL_Group_Game/Binaries/Win64/GDL_Group_Game-Win64-Shipping.target
-GDL_Group_Game/Builds/
-GDL_Group_Game/Intermediate/Build/
-GDL_Group_Game/saved/Cooked/
+*GDL_Group_Game/Builds/
+*GDL_Group_Game/Intermediate/Build/
+*GDL_Group_Game/saved/Cooked/
+
+/Saved
+/Binaries
+/Intermediate
+/DerivedDataCache
